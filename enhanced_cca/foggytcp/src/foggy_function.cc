@@ -40,11 +40,11 @@ static uint32_t cubic_update(foggy_socket_t *sock) {
   uint32_t cwnd = sock->window.congestion_window;
   uint32_t W_max = sock->window.W_max;
 
-  // If no loss has occurred yet, fall back to TCP-friendly growth
+  // If no loss has occurred yet, use aggressive growth
+  // Set W_max to a large value to enable Cubic's concave growth phase
   if (W_max == 0) {
-    uint32_t tcp_inc = (MSS * MSS) / cwnd;
-    if (tcp_inc == 0) tcp_inc = 1;
-    return cwnd + tcp_inc;
+    // Use 2x current window as virtual W_max for aggressive growth
+    W_max = cwnd * 2;
   }
 
   struct timespec now;

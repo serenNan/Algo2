@@ -1,20 +1,26 @@
 #!/bin/bash
 
-# TCP 性能对比测试脚本
-# 使用方法: ./benchmark.sh [reno|cubic] [测试次数] [文件大小:1mb|5mb]
+# TCP 性能对比测试脚本 - 带网络延迟模拟
+# 使用方法: sudo ./benchmark_with_delay.sh [reno|cubic] [测试次数] [延迟ms]
 
 set -e
+
+# 检查 root 权限
+if [ "$EUID" -ne 0 ]; then
+    echo "请使用 sudo 运行此脚本"
+    exit 1
+fi
 
 # 颜色定义
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
 # 参数
-ALGO=${1:-cubic}     # reno 或 cubic
-RUNS=${2:-10}        # 测试次数
-FILE_SIZE=${3:-1mb}  # 文件大小: 1mb 或 5mb
+ALGO=${1:-cubic}
+RUNS=${2:-10}
+DELAY=${3:-100}  # 默认100ms延迟 (双向200ms RTT)
 
 # 路径设置
 if [ "$ALGO" = "reno" ]; then
@@ -25,18 +31,31 @@ else
     ALGO_NAME="TCP Cubic"
 fi
 
-TEST_FILE="$BASE_DIR/../testdata/test_${FILE_SIZE}.bin"
+TEST_FILE="$BASE_DIR/../testdata/test_1mb.bin"
 OUTPUT_FILE="/tmp/benchmark_output.bin"
-RESULTS_FILE="/tmp/benchmark_${ALGO}_${FILE_SIZE}_results.txt"
+RESULTS_FILE="/tmp/benchmark_${ALGO}_delay${DELAY}_results.txt"
 
 echo -e "${GREEN}========================================${NC}"
-echo -e "${GREEN}   $ALGO_NAME 性能测试${NC}"
+echo -e "${GREEN}   $ALGO_NAME 性能测试 (RTT=${DELAY}ms×2)${NC}"
 echo -e "${GREEN}========================================${NC}"
+echo ""
+
+# 添加网络延迟
+echo -e "${YELLOW}[准备] 配置网络延迟...${NC}"
+tc qdisc del dev lo root 2>/dev/null || true
+tc qdisc add dev lo root netem delay ${DELAY}ms
+echo -e "${GREEN}✓ 已添加 ${DELAY}ms 延迟到 lo 接口${NC}"
+echo ""
+
+# 检查配置
+echo "当前网络配置:"
+tc qdisc show dev lo
 echo ""
 
 # 检查测试文件
 if [ ! -f "$TEST_FILE" ]; then
     echo -e "${RED}错误: 测试文件不存在: $TEST_FILE${NC}"
+    tc qdisc del dev lo root
     exit 1
 fi
 
@@ -44,6 +63,7 @@ FILE_SIZE=$(stat -L -c%s "$TEST_FILE")
 echo "测试文件: $TEST_FILE"
 echo "文件大小: $FILE_SIZE 字节 ($(echo "scale=2; $FILE_SIZE/1024/1024" | bc) MB)"
 echo "测试次数: $RUNS"
+echo "RTT: $(echo "$DELAY * 2" | bc)ms"
 echo ""
 
 # 切换到目录
@@ -55,6 +75,7 @@ make clean > /dev/null 2>&1
 make foggy > /dev/null 2>&1
 if [ $? -ne 0 ]; then
     echo -e "${RED}编译失败!${NC}"
+    tc qdisc del dev lo root
     exit 1
 fi
 echo -e "${GREEN}✓ 编译成功${NC}"
@@ -79,11 +100,11 @@ for i in $(seq 1 $RUNS); do
     # 启动服务器(后台,不输出)
     ./server 127.0.0.1 15441 "$OUTPUT_FILE" > /dev/null 2>&1 &
     SERVER_PID=$!
-    sleep 0.5
+    sleep 1
 
     # 运行客户端并测量时间
     START_TIME=$(date +%s.%N)
-    timeout 60 ./client 127.0.0.1 15441 "$TEST_FILE" > /dev/null 2>&1
+    timeout 120 ./client 127.0.0.1 15441 "$TEST_FILE" > /dev/null 2>&1
     CLIENT_EXIT=$?
     END_TIME=$(date +%s.%N)
 
@@ -93,7 +114,7 @@ for i in $(seq 1 $RUNS); do
     # 停止服务器
     kill $SERVER_PID 2>/dev/null || true
     wait $SERVER_PID 2>/dev/null || true
-    sleep 0.2
+    sleep 0.5
 
     # 检查结果
     if [ $CLIENT_EXIT -eq 0 ] && [ -f "$OUTPUT_FILE" ]; then
@@ -117,9 +138,15 @@ for i in $(seq 1 $RUNS); do
 
     # 清理
     killall -9 server client 2>/dev/null || true
-    sleep 0.3
+    sleep 0.5
 done
 
+echo ""
+
+# 清理网络配置
+echo -e "${YELLOW}[清理] 移除网络延迟...${NC}"
+tc qdisc del dev lo root 2>/dev/null || true
+echo -e "${GREEN}✓ 已恢复网络配置${NC}"
 echo ""
 
 # 计算统计
@@ -131,21 +158,14 @@ awk -F',' '$5==1 {print $2}' "$RESULTS_FILE" > /tmp/times.txt
 awk -F',' '$5==1 {print $3}' "$RESULTS_FILE" > /tmp/throughput.txt
 
 if [ -s /tmp/times.txt ]; then
-    # 平均传输时间
     AVG_TIME=$(awk '{sum+=$1} END {print sum/NR}' /tmp/times.txt)
-
-    # 平均吞吐量
     AVG_THROUGHPUT=$(awk '{sum+=$1} END {print sum/NR}' /tmp/throughput.txt)
-
-    # 标准差 (时间)
     STDDEV_TIME=$(awk -v avg=$AVG_TIME '{sum+=($1-avg)^2} END {print sqrt(sum/NR)}' /tmp/times.txt)
-
-    # 最小/最大时间
     MIN_TIME=$(sort -n /tmp/times.txt | head -1)
     MAX_TIME=$(sort -n /tmp/times.txt | tail -1)
 
     echo -e "${GREEN}========================================${NC}"
-    echo -e "${GREEN}   测试结果统计${NC}"
+    echo -e "${GREEN}   测试结果统计 (RTT=${DELAY}ms×2)${NC}"
     echo -e "${GREEN}========================================${NC}"
     echo ""
     echo "成功测试: $SUCCESS_COUNT / $RUNS"
@@ -163,6 +183,7 @@ if [ -s /tmp/times.txt ]; then
     # 保存汇总
     echo "" >> "$RESULTS_FILE"
     echo "=== 统计汇总 ===" >> "$RESULTS_FILE"
+    echo "RTT: $(echo "$DELAY * 2" | bc)ms" >> "$RESULTS_FILE"
     echo "成功测试: $SUCCESS_COUNT / $RUNS" >> "$RESULTS_FILE"
     echo "平均时间: $AVG_TIME 秒" >> "$RESULTS_FILE"
     echo "标准差: $STDDEV_TIME 秒" >> "$RESULTS_FILE"

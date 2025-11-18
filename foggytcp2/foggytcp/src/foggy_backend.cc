@@ -149,6 +149,9 @@ void *begin_backend(void *in) {
     if (send_signal) {
       pthread_cond_signal(&(sock->wait_cond));
     }
+
+    // Add a small sleep to prevent CPU spinning
+    usleep(1000);  // 1ms sleep to reduce CPU usage
   }
 
   pthread_exit(NULL);
