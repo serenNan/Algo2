@@ -1,0 +1,45 @@
+# 编译产物
+foggytcp/build/
+foggytcp/*.o
+foggytcp/server
+foggytcp/client
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 历史记录
+.history/
+
+# 测试结果
+results/**/*.bin
+results/**/*.log
+results/**/*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+
+# 数据文件(保留CSV,忽略二进制)
+*.bin
+!testdata/*.bin
+
+# 缓存
+.cache/
+
+# 截图
+screenshots/
