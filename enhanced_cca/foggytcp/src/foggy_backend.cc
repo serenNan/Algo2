@@ -124,7 +124,7 @@ void *begin_backend(void *in) {
     }
 
     if (buf_len > 0) {
-      
+
       data = (uint8_t*)malloc(buf_len);
       memcpy(data, sock->sending_buf, buf_len);
       sock->sending_len = 0;
@@ -149,6 +149,9 @@ void *begin_backend(void *in) {
     if (send_signal) {
       pthread_cond_signal(&(sock->wait_cond));
     }
+
+    // Add a small sleep to prevent CPU spinning
+    usleep(1000);  // 1ms sleep to reduce CPU usage
   }
 
   pthread_exit(NULL);

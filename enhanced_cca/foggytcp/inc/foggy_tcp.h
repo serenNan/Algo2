@@ -63,7 +63,7 @@ typedef enum {
 typedef struct {
   uint32_t last_byte_sent;
   uint32_t last_ack_received;
-  
+
   uint32_t dup_ack_count;
   uint32_t next_seq_expected;
 
@@ -73,6 +73,11 @@ typedef struct {
 
   reno_state_t reno_state;
   pthread_mutex_t ack_lock;
+
+  // Cubic related fields
+  uint32_t W_max;                    // Window size at last loss
+  struct timespec last_loss_time;    // Time of last loss
+  double cubic_C;                    // Cubic constant (default 0.4)
 } window_t;
 
 /**

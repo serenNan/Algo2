@@ -24,8 +24,8 @@ from releasing their forks in any public places. */
 #define MAX_LEN 1400
 
 // window variables
-#define WINDOW_INITIAL_WINDOW_SIZE MSS
-#define WINDOW_INITIAL_SSTHRESH (MSS * 64)
+#define WINDOW_INITIAL_WINDOW_SIZE (MSS * 10)  // RFC 6928: Increase initial window
+#define WINDOW_INITIAL_SSTHRESH (MSS * 128)    // Increase ssthresh for better performance
 #define WINDOW_INITIAL_RTT 3000  // ms
 #define WINDOW_INITIAL_ADVERTISED MSS
 

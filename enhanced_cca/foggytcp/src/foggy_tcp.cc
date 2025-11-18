@@ -63,6 +63,11 @@ void* foggy_socket(const foggy_socket_type_t socket_type,
   sock->window.reno_state = RENO_SLOW_START;
   pthread_mutex_init(&(sock->window.ack_lock), NULL);
 
+  // Initialize Cubic fields
+  sock->window.W_max = 0;
+  clock_gettime(CLOCK_MONOTONIC, &sock->window.last_loss_time);
+  sock->window.cubic_C = 0.4;  // Cubic standard constant
+
   for (int i = 0; i < RECEIVE_WINDOW_SLOT_SIZE; ++i) {
     sock->receive_window[i].is_used = 0;
     sock->receive_window[i].msg = NULL;
@@ -110,7 +115,8 @@ void* foggy_socket(const foggy_socket_type_t socket_type,
         perror("ERROR on binding");
         return NULL;
       }
-      sock->conn = conn;
+      // Don't set sock->conn here for listeners - it will be set by recvfrom()
+      memset(&sock->conn, 0, sizeof(sock->conn));
       break;
 
     default:
