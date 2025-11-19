@@ -1,0 +1,3722 @@
+Received packet
+Receive ACK 0
+Duplicate ACK count: 1
+Received data packet 0 1367
+Sending ACK packet 1367
+Received packet
+Receive ACK 0
+Duplicate ACK count: 2
+Received data packet 1367 2734
+Sending ACK packet 2734
+Received packet
+Receive ACK 0
+Duplicate ACK count: 3
+Fast retransmit triggered
+Received data packet 2734 4101
+Sending ACK packet 4101
+Received packet
+Receive ACK 0
+Duplicate ACK count: 4
+Received data packet 4101 5468
+Sending ACK packet 5468
+Received packet
+Receive ACK 0
+Duplicate ACK count: 5
+Received data packet 5468 6835
+Sending ACK packet 6835
+Received packet
+Receive ACK 0
+Duplicate ACK count: 6
+Received data packet 6835 8202
+Sending ACK packet 8202
+Received packet
+Receive ACK 0
+Duplicate ACK count: 7
+Received data packet 8202 9569
+Sending ACK packet 9569
+Received packet
+Receive ACK 0
+Duplicate ACK count: 8
+Received data packet 9569 10936
+Sending ACK packet 10936
+Received packet
+Receive ACK 0
+Duplicate ACK count: 9
+Received data packet 10936 12303
+Sending ACK packet 12303
+Received packet
+Receive ACK 0
+Duplicate ACK count: 10
+Received data packet 12303 13670
+Sending ACK packet 13670
+Received packet
+Receive ACK 0
+Duplicate ACK count: 11
+Received data packet 13670 15037
+Sending ACK packet 15037
+Received packet
+Receive ACK 0
+Duplicate ACK count: 12
+Received data packet 15037 16404
+Sending ACK packet 16404
+Received packet
+Receive ACK 0
+Duplicate ACK count: 13
+Received data packet 16404 17771
+Sending ACK packet 17771
+Received packet
+Receive ACK 0
+Duplicate ACK count: 14
+Received data packet 17771 19138
+Sending ACK packet 19138
+Received packet
+Receive ACK 0
+Duplicate ACK count: 15
+Received data packet 19138 20505
+Sending ACK packet 20505
+Received packet
+Receive ACK 0
+Duplicate ACK count: 16
+Received data packet 20505 21872
+Sending ACK packet 21872
+Received packet
+Receive ACK 0
+Duplicate ACK count: 17
+Received data packet 21872 23239
+Sending ACK packet 23239
+Received packet
+Receive ACK 0
+Duplicate ACK count: 18
+Received data packet 23239 24606
+Sending ACK packet 24606
+Received packet
+Receive ACK 0
+Duplicate ACK count: 19
+Received data packet 24606 25973
+Sending ACK packet 25973
+Received packet
+Receive ACK 0
+Duplicate ACK count: 20
+Received data packet 25973 27340
+Sending ACK packet 27340
+Received packet
+Receive ACK 0
+Duplicate ACK count: 21
+Received data packet 27340 28707
+Sending ACK packet 28707
+Received packet
+Receive ACK 0
+Duplicate ACK count: 22
+Received data packet 28707 30074
+Sending ACK packet 30074
+Received packet
+Receive ACK 0
+Duplicate ACK count: 23
+Received data packet 30074 31441
+Sending ACK packet 31441
+Received packet
+Receive ACK 0
+Duplicate ACK count: 24
+Received data packet 31441 32808
+Sending ACK packet 32808
+Received packet
+Receive ACK 0
+Duplicate ACK count: 25
+Received data packet 32808 34175
+Sending ACK packet 34175
+Received packet
+Receive ACK 0
+Duplicate ACK count: 26
+Received data packet 34175 35542
+Sending ACK packet 35542
+Received packet
+Receive ACK 0
+Duplicate ACK count: 27
+Received data packet 35542 36909
+Sending ACK packet 36909
+Received packet
+Receive ACK 0
+Duplicate ACK count: 28
+Received data packet 36909 38276
+Sending ACK packet 38276
+Received packet
+Receive ACK 0
+Duplicate ACK count: 29
+Received data packet 38276 39643
+Sending ACK packet 39643
+Received packet
+Receive ACK 0
+Duplicate ACK count: 30
+Received data packet 39643 41010
+Sending ACK packet 41010
+Received packet
+Receive ACK 0
+Duplicate ACK count: 31
+Received data packet 41010 42377
+Sending ACK packet 42377
+Received packet
+Receive ACK 0
+Duplicate ACK count: 32
+Received data packet 42377 43744
+Sending ACK packet 43744
+Received packet
+Receive ACK 0
+Duplicate ACK count: 33
+Received data packet 43744 45111
+Sending ACK packet 45111
+Received packet
+Receive ACK 0
+Duplicate ACK count: 34
+Received data packet 45111 46478
+Sending ACK packet 46478
+Received packet
+Receive ACK 0
+Duplicate ACK count: 35
+Received data packet 46478 47845
+Sending ACK packet 47845
+Received packet
+Receive ACK 0
+Duplicate ACK count: 36
+Received data packet 47845 49212
+Sending ACK packet 49212
+Received packet
+Receive ACK 0
+Duplicate ACK count: 37
+Received data packet 49212 50579
+Sending ACK packet 50579
+Received packet
+Receive ACK 0
+Duplicate ACK count: 38
+Received data packet 50579 51946
+Sending ACK packet 51946
+Received packet
+Receive ACK 0
+Duplicate ACK count: 39
+Received data packet 51946 53313
+Sending ACK packet 53313
+Received packet
+Receive ACK 0
+Duplicate ACK count: 40
+Received data packet 53313 54680
+Sending ACK packet 54680
+Received packet
+Receive ACK 0
+Duplicate ACK count: 41
+Received data packet 54680 56047
+Sending ACK packet 56047
+Received packet
+Receive ACK 0
+Duplicate ACK count: 42
+Received data packet 56047 57414
+Sending ACK packet 57414
+Received packet
+Receive ACK 0
+Duplicate ACK count: 43
+Received data packet 57414 58781
+Sending ACK packet 58781
+Received packet
+Receive ACK 0
+Duplicate ACK count: 44
+Received data packet 58781 60148
+Sending ACK packet 60148
+Received packet
+Receive ACK 0
+Duplicate ACK count: 45
+Received data packet 60148 61515
+Sending ACK packet 61515
+Received packet
+Receive ACK 0
+Duplicate ACK count: 46
+Received data packet 61515 62882
+Sending ACK packet 62882
+Received packet
+Receive ACK 0
+Duplicate ACK count: 47
+Received data packet 62882 64249
+Sending ACK packet 64249
+Received packet
+Receive ACK 0
+Duplicate ACK count: 48
+Received data packet 64249 65616
+Sending ACK packet 65616
+Received packet
+Receive ACK 0
+Duplicate ACK count: 49
+Received data packet 65616 66983
+Sending ACK packet 66983
+Received packet
+Receive ACK 0
+Duplicate ACK count: 50
+Received data packet 66983 68350
+Sending ACK packet 68350
+Received packet
+Receive ACK 0
+Duplicate ACK count: 51
+Received data packet 68350 69717
+Sending ACK packet 69717
+Received packet
+Receive ACK 0
+Duplicate ACK count: 52
+Received data packet 69717 71084
+Sending ACK packet 71084
+Received packet
+Receive ACK 0
+Duplicate ACK count: 53
+Received data packet 71084 72451
+Sending ACK packet 72451
+Received packet
+Receive ACK 0
+Duplicate ACK count: 54
+Received data packet 72451 73818
+Sending ACK packet 73818
+Received packet
+Receive ACK 0
+Duplicate ACK count: 55
+Received data packet 73818 75185
+Sending ACK packet 75185
+Received packet
+Receive ACK 0
+Duplicate ACK count: 56
+Received data packet 75185 76552
+Sending ACK packet 76552
+Received packet
+Receive ACK 0
+Duplicate ACK count: 57
+Received data packet 76552 77919
+Sending ACK packet 77919
+Received packet
+Receive ACK 0
+Duplicate ACK count: 58
+Received data packet 77919 79286
+Sending ACK packet 79286
+Received packet
+Receive ACK 0
+Duplicate ACK count: 59
+Received data packet 79286 80653
+Sending ACK packet 80653
+Received packet
+Receive ACK 0
+Duplicate ACK count: 60
+Received data packet 80653 82020
+Sending ACK packet 82020
+Received packet
+Receive ACK 0
+Duplicate ACK count: 61
+Received data packet 82020 83387
+Sending ACK packet 83387
+Received packet
+Receive ACK 0
+Duplicate ACK count: 62
+Received data packet 83387 84754
+Sending ACK packet 84754
+Received packet
+Receive ACK 0
+Duplicate ACK count: 63
+Received data packet 84754 86121
+Sending ACK packet 86121
+Received packet
+Receive ACK 0
+Duplicate ACK count: 64
+Received data packet 86121 87488
+Sending ACK packet 87488
+Received packet
+Receive ACK 0
+Duplicate ACK count: 65
+Received data packet 87488 88855
+Sending ACK packet 88855
+Received packet
+Receive ACK 0
+Duplicate ACK count: 66
+Received data packet 88855 90222
+Sending ACK packet 90222
+Received packet
+Receive ACK 0
+Duplicate ACK count: 67
+Received data packet 90222 91589
+Sending ACK packet 91589
+Received packet
+Receive ACK 0
+Duplicate ACK count: 68
+Received data packet 91589 92956
+Sending ACK packet 92956
+Received packet
+Receive ACK 0
+Duplicate ACK count: 69
+Received data packet 92956 94323
+Sending ACK packet 94323
+Received packet
+Receive ACK 0
+Duplicate ACK count: 70
+Received data packet 94323 95690
+Sending ACK packet 95690
+Received packet
+Receive ACK 0
+Duplicate ACK count: 71
+Received data packet 95690 97057
+Sending ACK packet 97057
+Received packet
+Receive ACK 0
+Duplicate ACK count: 72
+Received data packet 97057 98424
+Sending ACK packet 98424
+Received packet
+Receive ACK 0
+Duplicate ACK count: 73
+Received data packet 98424 99791
+Sending ACK packet 99791
+Received packet
+Receive ACK 0
+Duplicate ACK count: 74
+Received data packet 99791 101158
+Sending ACK packet 101158
+Received packet
+Receive ACK 0
+Duplicate ACK count: 75
+Received data packet 101158 102525
+Sending ACK packet 102525
+Received packet
+Receive ACK 0
+Duplicate ACK count: 76
+Received data packet 102525 103892
+Sending ACK packet 103892
+Received packet
+Receive ACK 0
+Duplicate ACK count: 77
+Received data packet 103892 105259
+Sending ACK packet 105259
+Received packet
+Receive ACK 0
+Duplicate ACK count: 78
+Received data packet 105259 106626
+Sending ACK packet 106626
+Received packet
+Receive ACK 0
+Duplicate ACK count: 79
+Received data packet 106626 107993
+Sending ACK packet 107993
+Received packet
+Receive ACK 0
+Duplicate ACK count: 80
+Received data packet 107993 109360
+Sending ACK packet 109360
+Received packet
+Receive ACK 0
+Duplicate ACK count: 81
+Received data packet 109360 110727
+Sending ACK packet 110727
+Received packet
+Receive ACK 0
+Duplicate ACK count: 82
+Received data packet 110727 112094
+Sending ACK packet 112094
+Received packet
+Receive ACK 0
+Duplicate ACK count: 83
+Received data packet 112094 113461
+Sending ACK packet 113461
+Received packet
+Receive ACK 0
+Duplicate ACK count: 84
+Received data packet 113461 114828
+Sending ACK packet 114828
+Received packet
+Receive ACK 0
+Duplicate ACK count: 85
+Received data packet 114828 116195
+Sending ACK packet 116195
+Received packet
+Receive ACK 0
+Duplicate ACK count: 86
+Received data packet 116195 117562
+Sending ACK packet 117562
+Received packet
+Receive ACK 0
+Duplicate ACK count: 87
+Received data packet 117562 118929
+Sending ACK packet 118929
+Received packet
+Receive ACK 0
+Duplicate ACK count: 88
+Received data packet 118929 120296
+Sending ACK packet 120296
+Received packet
+Receive ACK 0
+Duplicate ACK count: 89
+Received data packet 120296 121663
+Sending ACK packet 121663
+Received packet
+Receive ACK 0
+Duplicate ACK count: 90
+Received data packet 121663 123030
+Sending ACK packet 123030
+Received packet
+Receive ACK 0
+Duplicate ACK count: 91
+Received data packet 123030 124397
+Sending ACK packet 124397
+Received packet
+Receive ACK 0
+Duplicate ACK count: 92
+Received data packet 124397 125764
+Sending ACK packet 125764
+Received packet
+Receive ACK 0
+Duplicate ACK count: 93
+Received data packet 125764 127131
+Sending ACK packet 127131
+Received packet
+Receive ACK 0
+Duplicate ACK count: 94
+Received data packet 127131 128498
+Sending ACK packet 128498
+Received packet
+Receive ACK 0
+Duplicate ACK count: 95
+Received data packet 128498 129865
+Sending ACK packet 129865
+Received packet
+Receive ACK 0
+Duplicate ACK count: 96
+Received data packet 129865 131232
+Sending ACK packet 131232
+Received packet
+Receive ACK 0
+Duplicate ACK count: 97
+Received data packet 131232 132599
+Sending ACK packet 132599
+Received packet
+Receive ACK 0
+Duplicate ACK count: 98
+Received data packet 132599 133966
+Sending ACK packet 133966
+Received packet
+Receive ACK 0
+Duplicate ACK count: 99
+Received data packet 133966 135333
+Sending ACK packet 135333
+Received packet
+Receive ACK 0
+Duplicate ACK count: 100
+Received data packet 135333 136700
+Sending ACK packet 136700
+Received packet
+Receive ACK 0
+Duplicate ACK count: 101
+Received data packet 136700 138067
+Sending ACK packet 138067
+Received packet
+Receive ACK 0
+Duplicate ACK count: 102
+Received data packet 138067 139434
+Sending ACK packet 139434
+Received packet
+Receive ACK 0
+Duplicate ACK count: 103
+Received data packet 139434 140801
+Sending ACK packet 140801
+Received packet
+Receive ACK 0
+Duplicate ACK count: 104
+Received data packet 140801 142168
+Sending ACK packet 142168
+Received packet
+Receive ACK 0
+Duplicate ACK count: 105
+Received data packet 142168 143535
+Sending ACK packet 143535
+Received packet
+Receive ACK 0
+Duplicate ACK count: 106
+Received data packet 143535 144902
+Sending ACK packet 144902
+Received packet
+Receive ACK 0
+Duplicate ACK count: 107
+Received data packet 144902 146269
+Sending ACK packet 146269
+Received packet
+Receive ACK 0
+Duplicate ACK count: 108
+Received data packet 146269 147636
+Sending ACK packet 147636
+Received packet
+Receive ACK 0
+Duplicate ACK count: 109
+Received data packet 147636 149003
+Sending ACK packet 149003
+Received packet
+Receive ACK 0
+Duplicate ACK count: 110
+Received data packet 149003 150370
+Sending ACK packet 150370
+Received packet
+Receive ACK 0
+Duplicate ACK count: 111
+Received data packet 150370 151737
+Sending ACK packet 151737
+Received packet
+Receive ACK 0
+Duplicate ACK count: 112
+Received data packet 151737 153104
+Sending ACK packet 153104
+Received packet
+Receive ACK 0
+Duplicate ACK count: 113
+Received data packet 153104 154471
+Sending ACK packet 154471
+Received packet
+Receive ACK 0
+Duplicate ACK count: 114
+Received data packet 154471 155838
+Sending ACK packet 155838
+Received packet
+Receive ACK 0
+Duplicate ACK count: 115
+Received data packet 155838 157205
+Sending ACK packet 157205
+Received packet
+Receive ACK 0
+Duplicate ACK count: 116
+Received data packet 157205 158572
+Sending ACK packet 158572
+Received packet
+Receive ACK 0
+Duplicate ACK count: 117
+Received data packet 158572 159939
+Sending ACK packet 159939
+Received packet
+Receive ACK 0
+Duplicate ACK count: 118
+Received data packet 159939 161306
+Sending ACK packet 161306
+Received packet
+Receive ACK 0
+Duplicate ACK count: 119
+Received data packet 161306 162673
+Sending ACK packet 162673
+Received packet
+Receive ACK 0
+Duplicate ACK count: 120
+Received data packet 162673 164040
+Sending ACK packet 164040
+Received packet
+Receive ACK 0
+Duplicate ACK count: 121
+Received data packet 164040 165407
+Sending ACK packet 165407
+Received packet
+Receive ACK 0
+Duplicate ACK count: 122
+Received data packet 165407 166774
+Sending ACK packet 166774
+Received packet
+Receive ACK 0
+Duplicate ACK count: 123
+Received data packet 166774 168141
+Sending ACK packet 168141
+Received packet
+Receive ACK 0
+Duplicate ACK count: 124
+Received data packet 168141 169508
+Sending ACK packet 169508
+Received packet
+Receive ACK 0
+Duplicate ACK count: 125
+Received data packet 169508 170875
+Sending ACK packet 170875
+Received packet
+Receive ACK 0
+Duplicate ACK count: 126
+Received data packet 170875 172242
+Sending ACK packet 172242
+Received packet
+Receive ACK 0
+Duplicate ACK count: 127
+Received data packet 172242 173609
+Sending ACK packet 173609
+Received packet
+Receive ACK 0
+Duplicate ACK count: 128
+Received data packet 173609 174976
+Sending ACK packet 174976
+Received packet
+Receive ACK 0
+Duplicate ACK count: 129
+Received data packet 174976 176343
+Sending ACK packet 176343
+Received packet
+Receive ACK 0
+Duplicate ACK count: 130
+Received data packet 176343 177710
+Sending ACK packet 177710
+Received packet
+Receive ACK 0
+Duplicate ACK count: 131
+Received data packet 177710 179077
+Sending ACK packet 179077
+Received packet
+Receive ACK 0
+Duplicate ACK count: 132
+Received data packet 179077 180444
+Sending ACK packet 180444
+Received packet
+Receive ACK 0
+Duplicate ACK count: 133
+Received data packet 180444 181811
+Sending ACK packet 181811
+Received packet
+Receive ACK 0
+Duplicate ACK count: 134
+Received data packet 181811 183178
+Sending ACK packet 183178
+Received packet
+Receive ACK 0
+Duplicate ACK count: 135
+Received data packet 183178 184545
+Sending ACK packet 184545
+Received packet
+Receive ACK 0
+Duplicate ACK count: 136
+Received data packet 184545 185912
+Sending ACK packet 185912
+Received packet
+Receive ACK 0
+Duplicate ACK count: 137
+Received data packet 185912 187279
+Sending ACK packet 187279
+Received packet
+Receive ACK 0
+Duplicate ACK count: 138
+Received data packet 187279 188646
+Sending ACK packet 188646
+Received packet
+Receive ACK 0
+Duplicate ACK count: 139
+Received data packet 188646 190013
+Sending ACK packet 190013
+Received packet
+Receive ACK 0
+Duplicate ACK count: 140
+Received data packet 190013 191380
+Sending ACK packet 191380
+Received packet
+Receive ACK 0
+Duplicate ACK count: 141
+Received data packet 191380 192747
+Sending ACK packet 192747
+Received packet
+Receive ACK 0
+Duplicate ACK count: 142
+Received data packet 192747 194114
+Sending ACK packet 194114
+Received packet
+Receive ACK 0
+Duplicate ACK count: 143
+Received data packet 194114 195481
+Sending ACK packet 195481
+Received packet
+Receive ACK 0
+Duplicate ACK count: 144
+Received data packet 195481 196848
+Sending ACK packet 196848
+Received packet
+Receive ACK 0
+Duplicate ACK count: 145
+Received data packet 196848 198215
+Sending ACK packet 198215
+Received packet
+Receive ACK 0
+Duplicate ACK count: 146
+Received data packet 198215 199582
+Sending ACK packet 199582
+Received packet
+Receive ACK 0
+Duplicate ACK count: 147
+Received data packet 199582 200949
+Sending ACK packet 200949
+Received packet
+Receive ACK 0
+Duplicate ACK count: 148
+Received data packet 200949 202316
+Sending ACK packet 202316
+Received packet
+Receive ACK 0
+Duplicate ACK count: 149
+Received data packet 202316 203683
+Sending ACK packet 203683
+Received packet
+Receive ACK 0
+Duplicate ACK count: 150
+Received data packet 203683 205050
+Sending ACK packet 205050
+Received packet
+Receive ACK 0
+Duplicate ACK count: 151
+Received data packet 205050 206417
+Sending ACK packet 206417
+Received packet
+Receive ACK 0
+Duplicate ACK count: 152
+Received data packet 206417 207784
+Sending ACK packet 207784
+Received packet
+Receive ACK 0
+Duplicate ACK count: 153
+Received data packet 207784 209151
+Sending ACK packet 209151
+Received packet
+Receive ACK 0
+Duplicate ACK count: 154
+Received data packet 209151 210518
+Sending ACK packet 210518
+Received packet
+Receive ACK 0
+Duplicate ACK count: 155
+Received data packet 210518 211885
+Sending ACK packet 211885
+Received packet
+Receive ACK 0
+Duplicate ACK count: 156
+Received data packet 211885 213252
+Sending ACK packet 213252
+Received packet
+Receive ACK 0
+Duplicate ACK count: 157
+Received data packet 213252 214619
+Sending ACK packet 214619
+Received packet
+Receive ACK 0
+Duplicate ACK count: 158
+Received data packet 214619 215986
+Sending ACK packet 215986
+Received packet
+Receive ACK 0
+Duplicate ACK count: 159
+Received data packet 215986 217353
+Sending ACK packet 217353
+Received packet
+Receive ACK 0
+Duplicate ACK count: 160
+Received data packet 217353 218720
+Sending ACK packet 218720
+Received packet
+Receive ACK 0
+Duplicate ACK count: 161
+Received data packet 218720 220087
+Sending ACK packet 220087
+Received packet
+Receive ACK 0
+Duplicate ACK count: 162
+Received data packet 220087 221454
+Sending ACK packet 221454
+Received packet
+Receive ACK 0
+Duplicate ACK count: 163
+Received data packet 221454 222821
+Sending ACK packet 222821
+Received packet
+Receive ACK 0
+Duplicate ACK count: 164
+Received data packet 222821 224188
+Sending ACK packet 224188
+Received packet
+Receive ACK 0
+Duplicate ACK count: 165
+Received data packet 224188 225555
+Sending ACK packet 225555
+Received packet
+Receive ACK 0
+Duplicate ACK count: 166
+Received data packet 225555 226922
+Sending ACK packet 226922
+Received packet
+Receive ACK 0
+Duplicate ACK count: 167
+Received data packet 226922 228289
+Sending ACK packet 228289
+Received packet
+Receive ACK 0
+Duplicate ACK count: 168
+Received data packet 228289 229656
+Sending ACK packet 229656
+Received packet
+Receive ACK 0
+Duplicate ACK count: 169
+Received data packet 229656 231023
+Sending ACK packet 231023
+Received packet
+Receive ACK 0
+Duplicate ACK count: 170
+Received data packet 231023 232390
+Sending ACK packet 232390
+Received packet
+Receive ACK 0
+Duplicate ACK count: 171
+Received data packet 232390 233757
+Sending ACK packet 233757
+Received packet
+Receive ACK 0
+Duplicate ACK count: 172
+Received data packet 233757 235124
+Sending ACK packet 235124
+Received packet
+Receive ACK 0
+Duplicate ACK count: 173
+Received data packet 235124 236491
+Sending ACK packet 236491
+Received packet
+Receive ACK 0
+Duplicate ACK count: 174
+Received data packet 236491 237858
+Sending ACK packet 237858
+Received packet
+Receive ACK 0
+Duplicate ACK count: 175
+Received data packet 237858 239225
+Sending ACK packet 239225
+Received packet
+Receive ACK 0
+Duplicate ACK count: 176
+Received data packet 239225 240592
+Sending ACK packet 240592
+Received packet
+Receive ACK 0
+Duplicate ACK count: 177
+Received data packet 240592 241959
+Sending ACK packet 241959
+Received packet
+Receive ACK 0
+Duplicate ACK count: 178
+Received data packet 241959 243326
+Sending ACK packet 243326
+Received packet
+Receive ACK 0
+Duplicate ACK count: 179
+Received data packet 243326 244693
+Sending ACK packet 244693
+Received packet
+Receive ACK 0
+Duplicate ACK count: 180
+Received data packet 244693 246060
+Sending ACK packet 246060
+Received packet
+Receive ACK 0
+Duplicate ACK count: 181
+Received data packet 246060 247427
+Sending ACK packet 247427
+Received packet
+Receive ACK 0
+Duplicate ACK count: 182
+Received data packet 247427 248794
+Sending ACK packet 248794
+Received packet
+Receive ACK 0
+Duplicate ACK count: 183
+Received data packet 248794 250161
+Sending ACK packet 250161
+Received packet
+Receive ACK 0
+Duplicate ACK count: 184
+Received data packet 250161 251528
+Sending ACK packet 251528
+Received packet
+Receive ACK 0
+Duplicate ACK count: 185
+Received data packet 251528 252895
+Sending ACK packet 252895
+Received packet
+Receive ACK 0
+Duplicate ACK count: 186
+Received data packet 252895 254262
+Sending ACK packet 254262
+Received packet
+Receive ACK 0
+Duplicate ACK count: 187
+Received data packet 254262 255629
+Sending ACK packet 255629
+Received packet
+Receive ACK 0
+Duplicate ACK count: 188
+Received data packet 255629 256996
+Sending ACK packet 256996
+Received packet
+Receive ACK 0
+Duplicate ACK count: 189
+Received data packet 256996 258363
+Sending ACK packet 258363
+Received packet
+Receive ACK 0
+Duplicate ACK count: 190
+Received data packet 258363 259730
+Sending ACK packet 259730
+Received packet
+Receive ACK 0
+Duplicate ACK count: 191
+Received data packet 259730 261097
+Sending ACK packet 261097
+Received packet
+Receive ACK 0
+Duplicate ACK count: 192
+Received data packet 261097 262464
+Sending ACK packet 262464
+Received packet
+Receive ACK 0
+Duplicate ACK count: 193
+Received data packet 262464 263831
+Sending ACK packet 263831
+Received packet
+Receive ACK 0
+Duplicate ACK count: 194
+Received data packet 263831 265198
+Sending ACK packet 265198
+Received packet
+Receive ACK 0
+Duplicate ACK count: 195
+Received data packet 265198 266565
+Sending ACK packet 266565
+Received packet
+Receive ACK 0
+Duplicate ACK count: 196
+Received data packet 266565 267932
+Sending ACK packet 267932
+Received packet
+Receive ACK 0
+Duplicate ACK count: 197
+Received data packet 267932 269299
+Sending ACK packet 269299
+Received packet
+Receive ACK 0
+Duplicate ACK count: 198
+Received data packet 269299 270666
+Sending ACK packet 270666
+Received packet
+Receive ACK 0
+Duplicate ACK count: 199
+Received data packet 270666 272033
+Sending ACK packet 272033
+Received packet
+Receive ACK 0
+Duplicate ACK count: 200
+Received data packet 272033 273400
+Sending ACK packet 273400
+Received packet
+Receive ACK 0
+Duplicate ACK count: 201
+Received data packet 273400 274767
+Sending ACK packet 274767
+Received packet
+Receive ACK 0
+Duplicate ACK count: 202
+Received data packet 274767 276134
+Sending ACK packet 276134
+Received packet
+Receive ACK 0
+Duplicate ACK count: 203
+Received data packet 276134 277501
+Sending ACK packet 277501
+Received packet
+Receive ACK 0
+Duplicate ACK count: 204
+Received data packet 277501 278868
+Sending ACK packet 278868
+Received packet
+Receive ACK 0
+Duplicate ACK count: 205
+Received data packet 278868 280235
+Sending ACK packet 280235
+Received packet
+Receive ACK 0
+Duplicate ACK count: 206
+Received data packet 280235 281602
+Sending ACK packet 281602
+Received packet
+Receive ACK 0
+Duplicate ACK count: 207
+Received data packet 281602 282969
+Sending ACK packet 282969
+Received packet
+Receive ACK 0
+Duplicate ACK count: 208
+Received data packet 282969 284336
+Sending ACK packet 284336
+Received packet
+Receive ACK 0
+Duplicate ACK count: 209
+Received data packet 284336 285703
+Sending ACK packet 285703
+Received packet
+Receive ACK 0
+Duplicate ACK count: 210
+Received data packet 285703 287070
+Sending ACK packet 287070
+Received packet
+Receive ACK 0
+Duplicate ACK count: 211
+Received data packet 287070 288437
+Sending ACK packet 288437
+Received packet
+Receive ACK 0
+Duplicate ACK count: 212
+Received data packet 288437 289804
+Sending ACK packet 289804
+Received packet
+Receive ACK 0
+Duplicate ACK count: 213
+Received data packet 289804 291171
+Sending ACK packet 291171
+Received packet
+Receive ACK 0
+Duplicate ACK count: 214
+Received data packet 291171 292538
+Sending ACK packet 292538
+Received packet
+Receive ACK 0
+Duplicate ACK count: 215
+Received data packet 292538 293905
+Sending ACK packet 293905
+Received packet
+Receive ACK 0
+Duplicate ACK count: 216
+Received data packet 293905 295272
+Sending ACK packet 295272
+Received packet
+Receive ACK 0
+Duplicate ACK count: 217
+Received data packet 295272 296639
+Sending ACK packet 296639
+Received packet
+Receive ACK 0
+Duplicate ACK count: 218
+Received data packet 296639 298006
+Sending ACK packet 298006
+Received packet
+Receive ACK 0
+Duplicate ACK count: 219
+Received data packet 298006 299373
+Sending ACK packet 299373
+Received packet
+Receive ACK 0
+Duplicate ACK count: 220
+Received data packet 299373 300740
+Sending ACK packet 300740
+Received packet
+Receive ACK 0
+Duplicate ACK count: 221
+Received data packet 300740 302107
+Sending ACK packet 302107
+Received packet
+Receive ACK 0
+Duplicate ACK count: 222
+Received data packet 302107 303474
+Sending ACK packet 303474
+Received packet
+Receive ACK 0
+Duplicate ACK count: 223
+Received data packet 303474 304841
+Sending ACK packet 304841
+Received packet
+Receive ACK 0
+Duplicate ACK count: 224
+Received data packet 304841 306208
+Sending ACK packet 306208
+Received packet
+Receive ACK 0
+Duplicate ACK count: 225
+Received data packet 306208 307575
+Sending ACK packet 307575
+Received packet
+Receive ACK 0
+Duplicate ACK count: 226
+Received data packet 307575 308942
+Sending ACK packet 308942
+Received packet
+Receive ACK 0
+Duplicate ACK count: 227
+Received data packet 308942 310309
+Sending ACK packet 310309
+Received packet
+Receive ACK 0
+Duplicate ACK count: 228
+Received data packet 310309 311676
+Sending ACK packet 311676
+Received packet
+Receive ACK 0
+Duplicate ACK count: 229
+Received data packet 311676 313043
+Sending ACK packet 313043
+Received packet
+Receive ACK 0
+Duplicate ACK count: 230
+Received data packet 313043 314410
+Sending ACK packet 314410
+Received packet
+Receive ACK 0
+Duplicate ACK count: 231
+Received data packet 314410 315777
+Sending ACK packet 315777
+Received packet
+Receive ACK 0
+Duplicate ACK count: 232
+Received data packet 315777 317144
+Sending ACK packet 317144
+Received packet
+Receive ACK 0
+Duplicate ACK count: 233
+Received data packet 317144 318511
+Sending ACK packet 318511
+Received packet
+Receive ACK 0
+Duplicate ACK count: 234
+Received data packet 318511 319878
+Sending ACK packet 319878
+Received packet
+Receive ACK 0
+Duplicate ACK count: 235
+Received data packet 319878 321245
+Sending ACK packet 321245
+Received packet
+Receive ACK 0
+Duplicate ACK count: 236
+Received data packet 321245 322612
+Sending ACK packet 322612
+Received packet
+Receive ACK 0
+Duplicate ACK count: 237
+Received data packet 322612 323979
+Sending ACK packet 323979
+Received packet
+Receive ACK 0
+Duplicate ACK count: 238
+Received data packet 323979 325346
+Sending ACK packet 325346
+Received packet
+Receive ACK 0
+Duplicate ACK count: 239
+Received data packet 325346 326713
+Sending ACK packet 326713
+Received packet
+Receive ACK 0
+Duplicate ACK count: 240
+Received data packet 326713 328080
+Sending ACK packet 328080
+Received packet
+Receive ACK 0
+Duplicate ACK count: 241
+Received data packet 328080 329447
+Sending ACK packet 329447
+Received packet
+Receive ACK 0
+Duplicate ACK count: 242
+Received data packet 329447 330814
+Sending ACK packet 330814
+Received packet
+Receive ACK 0
+Duplicate ACK count: 243
+Received data packet 330814 332181
+Sending ACK packet 332181
+Received packet
+Receive ACK 0
+Duplicate ACK count: 244
+Received data packet 332181 333548
+Sending ACK packet 333548
+Received packet
+Receive ACK 0
+Duplicate ACK count: 245
+Received data packet 333548 334915
+Sending ACK packet 334915
+Received packet
+Receive ACK 0
+Duplicate ACK count: 246
+Received data packet 334915 336282
+Sending ACK packet 336282
+Received packet
+Receive ACK 0
+Duplicate ACK count: 247
+Received data packet 336282 337649
+Sending ACK packet 337649
+Received packet
+Receive ACK 0
+Duplicate ACK count: 248
+Received data packet 337649 339016
+Sending ACK packet 339016
+Received packet
+Receive ACK 0
+Duplicate ACK count: 249
+Received data packet 339016 340383
+Sending ACK packet 340383
+Received packet
+Receive ACK 0
+Duplicate ACK count: 250
+Received data packet 340383 341750
+Sending ACK packet 341750
+Received packet
+Receive ACK 0
+Duplicate ACK count: 251
+Received data packet 341750 343117
+Sending ACK packet 343117
+Received packet
+Receive ACK 0
+Duplicate ACK count: 252
+Received data packet 343117 344484
+Sending ACK packet 344484
+Received packet
+Receive ACK 0
+Duplicate ACK count: 253
+Received data packet 344484 345851
+Sending ACK packet 345851
+Received packet
+Receive ACK 0
+Duplicate ACK count: 254
+Received data packet 345851 347218
+Sending ACK packet 347218
+Received packet
+Receive ACK 0
+Duplicate ACK count: 255
+Received data packet 347218 348585
+Sending ACK packet 348585
+Received packet
+Receive ACK 0
+Duplicate ACK count: 256
+Received data packet 348585 349952
+Sending ACK packet 349952
+Received packet
+Receive ACK 0
+Duplicate ACK count: 257
+Received data packet 349952 351319
+Sending ACK packet 351319
+Received packet
+Receive ACK 0
+Duplicate ACK count: 258
+Received data packet 351319 352686
+Sending ACK packet 352686
+Received packet
+Receive ACK 0
+Duplicate ACK count: 259
+Received data packet 352686 354053
+Sending ACK packet 354053
+Received packet
+Receive ACK 0
+Duplicate ACK count: 260
+Received data packet 354053 355420
+Sending ACK packet 355420
+Received packet
+Receive ACK 0
+Duplicate ACK count: 261
+Received data packet 355420 356787
+Sending ACK packet 356787
+Received packet
+Receive ACK 0
+Duplicate ACK count: 262
+Received data packet 356787 358154
+Sending ACK packet 358154
+Received packet
+Receive ACK 0
+Duplicate ACK count: 263
+Received data packet 358154 359521
+Sending ACK packet 359521
+Received packet
+Receive ACK 0
+Duplicate ACK count: 264
+Received data packet 359521 360888
+Sending ACK packet 360888
+Received packet
+Receive ACK 0
+Duplicate ACK count: 265
+Received data packet 360888 362255
+Sending ACK packet 362255
+Received packet
+Receive ACK 0
+Duplicate ACK count: 266
+Received data packet 362255 363622
+Sending ACK packet 363622
+Received packet
+Receive ACK 0
+Duplicate ACK count: 267
+Received data packet 363622 364989
+Sending ACK packet 364989
+Received packet
+Receive ACK 0
+Duplicate ACK count: 268
+Received data packet 364989 366356
+Sending ACK packet 366356
+Received packet
+Receive ACK 0
+Duplicate ACK count: 269
+Received data packet 366356 367723
+Sending ACK packet 367723
+Received packet
+Receive ACK 0
+Duplicate ACK count: 270
+Received data packet 367723 369090
+Sending ACK packet 369090
+Received packet
+Receive ACK 0
+Duplicate ACK count: 271
+Received data packet 369090 370457
+Sending ACK packet 370457
+Received packet
+Receive ACK 0
+Duplicate ACK count: 272
+Received data packet 370457 371824
+Sending ACK packet 371824
+Received packet
+Receive ACK 0
+Duplicate ACK count: 273
+Received data packet 371824 373191
+Sending ACK packet 373191
+Received packet
+Receive ACK 0
+Duplicate ACK count: 274
+Received data packet 373191 374558
+Sending ACK packet 374558
+Received packet
+Receive ACK 0
+Duplicate ACK count: 275
+Received data packet 374558 375925
+Sending ACK packet 375925
+Received packet
+Receive ACK 0
+Duplicate ACK count: 276
+Received data packet 375925 377292
+Sending ACK packet 377292
+Received packet
+Receive ACK 0
+Duplicate ACK count: 277
+Received data packet 377292 378659
+Sending ACK packet 378659
+Received packet
+Receive ACK 0
+Duplicate ACK count: 278
+Received data packet 378659 380026
+Sending ACK packet 380026
+Received packet
+Receive ACK 0
+Duplicate ACK count: 279
+Received data packet 380026 381393
+Sending ACK packet 381393
+Received packet
+Receive ACK 0
+Duplicate ACK count: 280
+Received data packet 381393 382760
+Sending ACK packet 382760
+Received packet
+Receive ACK 0
+Duplicate ACK count: 281
+Received data packet 382760 384127
+Sending ACK packet 384127
+Received packet
+Receive ACK 0
+Duplicate ACK count: 282
+Received data packet 384127 385494
+Sending ACK packet 385494
+Received packet
+Receive ACK 0
+Duplicate ACK count: 283
+Received data packet 385494 386861
+Sending ACK packet 386861
+Received packet
+Receive ACK 0
+Duplicate ACK count: 284
+Received data packet 386861 388228
+Sending ACK packet 388228
+Received packet
+Receive ACK 0
+Duplicate ACK count: 285
+Received data packet 388228 389595
+Sending ACK packet 389595
+Received packet
+Receive ACK 0
+Duplicate ACK count: 286
+Received data packet 389595 390962
+Sending ACK packet 390962
+Received packet
+Receive ACK 0
+Duplicate ACK count: 287
+Received data packet 390962 392329
+Sending ACK packet 392329
+Received packet
+Receive ACK 0
+Duplicate ACK count: 288
+Received data packet 392329 393696
+Sending ACK packet 393696
+Received packet
+Receive ACK 0
+Duplicate ACK count: 289
+Received data packet 393696 395063
+Sending ACK packet 395063
+Received packet
+Receive ACK 0
+Duplicate ACK count: 290
+Received data packet 395063 396430
+Sending ACK packet 396430
+Received packet
+Receive ACK 0
+Duplicate ACK count: 291
+Received data packet 396430 397797
+Sending ACK packet 397797
+Received packet
+Receive ACK 0
+Duplicate ACK count: 292
+Received data packet 397797 399164
+Sending ACK packet 399164
+Received packet
+Receive ACK 0
+Duplicate ACK count: 293
+Received data packet 399164 400531
+Sending ACK packet 400531
+Received packet
+Receive ACK 0
+Duplicate ACK count: 294
+Received data packet 400531 401898
+Sending ACK packet 401898
+Received packet
+Receive ACK 0
+Duplicate ACK count: 295
+Received data packet 401898 403265
+Sending ACK packet 403265
+Received packet
+Receive ACK 0
+Duplicate ACK count: 296
+Received data packet 403265 404632
+Sending ACK packet 404632
+Received packet
+Receive ACK 0
+Duplicate ACK count: 297
+Received data packet 404632 405999
+Sending ACK packet 405999
+Received packet
+Receive ACK 0
+Duplicate ACK count: 298
+Received data packet 405999 407366
+Sending ACK packet 407366
+Received packet
+Receive ACK 0
+Duplicate ACK count: 299
+Received data packet 407366 408733
+Sending ACK packet 408733
+Received packet
+Receive ACK 0
+Duplicate ACK count: 300
+Received data packet 408733 410100
+Sending ACK packet 410100
+Received packet
+Receive ACK 0
+Duplicate ACK count: 301
+Received data packet 410100 411467
+Sending ACK packet 411467
+Received packet
+Receive ACK 0
+Duplicate ACK count: 302
+Received data packet 411467 412834
+Sending ACK packet 412834
+Received packet
+Receive ACK 0
+Duplicate ACK count: 303
+Received data packet 412834 414201
+Sending ACK packet 414201
+Received packet
+Receive ACK 0
+Duplicate ACK count: 304
+Received data packet 414201 415568
+Sending ACK packet 415568
+Received packet
+Receive ACK 0
+Duplicate ACK count: 305
+Received data packet 415568 416935
+Sending ACK packet 416935
+Received packet
+Receive ACK 0
+Duplicate ACK count: 306
+Received data packet 416935 418302
+Sending ACK packet 418302
+Received packet
+Receive ACK 0
+Duplicate ACK count: 307
+Received data packet 418302 419669
+Sending ACK packet 419669
+Received packet
+Receive ACK 0
+Duplicate ACK count: 308
+Received data packet 419669 421036
+Sending ACK packet 421036
+Received packet
+Receive ACK 0
+Duplicate ACK count: 309
+Received data packet 421036 422403
+Sending ACK packet 422403
+Received packet
+Receive ACK 0
+Duplicate ACK count: 310
+Received data packet 422403 423770
+Sending ACK packet 423770
+Received packet
+Receive ACK 0
+Duplicate ACK count: 311
+Received data packet 423770 425137
+Sending ACK packet 425137
+Received packet
+Receive ACK 0
+Duplicate ACK count: 312
+Received data packet 425137 426504
+Sending ACK packet 426504
+Received packet
+Receive ACK 0
+Duplicate ACK count: 313
+Received data packet 426504 427871
+Sending ACK packet 427871
+Received packet
+Receive ACK 0
+Duplicate ACK count: 314
+Received data packet 427871 429238
+Sending ACK packet 429238
+Received packet
+Receive ACK 0
+Duplicate ACK count: 315
+Received data packet 429238 430605
+Sending ACK packet 430605
+Received packet
+Receive ACK 0
+Duplicate ACK count: 316
+Received data packet 430605 431972
+Sending ACK packet 431972
+Received packet
+Receive ACK 0
+Duplicate ACK count: 317
+Received data packet 431972 433339
+Sending ACK packet 433339
+Received packet
+Receive ACK 0
+Duplicate ACK count: 318
+Received data packet 433339 434706
+Sending ACK packet 434706
+Received packet
+Receive ACK 0
+Duplicate ACK count: 319
+Received data packet 434706 436073
+Sending ACK packet 436073
+Received packet
+Receive ACK 0
+Duplicate ACK count: 320
+Received data packet 436073 437440
+Sending ACK packet 437440
+Received packet
+Receive ACK 0
+Duplicate ACK count: 321
+Received data packet 437440 438807
+Sending ACK packet 438807
+Received packet
+Receive ACK 0
+Duplicate ACK count: 322
+Received data packet 438807 440174
+Sending ACK packet 440174
+Received packet
+Receive ACK 0
+Duplicate ACK count: 323
+Received data packet 440174 441541
+Sending ACK packet 441541
+Received packet
+Receive ACK 0
+Duplicate ACK count: 324
+Received data packet 441541 442908
+Sending ACK packet 442908
+Received packet
+Receive ACK 0
+Duplicate ACK count: 325
+Received data packet 442908 444275
+Sending ACK packet 444275
+Received packet
+Receive ACK 0
+Duplicate ACK count: 326
+Received data packet 444275 445642
+Sending ACK packet 445642
+Received packet
+Receive ACK 0
+Duplicate ACK count: 327
+Received data packet 445642 447009
+Sending ACK packet 447009
+Received packet
+Receive ACK 0
+Duplicate ACK count: 328
+Received data packet 447009 448376
+Sending ACK packet 448376
+Received packet
+Receive ACK 0
+Duplicate ACK count: 329
+Received data packet 448376 449743
+Sending ACK packet 449743
+Received packet
+Receive ACK 0
+Duplicate ACK count: 330
+Received data packet 449743 451110
+Sending ACK packet 451110
+Received packet
+Receive ACK 0
+Duplicate ACK count: 331
+Received data packet 451110 452477
+Sending ACK packet 452477
+Received packet
+Receive ACK 0
+Duplicate ACK count: 332
+Received data packet 452477 453844
+Sending ACK packet 453844
+Received packet
+Receive ACK 0
+Duplicate ACK count: 333
+Received data packet 453844 455211
+Sending ACK packet 455211
+Received packet
+Receive ACK 0
+Duplicate ACK count: 334
+Received data packet 455211 456578
+Sending ACK packet 456578
+Received packet
+Receive ACK 0
+Duplicate ACK count: 335
+Received data packet 456578 457945
+Sending ACK packet 457945
+Received packet
+Receive ACK 0
+Duplicate ACK count: 336
+Received data packet 457945 459312
+Sending ACK packet 459312
+Received packet
+Receive ACK 0
+Duplicate ACK count: 337
+Received data packet 459312 460679
+Sending ACK packet 460679
+Received packet
+Receive ACK 0
+Duplicate ACK count: 338
+Received data packet 460679 462046
+Sending ACK packet 462046
+Received packet
+Receive ACK 0
+Duplicate ACK count: 339
+Received data packet 462046 463413
+Sending ACK packet 463413
+Received packet
+Receive ACK 0
+Duplicate ACK count: 340
+Received data packet 463413 464780
+Sending ACK packet 464780
+Received packet
+Receive ACK 0
+Duplicate ACK count: 341
+Received data packet 464780 466147
+Sending ACK packet 466147
+Received packet
+Receive ACK 0
+Duplicate ACK count: 342
+Received data packet 466147 467514
+Sending ACK packet 467514
+Received packet
+Receive ACK 0
+Duplicate ACK count: 343
+Received data packet 467514 468881
+Sending ACK packet 468881
+Received packet
+Receive ACK 0
+Duplicate ACK count: 344
+Received data packet 468881 470248
+Sending ACK packet 470248
+Received packet
+Receive ACK 0
+Duplicate ACK count: 345
+Received data packet 470248 471615
+Sending ACK packet 471615
+Received packet
+Receive ACK 0
+Duplicate ACK count: 346
+Received data packet 471615 472982
+Sending ACK packet 472982
+Received packet
+Receive ACK 0
+Duplicate ACK count: 347
+Received data packet 472982 474349
+Sending ACK packet 474349
+Received packet
+Receive ACK 0
+Duplicate ACK count: 348
+Received data packet 474349 475716
+Sending ACK packet 475716
+Received packet
+Receive ACK 0
+Duplicate ACK count: 349
+Received data packet 475716 477083
+Sending ACK packet 477083
+Received packet
+Receive ACK 0
+Duplicate ACK count: 350
+Received data packet 477083 478450
+Sending ACK packet 478450
+Received packet
+Receive ACK 0
+Duplicate ACK count: 351
+Received data packet 478450 479817
+Sending ACK packet 479817
+Received packet
+Receive ACK 0
+Duplicate ACK count: 352
+Received data packet 479817 481184
+Sending ACK packet 481184
+Received packet
+Receive ACK 0
+Duplicate ACK count: 353
+Received data packet 481184 482551
+Sending ACK packet 482551
+Received packet
+Receive ACK 0
+Duplicate ACK count: 354
+Received data packet 482551 483918
+Sending ACK packet 483918
+Received packet
+Receive ACK 0
+Duplicate ACK count: 355
+Received data packet 483918 485285
+Sending ACK packet 485285
+Received packet
+Receive ACK 0
+Duplicate ACK count: 356
+Received data packet 485285 486652
+Sending ACK packet 486652
+Received packet
+Receive ACK 0
+Duplicate ACK count: 357
+Received data packet 486652 488019
+Sending ACK packet 488019
+Received packet
+Receive ACK 0
+Duplicate ACK count: 358
+Received data packet 488019 489386
+Sending ACK packet 489386
+Received packet
+Receive ACK 0
+Duplicate ACK count: 359
+Received data packet 489386 490753
+Sending ACK packet 490753
+Received packet
+Receive ACK 0
+Duplicate ACK count: 360
+Received data packet 490753 492120
+Sending ACK packet 492120
+Received packet
+Receive ACK 0
+Duplicate ACK count: 361
+Received data packet 492120 493487
+Sending ACK packet 493487
+Received packet
+Receive ACK 0
+Duplicate ACK count: 362
+Received data packet 493487 494854
+Sending ACK packet 494854
+Received packet
+Receive ACK 0
+Duplicate ACK count: 363
+Received data packet 494854 495632
+Sending ACK packet 495632
+Received packet
+Receive ACK 0
+Duplicate ACK count: 364
+Received data packet 495632 496999
+Sending ACK packet 496999
+Received packet
+Receive ACK 0
+Duplicate ACK count: 365
+Received data packet 496999 498366
+Sending ACK packet 498366
+Received packet
+Receive ACK 0
+Duplicate ACK count: 366
+Received data packet 498366 499733
+Sending ACK packet 499733
+Received packet
+Receive ACK 0
+Duplicate ACK count: 367
+Received data packet 499733 501100
+Sending ACK packet 501100
+Received packet
+Receive ACK 0
+Duplicate ACK count: 368
+Received data packet 501100 502467
+Sending ACK packet 502467
+Received packet
+Receive ACK 0
+Duplicate ACK count: 369
+Received data packet 502467 503834
+Sending ACK packet 503834
+Received packet
+Receive ACK 0
+Duplicate ACK count: 370
+Received data packet 503834 505201
+Sending ACK packet 505201
+Received packet
+Receive ACK 0
+Duplicate ACK count: 371
+Received data packet 505201 506568
+Sending ACK packet 506568
+Received packet
+Receive ACK 0
+Duplicate ACK count: 372
+Received data packet 506568 507935
+Sending ACK packet 507935
+Received packet
+Receive ACK 0
+Duplicate ACK count: 373
+Received data packet 507935 509302
+Sending ACK packet 509302
+Received packet
+Receive ACK 0
+Duplicate ACK count: 374
+Received data packet 509302 510669
+Sending ACK packet 510669
+Received packet
+Receive ACK 0
+Duplicate ACK count: 375
+Received data packet 510669 512036
+Sending ACK packet 512036
+Received packet
+Receive ACK 0
+Duplicate ACK count: 376
+Received data packet 512036 513403
+Sending ACK packet 513403
+Received packet
+Receive ACK 0
+Duplicate ACK count: 377
+Received data packet 513403 514770
+Sending ACK packet 514770
+Received packet
+Receive ACK 0
+Duplicate ACK count: 378
+Received data packet 514770 516137
+Sending ACK packet 516137
+Received packet
+Receive ACK 0
+Duplicate ACK count: 379
+Received data packet 516137 517504
+Sending ACK packet 517504
+Received packet
+Receive ACK 0
+Duplicate ACK count: 380
+Received data packet 517504 518871
+Sending ACK packet 518871
+Received packet
+Receive ACK 0
+Duplicate ACK count: 381
+Received data packet 518871 520238
+Sending ACK packet 520238
+Received packet
+Receive ACK 0
+Duplicate ACK count: 382
+Received data packet 520238 521605
+Sending ACK packet 521605
+Received packet
+Receive ACK 0
+Duplicate ACK count: 383
+Received data packet 521605 522972
+Sending ACK packet 522972
+Received packet
+Receive ACK 0
+Duplicate ACK count: 384
+Received data packet 522972 524339
+Sending ACK packet 524339
+Received packet
+Receive ACK 0
+Duplicate ACK count: 385
+Received data packet 524339 525706
+Sending ACK packet 525706
+Received packet
+Receive ACK 0
+Duplicate ACK count: 386
+Received data packet 525706 527073
+Sending ACK packet 527073
+Received packet
+Receive ACK 0
+Duplicate ACK count: 387
+Received data packet 527073 528440
+Sending ACK packet 528440
+Received packet
+Receive ACK 0
+Duplicate ACK count: 388
+Received data packet 528440 529807
+Sending ACK packet 529807
+Received packet
+Receive ACK 0
+Duplicate ACK count: 389
+Received data packet 529807 531174
+Sending ACK packet 531174
+Received packet
+Receive ACK 0
+Duplicate ACK count: 390
+Received data packet 531174 532541
+Sending ACK packet 532541
+Received packet
+Receive ACK 0
+Duplicate ACK count: 391
+Received data packet 532541 533908
+Sending ACK packet 533908
+Received packet
+Receive ACK 0
+Duplicate ACK count: 392
+Received data packet 533908 535275
+Sending ACK packet 535275
+Received packet
+Receive ACK 0
+Duplicate ACK count: 393
+Received data packet 535275 536642
+Sending ACK packet 536642
+Received packet
+Receive ACK 0
+Duplicate ACK count: 394
+Received data packet 536642 538009
+Sending ACK packet 538009
+Received packet
+Receive ACK 0
+Duplicate ACK count: 395
+Received data packet 538009 539376
+Sending ACK packet 539376
+Received packet
+Receive ACK 0
+Duplicate ACK count: 396
+Received data packet 539376 540743
+Sending ACK packet 540743
+Received packet
+Receive ACK 0
+Duplicate ACK count: 397
+Received data packet 540743 542110
+Sending ACK packet 542110
+Received packet
+Receive ACK 0
+Duplicate ACK count: 398
+Received data packet 542110 543477
+Sending ACK packet 543477
+Received packet
+Receive ACK 0
+Duplicate ACK count: 399
+Received data packet 543477 544844
+Sending ACK packet 544844
+Received packet
+Receive ACK 0
+Duplicate ACK count: 400
+Received data packet 544844 546211
+Sending ACK packet 546211
+Received packet
+Receive ACK 0
+Duplicate ACK count: 401
+Received data packet 546211 547578
+Sending ACK packet 547578
+Received packet
+Receive ACK 0
+Duplicate ACK count: 402
+Received data packet 547578 548945
+Sending ACK packet 548945
+Received packet
+Receive ACK 0
+Duplicate ACK count: 403
+Received data packet 548945 550312
+Sending ACK packet 550312
+Received packet
+Receive ACK 0
+Duplicate ACK count: 404
+Received data packet 550312 551679
+Sending ACK packet 551679
+Received packet
+Receive ACK 0
+Duplicate ACK count: 405
+Received data packet 551679 553046
+Sending ACK packet 553046
+Received packet
+Receive ACK 0
+Duplicate ACK count: 406
+Received data packet 553046 554413
+Sending ACK packet 554413
+Received packet
+Receive ACK 0
+Duplicate ACK count: 407
+Received data packet 554413 555780
+Sending ACK packet 555780
+Received packet
+Receive ACK 0
+Duplicate ACK count: 408
+Received data packet 555780 557147
+Sending ACK packet 557147
+Received packet
+Receive ACK 0
+Duplicate ACK count: 409
+Received data packet 557147 558514
+Sending ACK packet 558514
+Received packet
+Receive ACK 0
+Duplicate ACK count: 410
+Received data packet 558514 559881
+Sending ACK packet 559881
+Received packet
+Receive ACK 0
+Duplicate ACK count: 411
+Received data packet 559881 561248
+Sending ACK packet 561248
+Received packet
+Receive ACK 0
+Duplicate ACK count: 412
+Received data packet 561248 562615
+Sending ACK packet 562615
+Received packet
+Receive ACK 0
+Duplicate ACK count: 413
+Received data packet 562615 563982
+Sending ACK packet 563982
+Received packet
+Receive ACK 0
+Duplicate ACK count: 414
+Received data packet 563982 565349
+Sending ACK packet 565349
+Received packet
+Receive ACK 0
+Duplicate ACK count: 415
+Received data packet 565349 566716
+Sending ACK packet 566716
+Received packet
+Receive ACK 0
+Duplicate ACK count: 416
+Received data packet 566716 568083
+Sending ACK packet 568083
+Received packet
+Receive ACK 0
+Duplicate ACK count: 417
+Received data packet 568083 569450
+Sending ACK packet 569450
+Received packet
+Receive ACK 0
+Duplicate ACK count: 418
+Received data packet 569450 570817
+Sending ACK packet 570817
+Received packet
+Receive ACK 0
+Duplicate ACK count: 419
+Received data packet 570817 572184
+Sending ACK packet 572184
+Received packet
+Receive ACK 0
+Duplicate ACK count: 420
+Received data packet 572184 573551
+Sending ACK packet 573551
+Received packet
+Receive ACK 0
+Duplicate ACK count: 421
+Received data packet 573551 574918
+Sending ACK packet 574918
+Received packet
+Receive ACK 0
+Duplicate ACK count: 422
+Received data packet 574918 576285
+Sending ACK packet 576285
+Received packet
+Receive ACK 0
+Duplicate ACK count: 423
+Received data packet 576285 577652
+Sending ACK packet 577652
+Received packet
+Receive ACK 0
+Duplicate ACK count: 424
+Received data packet 577652 579019
+Sending ACK packet 579019
+Received packet
+Receive ACK 0
+Duplicate ACK count: 425
+Received data packet 579019 580386
+Sending ACK packet 580386
+Received packet
+Receive ACK 0
+Duplicate ACK count: 426
+Received data packet 580386 581753
+Sending ACK packet 581753
+Received packet
+Receive ACK 0
+Duplicate ACK count: 427
+Received data packet 581753 583120
+Sending ACK packet 583120
+Received packet
+Receive ACK 0
+Duplicate ACK count: 428
+Received data packet 583120 584487
+Sending ACK packet 584487
+Received packet
+Receive ACK 0
+Duplicate ACK count: 429
+Received data packet 584487 585854
+Sending ACK packet 585854
+Received packet
+Receive ACK 0
+Duplicate ACK count: 430
+Received data packet 585854 587221
+Sending ACK packet 587221
+Received packet
+Receive ACK 0
+Duplicate ACK count: 431
+Received data packet 587221 588588
+Sending ACK packet 588588
+Received packet
+Receive ACK 0
+Duplicate ACK count: 432
+Received data packet 588588 589955
+Sending ACK packet 589955
+Received packet
+Receive ACK 0
+Duplicate ACK count: 433
+Received data packet 589955 591322
+Sending ACK packet 591322
+Received packet
+Receive ACK 0
+Duplicate ACK count: 434
+Received data packet 591322 592689
+Sending ACK packet 592689
+Received packet
+Receive ACK 0
+Duplicate ACK count: 435
+Received data packet 592689 594056
+Sending ACK packet 594056
+Received packet
+Receive ACK 0
+Duplicate ACK count: 436
+Received data packet 594056 595423
+Sending ACK packet 595423
+Received packet
+Receive ACK 0
+Duplicate ACK count: 437
+Received data packet 595423 596790
+Sending ACK packet 596790
+Received packet
+Receive ACK 0
+Duplicate ACK count: 438
+Received data packet 596790 598157
+Sending ACK packet 598157
+Received packet
+Receive ACK 0
+Duplicate ACK count: 439
+Received data packet 598157 599524
+Sending ACK packet 599524
+Received packet
+Receive ACK 0
+Duplicate ACK count: 440
+Received data packet 599524 600891
+Sending ACK packet 600891
+Received packet
+Receive ACK 0
+Duplicate ACK count: 441
+Received data packet 600891 602258
+Sending ACK packet 602258
+Received packet
+Receive ACK 0
+Duplicate ACK count: 442
+Received data packet 602258 603625
+Sending ACK packet 603625
+Received packet
+Receive ACK 0
+Duplicate ACK count: 443
+Received data packet 603625 604992
+Sending ACK packet 604992
+Received packet
+Receive ACK 0
+Duplicate ACK count: 444
+Received data packet 604992 606359
+Sending ACK packet 606359
+Received packet
+Receive ACK 0
+Duplicate ACK count: 445
+Received data packet 606359 607726
+Sending ACK packet 607726
+Received packet
+Receive ACK 0
+Duplicate ACK count: 446
+Received data packet 607726 609093
+Sending ACK packet 609093
+Received packet
+Receive ACK 0
+Duplicate ACK count: 447
+Received data packet 609093 610460
+Sending ACK packet 610460
+Received packet
+Receive ACK 0
+Duplicate ACK count: 448
+Received data packet 610460 611827
+Sending ACK packet 611827
+Received packet
+Receive ACK 0
+Duplicate ACK count: 449
+Received data packet 611827 613194
+Sending ACK packet 613194
+Received packet
+Receive ACK 0
+Duplicate ACK count: 450
+Received data packet 613194 614561
+Sending ACK packet 614561
+Received packet
+Receive ACK 0
+Duplicate ACK count: 451
+Received data packet 614561 615928
+Sending ACK packet 615928
+Received packet
+Receive ACK 0
+Duplicate ACK count: 452
+Received data packet 615928 617295
+Sending ACK packet 617295
+Received packet
+Receive ACK 0
+Duplicate ACK count: 453
+Received data packet 617295 618662
+Sending ACK packet 618662
+Received packet
+Receive ACK 0
+Duplicate ACK count: 454
+Received data packet 618662 620029
+Sending ACK packet 620029
+Received packet
+Receive ACK 0
+Duplicate ACK count: 455
+Received data packet 620029 621396
+Sending ACK packet 621396
+Received packet
+Receive ACK 0
+Duplicate ACK count: 456
+Received data packet 621396 622763
+Sending ACK packet 622763
+Received packet
+Receive ACK 0
+Duplicate ACK count: 457
+Received data packet 622763 624130
+Sending ACK packet 624130
+Received packet
+Receive ACK 0
+Duplicate ACK count: 458
+Received data packet 624130 625497
+Sending ACK packet 625497
+Received packet
+Receive ACK 0
+Duplicate ACK count: 459
+Received data packet 625497 626864
+Sending ACK packet 626864
+Received packet
+Receive ACK 0
+Duplicate ACK count: 460
+Received data packet 626864 628231
+Sending ACK packet 628231
+Received packet
+Receive ACK 0
+Duplicate ACK count: 461
+Received data packet 628231 629598
+Sending ACK packet 629598
+Received packet
+Receive ACK 0
+Duplicate ACK count: 462
+Received data packet 629598 630965
+Sending ACK packet 630965
+Received packet
+Receive ACK 0
+Duplicate ACK count: 463
+Received data packet 630965 632332
+Sending ACK packet 632332
+Received packet
+Receive ACK 0
+Duplicate ACK count: 464
+Received data packet 632332 633699
+Sending ACK packet 633699
+Received packet
+Receive ACK 0
+Duplicate ACK count: 465
+Received data packet 633699 635066
+Sending ACK packet 635066
+Received packet
+Receive ACK 0
+Duplicate ACK count: 466
+Received data packet 635066 636433
+Sending ACK packet 636433
+Received packet
+Receive ACK 0
+Duplicate ACK count: 467
+Received data packet 636433 637800
+Sending ACK packet 637800
+Received packet
+Receive ACK 0
+Duplicate ACK count: 468
+Received data packet 637800 639167
+Sending ACK packet 639167
+Received packet
+Receive ACK 0
+Duplicate ACK count: 469
+Received data packet 639167 640534
+Sending ACK packet 640534
+Received packet
+Receive ACK 0
+Duplicate ACK count: 470
+Received data packet 640534 641901
+Sending ACK packet 641901
+Received packet
+Receive ACK 0
+Duplicate ACK count: 471
+Received data packet 641901 643268
+Sending ACK packet 643268
+Received packet
+Receive ACK 0
+Duplicate ACK count: 472
+Received data packet 643268 644635
+Sending ACK packet 644635
+Received packet
+Receive ACK 0
+Duplicate ACK count: 473
+Received data packet 644635 646002
+Sending ACK packet 646002
+Received packet
+Receive ACK 0
+Duplicate ACK count: 474
+Received data packet 646002 647369
+Sending ACK packet 647369
+Received packet
+Receive ACK 0
+Duplicate ACK count: 475
+Received data packet 647369 648736
+Sending ACK packet 648736
+Received packet
+Receive ACK 0
+Duplicate ACK count: 476
+Received data packet 648736 650103
+Sending ACK packet 650103
+Received packet
+Receive ACK 0
+Duplicate ACK count: 477
+Received data packet 650103 651470
+Sending ACK packet 651470
+Received packet
+Receive ACK 0
+Duplicate ACK count: 478
+Received data packet 651470 652837
+Sending ACK packet 652837
+Received packet
+Receive ACK 0
+Duplicate ACK count: 479
+Received data packet 652837 654204
+Sending ACK packet 654204
+Received packet
+Receive ACK 0
+Duplicate ACK count: 480
+Received data packet 654204 655571
+Sending ACK packet 655571
+Received packet
+Receive ACK 0
+Duplicate ACK count: 481
+Received data packet 655571 656938
+Sending ACK packet 656938
+Received packet
+Receive ACK 0
+Duplicate ACK count: 482
+Received data packet 656938 658305
+Sending ACK packet 658305
+Received packet
+Receive ACK 0
+Duplicate ACK count: 483
+Received data packet 658305 659672
+Sending ACK packet 659672
+Received packet
+Receive ACK 0
+Duplicate ACK count: 484
+Received data packet 659672 661039
+Sending ACK packet 661039
+Received packet
+Receive ACK 0
+Duplicate ACK count: 485
+Received data packet 661039 662406
+Sending ACK packet 662406
+Received packet
+Receive ACK 0
+Duplicate ACK count: 486
+Received data packet 662406 663773
+Sending ACK packet 663773
+Received packet
+Receive ACK 0
+Duplicate ACK count: 487
+Received data packet 663773 665140
+Sending ACK packet 665140
+Received packet
+Receive ACK 0
+Duplicate ACK count: 488
+Received data packet 665140 666507
+Sending ACK packet 666507
+Received packet
+Receive ACK 0
+Duplicate ACK count: 489
+Received data packet 666507 667874
+Sending ACK packet 667874
+Received packet
+Receive ACK 0
+Duplicate ACK count: 490
+Received data packet 667874 669241
+Sending ACK packet 669241
+Received packet
+Receive ACK 0
+Duplicate ACK count: 491
+Received data packet 669241 670608
+Sending ACK packet 670608
+Received packet
+Receive ACK 0
+Duplicate ACK count: 492
+Received data packet 670608 671975
+Sending ACK packet 671975
+Received packet
+Receive ACK 0
+Duplicate ACK count: 493
+Received data packet 671975 673342
+Sending ACK packet 673342
+Received packet
+Receive ACK 0
+Duplicate ACK count: 494
+Received data packet 673342 674709
+Sending ACK packet 674709
+Received packet
+Receive ACK 0
+Duplicate ACK count: 495
+Received data packet 674709 676076
+Sending ACK packet 676076
+Received packet
+Receive ACK 0
+Duplicate ACK count: 496
+Received data packet 676076 677443
+Sending ACK packet 677443
+Received packet
+Receive ACK 0
+Duplicate ACK count: 497
+Received data packet 677443 678810
+Sending ACK packet 678810
+Received packet
+Receive ACK 0
+Duplicate ACK count: 498
+Received data packet 678810 680177
+Sending ACK packet 680177
+Received packet
+Receive ACK 0
+Duplicate ACK count: 499
+Received data packet 680177 681544
+Sending ACK packet 681544
+Received packet
+Receive ACK 0
+Duplicate ACK count: 500
+Received data packet 681544 682911
+Sending ACK packet 682911
+Received packet
+Receive ACK 0
+Duplicate ACK count: 501
+Received data packet 682911 684278
+Sending ACK packet 684278
+Received packet
+Receive ACK 0
+Duplicate ACK count: 502
+Received data packet 684278 685645
+Sending ACK packet 685645
+Received packet
+Receive ACK 0
+Duplicate ACK count: 503
+Received data packet 685645 687012
+Sending ACK packet 687012
+Received packet
+Receive ACK 0
+Duplicate ACK count: 504
+Received data packet 687012 688379
+Sending ACK packet 688379
+Received packet
+Receive ACK 0
+Duplicate ACK count: 505
+Received data packet 688379 689746
+Sending ACK packet 689746
+Received packet
+Receive ACK 0
+Duplicate ACK count: 506
+Received data packet 689746 691113
+Sending ACK packet 691113
+Received packet
+Receive ACK 0
+Duplicate ACK count: 507
+Received data packet 691113 692480
+Sending ACK packet 692480
+Received packet
+Receive ACK 0
+Duplicate ACK count: 508
+Received data packet 692480 693847
+Sending ACK packet 693847
+Received packet
+Receive ACK 0
+Duplicate ACK count: 509
+Received data packet 693847 695214
+Sending ACK packet 695214
+Received packet
+Receive ACK 0
+Duplicate ACK count: 510
+Received data packet 695214 696581
+Sending ACK packet 696581
+Received packet
+Receive ACK 0
+Duplicate ACK count: 511
+Received data packet 696581 697948
+Sending ACK packet 697948
+Received packet
+Receive ACK 0
+Duplicate ACK count: 512
+Received data packet 697948 699315
+Sending ACK packet 699315
+Received packet
+Receive ACK 0
+Duplicate ACK count: 513
+Received data packet 699315 700682
+Sending ACK packet 700682
+Received packet
+Receive ACK 0
+Duplicate ACK count: 514
+Received data packet 700682 702049
+Sending ACK packet 702049
+Received packet
+Receive ACK 0
+Duplicate ACK count: 515
+Received data packet 702049 703416
+Sending ACK packet 703416
+Received packet
+Receive ACK 0
+Duplicate ACK count: 516
+Received data packet 703416 704783
+Sending ACK packet 704783
+Received packet
+Receive ACK 0
+Duplicate ACK count: 517
+Received data packet 704783 706150
+Sending ACK packet 706150
+Received packet
+Receive ACK 0
+Duplicate ACK count: 518
+Received data packet 706150 707517
+Sending ACK packet 707517
+Received packet
+Receive ACK 0
+Duplicate ACK count: 519
+Received data packet 707517 708884
+Sending ACK packet 708884
+Received packet
+Receive ACK 0
+Duplicate ACK count: 520
+Received data packet 708884 710251
+Sending ACK packet 710251
+Received packet
+Receive ACK 0
+Duplicate ACK count: 521
+Received data packet 710251 711618
+Sending ACK packet 711618
+Received packet
+Receive ACK 0
+Duplicate ACK count: 522
+Received data packet 711618 712985
+Sending ACK packet 712985
+Received packet
+Receive ACK 0
+Duplicate ACK count: 523
+Received data packet 712985 714352
+Sending ACK packet 714352
+Received packet
+Receive ACK 0
+Duplicate ACK count: 524
+Received data packet 714352 715719
+Sending ACK packet 715719
+Received packet
+Receive ACK 0
+Duplicate ACK count: 525
+Received data packet 715719 717086
+Sending ACK packet 717086
+Received packet
+Receive ACK 0
+Duplicate ACK count: 526
+Received data packet 717086 718453
+Sending ACK packet 718453
+Received packet
+Receive ACK 0
+Duplicate ACK count: 527
+Received data packet 718453 719820
+Sending ACK packet 719820
+Received packet
+Receive ACK 0
+Duplicate ACK count: 528
+Received data packet 719820 721187
+Sending ACK packet 721187
+Received packet
+Receive ACK 0
+Duplicate ACK count: 529
+Received data packet 721187 722554
+Sending ACK packet 722554
+Received packet
+Receive ACK 0
+Duplicate ACK count: 530
+Received data packet 722554 723921
+Sending ACK packet 723921
+Received packet
+Receive ACK 0
+Duplicate ACK count: 531
+Received data packet 723921 725288
+Sending ACK packet 725288
+Received packet
+Receive ACK 0
+Duplicate ACK count: 532
+Received data packet 725288 726655
+Sending ACK packet 726655
+Received packet
+Receive ACK 0
+Duplicate ACK count: 533
+Received data packet 726655 728022
+Sending ACK packet 728022
+Received packet
+Receive ACK 0
+Duplicate ACK count: 534
+Received data packet 728022 729389
+Sending ACK packet 729389
+Received packet
+Receive ACK 0
+Duplicate ACK count: 535
+Received data packet 729389 730756
+Sending ACK packet 730756
+Received packet
+Receive ACK 0
+Duplicate ACK count: 536
+Received data packet 730756 732123
+Sending ACK packet 732123
+Received packet
+Receive ACK 0
+Duplicate ACK count: 537
+Received data packet 732123 733490
+Sending ACK packet 733490
+Received packet
+Receive ACK 0
+Duplicate ACK count: 538
+Received data packet 733490 734857
+Sending ACK packet 734857
+Received packet
+Receive ACK 0
+Duplicate ACK count: 539
+Received data packet 734857 736224
+Sending ACK packet 736224
+Received packet
+Receive ACK 0
+Duplicate ACK count: 540
+Received data packet 736224 737591
+Sending ACK packet 737591
+Received packet
+Receive ACK 0
+Duplicate ACK count: 541
+Received data packet 737591 738958
+Sending ACK packet 738958
+Received packet
+Receive ACK 0
+Duplicate ACK count: 542
+Received data packet 738958 740325
+Sending ACK packet 740325
+Received packet
+Receive ACK 0
+Duplicate ACK count: 543
+Received data packet 740325 741692
+Sending ACK packet 741692
+Received packet
+Receive ACK 0
+Duplicate ACK count: 544
+Received data packet 741692 743059
+Sending ACK packet 743059
+Received packet
+Receive ACK 0
+Duplicate ACK count: 545
+Received data packet 743059 744426
+Sending ACK packet 744426
+Received packet
+Receive ACK 0
+Duplicate ACK count: 546
+Received data packet 744426 745793
+Sending ACK packet 745793
+Received packet
+Receive ACK 0
+Duplicate ACK count: 547
+Received data packet 745793 747160
+Sending ACK packet 747160
+Received packet
+Receive ACK 0
+Duplicate ACK count: 548
+Received data packet 747160 748527
+Sending ACK packet 748527
+Received packet
+Receive ACK 0
+Duplicate ACK count: 549
+Received data packet 748527 749894
+Sending ACK packet 749894
+Received packet
+Receive ACK 0
+Duplicate ACK count: 550
+Received data packet 749894 751261
+Sending ACK packet 751261
+Received packet
+Receive ACK 0
+Duplicate ACK count: 551
+Received data packet 751261 752628
+Sending ACK packet 752628
+Received packet
+Receive ACK 0
+Duplicate ACK count: 552
+Received data packet 752628 753995
+Sending ACK packet 753995
+Received packet
+Receive ACK 0
+Duplicate ACK count: 553
+Received data packet 753995 755362
+Sending ACK packet 755362
+Received packet
+Receive ACK 0
+Duplicate ACK count: 554
+Received data packet 755362 756729
+Sending ACK packet 756729
+Received packet
+Receive ACK 0
+Duplicate ACK count: 555
+Received data packet 756729 758096
+Sending ACK packet 758096
+Received packet
+Receive ACK 0
+Duplicate ACK count: 556
+Received data packet 758096 759463
+Sending ACK packet 759463
+Received packet
+Receive ACK 0
+Duplicate ACK count: 557
+Received data packet 759463 760830
+Sending ACK packet 760830
+Received packet
+Receive ACK 0
+Duplicate ACK count: 558
+Received data packet 760830 762197
+Sending ACK packet 762197
+Received packet
+Receive ACK 0
+Duplicate ACK count: 559
+Received data packet 762197 763564
+Sending ACK packet 763564
+Received packet
+Receive ACK 0
+Duplicate ACK count: 560
+Received data packet 763564 764931
+Sending ACK packet 764931
+Received packet
+Receive ACK 0
+Duplicate ACK count: 561
+Received data packet 764931 766298
+Sending ACK packet 766298
+Received packet
+Receive ACK 0
+Duplicate ACK count: 562
+Received data packet 766298 767665
+Sending ACK packet 767665
+Received packet
+Receive ACK 0
+Duplicate ACK count: 563
+Received data packet 767665 769032
+Sending ACK packet 769032
+Received packet
+Receive ACK 0
+Duplicate ACK count: 564
+Received data packet 769032 770399
+Sending ACK packet 770399
+Received packet
+Receive ACK 0
+Duplicate ACK count: 565
+Received data packet 770399 771766
+Sending ACK packet 771766
+Received packet
+Receive ACK 0
+Duplicate ACK count: 566
+Received data packet 771766 773133
+Sending ACK packet 773133
+Received packet
+Receive ACK 0
+Duplicate ACK count: 567
+Received data packet 773133 774500
+Sending ACK packet 774500
+Received packet
+Receive ACK 0
+Duplicate ACK count: 568
+Received data packet 774500 775867
+Sending ACK packet 775867
+Received packet
+Receive ACK 0
+Duplicate ACK count: 569
+Received data packet 775867 777234
+Sending ACK packet 777234
+Received packet
+Receive ACK 0
+Duplicate ACK count: 570
+Received data packet 777234 778601
+Sending ACK packet 778601
+Received packet
+Receive ACK 0
+Duplicate ACK count: 571
+Received data packet 778601 779968
+Sending ACK packet 779968
+Received packet
+Receive ACK 0
+Duplicate ACK count: 572
+Received data packet 779968 781335
+Sending ACK packet 781335
+Received packet
+Receive ACK 0
+Duplicate ACK count: 573
+Received data packet 781335 782702
+Sending ACK packet 782702
+Received packet
+Receive ACK 0
+Duplicate ACK count: 574
+Received data packet 782702 784069
+Sending ACK packet 784069
+Received packet
+Receive ACK 0
+Duplicate ACK count: 575
+Received data packet 784069 785436
+Sending ACK packet 785436
+Received packet
+Receive ACK 0
+Duplicate ACK count: 576
+Received data packet 785436 786803
+Sending ACK packet 786803
+Received packet
+Receive ACK 0
+Duplicate ACK count: 577
+Received data packet 786803 788170
+Sending ACK packet 788170
+Received packet
+Receive ACK 0
+Duplicate ACK count: 578
+Received data packet 788170 789537
+Sending ACK packet 789537
+Received packet
+Receive ACK 0
+Duplicate ACK count: 579
+Received data packet 789537 790904
+Sending ACK packet 790904
+Received packet
+Receive ACK 0
+Duplicate ACK count: 580
+Received data packet 790904 792271
+Sending ACK packet 792271
+Received packet
+Receive ACK 0
+Duplicate ACK count: 581
+Received data packet 792271 793638
+Sending ACK packet 793638
+Received packet
+Receive ACK 0
+Duplicate ACK count: 582
+Received data packet 793638 795005
+Sending ACK packet 795005
+Received packet
+Receive ACK 0
+Duplicate ACK count: 583
+Received data packet 795005 796372
+Sending ACK packet 796372
+Received packet
+Receive ACK 0
+Duplicate ACK count: 584
+Received data packet 796372 797739
+Sending ACK packet 797739
+Received packet
+Receive ACK 0
+Duplicate ACK count: 585
+Received data packet 797739 799106
+Sending ACK packet 799106
+Received packet
+Receive ACK 0
+Duplicate ACK count: 586
+Received data packet 799106 800473
+Sending ACK packet 800473
+Received packet
+Receive ACK 0
+Duplicate ACK count: 587
+Received data packet 800473 801840
+Sending ACK packet 801840
+Received packet
+Receive ACK 0
+Duplicate ACK count: 588
+Received data packet 801840 803207
+Sending ACK packet 803207
+Received packet
+Receive ACK 0
+Duplicate ACK count: 589
+Received data packet 803207 804574
+Sending ACK packet 804574
+Received packet
+Receive ACK 0
+Duplicate ACK count: 590
+Received data packet 804574 805941
+Sending ACK packet 805941
+Received packet
+Receive ACK 0
+Duplicate ACK count: 591
+Received data packet 805941 807308
+Sending ACK packet 807308
+Received packet
+Receive ACK 0
+Duplicate ACK count: 592
+Received data packet 807308 808675
+Sending ACK packet 808675
+Received packet
+Receive ACK 0
+Duplicate ACK count: 593
+Received data packet 808675 810042
+Sending ACK packet 810042
+Received packet
+Receive ACK 0
+Duplicate ACK count: 594
+Received data packet 810042 811409
+Sending ACK packet 811409
+Received packet
+Receive ACK 0
+Duplicate ACK count: 595
+Received data packet 811409 812776
+Sending ACK packet 812776
+Received packet
+Receive ACK 0
+Duplicate ACK count: 596
+Received data packet 812776 814143
+Sending ACK packet 814143
+Received packet
+Receive ACK 0
+Duplicate ACK count: 597
+Received data packet 814143 815510
+Sending ACK packet 815510
+Received packet
+Receive ACK 0
+Duplicate ACK count: 598
+Received data packet 815510 816877
+Sending ACK packet 816877
+Received packet
+Receive ACK 0
+Duplicate ACK count: 599
+Received data packet 816877 818244
+Sending ACK packet 818244
+Received packet
+Receive ACK 0
+Duplicate ACK count: 600
+Received data packet 818244 819611
+Sending ACK packet 819611
+Received packet
+Receive ACK 0
+Duplicate ACK count: 601
+Received data packet 819611 820978
+Sending ACK packet 820978
+Received packet
+Receive ACK 0
+Duplicate ACK count: 602
+Received data packet 820978 822345
+Sending ACK packet 822345
+Received packet
+Receive ACK 0
+Duplicate ACK count: 603
+Received data packet 822345 823712
+Sending ACK packet 823712
+Received packet
+Receive ACK 0
+Duplicate ACK count: 604
+Received data packet 823712 825079
+Sending ACK packet 825079
+Received packet
+Receive ACK 0
+Duplicate ACK count: 605
+Received data packet 825079 826446
+Sending ACK packet 826446
+Received packet
+Receive ACK 0
+Duplicate ACK count: 606
+Received data packet 826446 827813
+Sending ACK packet 827813
+Received packet
+Receive ACK 0
+Duplicate ACK count: 607
+Received data packet 827813 829180
+Sending ACK packet 829180
+Received packet
+Receive ACK 0
+Duplicate ACK count: 608
+Received data packet 829180 830547
+Sending ACK packet 830547
+Received packet
+Receive ACK 0
+Duplicate ACK count: 609
+Received data packet 830547 831914
+Sending ACK packet 831914
+Received packet
+Receive ACK 0
+Duplicate ACK count: 610
+Received data packet 831914 833281
+Sending ACK packet 833281
+Received packet
+Receive ACK 0
+Duplicate ACK count: 611
+Received data packet 833281 834648
+Sending ACK packet 834648
+Received packet
+Receive ACK 0
+Duplicate ACK count: 612
+Received data packet 834648 836015
+Sending ACK packet 836015
+Received packet
+Receive ACK 0
+Duplicate ACK count: 613
+Received data packet 836015 837382
+Sending ACK packet 837382
+Received packet
+Receive ACK 0
+Duplicate ACK count: 614
+Received data packet 837382 838749
+Sending ACK packet 838749
+Received packet
+Receive ACK 0
+Duplicate ACK count: 615
+Received data packet 838749 840116
+Sending ACK packet 840116
+Received packet
+Receive ACK 0
+Duplicate ACK count: 616
+Received data packet 840116 841483
+Sending ACK packet 841483
+Received packet
+Receive ACK 0
+Duplicate ACK count: 617
+Received data packet 841483 842850
+Sending ACK packet 842850
+Received packet
+Receive ACK 0
+Duplicate ACK count: 618
+Received data packet 842850 844217
+Sending ACK packet 844217
+Received packet
+Receive ACK 0
+Duplicate ACK count: 619
+Received data packet 844217 845584
+Sending ACK packet 845584
+Received packet
+Receive ACK 0
+Duplicate ACK count: 620
+Received data packet 845584 846951
+Sending ACK packet 846951
+Received packet
+Receive ACK 0
+Duplicate ACK count: 621
+Received data packet 846951 848318
+Sending ACK packet 848318
+Received packet
+Receive ACK 0
+Duplicate ACK count: 622
+Received data packet 848318 849685
+Sending ACK packet 849685
+Received packet
+Receive ACK 0
+Duplicate ACK count: 623
+Received data packet 849685 851052
+Sending ACK packet 851052
+Received packet
+Receive ACK 0
+Duplicate ACK count: 624
+Received data packet 851052 852419
+Sending ACK packet 852419
+Received packet
+Receive ACK 0
+Duplicate ACK count: 625
+Received data packet 852419 853786
+Sending ACK packet 853786
+Received packet
+Receive ACK 0
+Duplicate ACK count: 626
+Received data packet 853786 855153
+Sending ACK packet 855153
+Received packet
+Receive ACK 0
+Duplicate ACK count: 627
+Received data packet 855153 856520
+Sending ACK packet 856520
+Received packet
+Receive ACK 0
+Duplicate ACK count: 628
+Received data packet 856520 857887
+Sending ACK packet 857887
+Received packet
+Receive ACK 0
+Duplicate ACK count: 629
+Received data packet 857887 859254
+Sending ACK packet 859254
+Received packet
+Receive ACK 0
+Duplicate ACK count: 630
+Received data packet 859254 860621
+Sending ACK packet 860621
+Received packet
+Receive ACK 0
+Duplicate ACK count: 631
+Received data packet 860621 861988
+Sending ACK packet 861988
+Received packet
+Receive ACK 0
+Duplicate ACK count: 632
+Received data packet 861988 863355
+Sending ACK packet 863355
+Received packet
+Receive ACK 0
+Duplicate ACK count: 633
+Received data packet 863355 864722
+Sending ACK packet 864722
+Received packet
+Receive ACK 0
+Duplicate ACK count: 634
+Received data packet 864722 866089
+Sending ACK packet 866089
+Received packet
+Receive ACK 0
+Duplicate ACK count: 635
+Received data packet 866089 867456
+Sending ACK packet 867456
+Received packet
+Receive ACK 0
+Duplicate ACK count: 636
+Received data packet 867456 868823
+Sending ACK packet 868823
+Received packet
+Receive ACK 0
+Duplicate ACK count: 637
+Received data packet 868823 870190
+Sending ACK packet 870190
+Received packet
+Receive ACK 0
+Duplicate ACK count: 638
+Received data packet 870190 871557
+Sending ACK packet 871557
+Received packet
+Receive ACK 0
+Duplicate ACK count: 639
+Received data packet 871557 872924
+Sending ACK packet 872924
+Received packet
+Receive ACK 0
+Duplicate ACK count: 640
+Received data packet 872924 874291
+Sending ACK packet 874291
+Received packet
+Receive ACK 0
+Duplicate ACK count: 641
+Received data packet 874291 875658
+Sending ACK packet 875658
+Received packet
+Receive ACK 0
+Duplicate ACK count: 642
+Received data packet 875658 877025
+Sending ACK packet 877025
+Received packet
+Receive ACK 0
+Duplicate ACK count: 643
+Received data packet 877025 878392
+Sending ACK packet 878392
+Received packet
+Receive ACK 0
+Duplicate ACK count: 644
+Received data packet 878392 879759
+Sending ACK packet 879759
+Received packet
+Receive ACK 0
+Duplicate ACK count: 645
+Received data packet 879759 881126
+Sending ACK packet 881126
+Received packet
+Receive ACK 0
+Duplicate ACK count: 646
+Received data packet 881126 882493
+Sending ACK packet 882493
+Received packet
+Receive ACK 0
+Duplicate ACK count: 647
+Received data packet 882493 883860
+Sending ACK packet 883860
+Received packet
+Receive ACK 0
+Duplicate ACK count: 648
+Received data packet 883860 885227
+Sending ACK packet 885227
+Received packet
+Receive ACK 0
+Duplicate ACK count: 649
+Received data packet 885227 886594
+Sending ACK packet 886594
+Received packet
+Receive ACK 0
+Duplicate ACK count: 650
+Received data packet 886594 887961
+Sending ACK packet 887961
+Received packet
+Receive ACK 0
+Duplicate ACK count: 651
+Received data packet 887961 889328
+Sending ACK packet 889328
+Received packet
+Receive ACK 0
+Duplicate ACK count: 652
+Received data packet 889328 890695
+Sending ACK packet 890695
+Received packet
+Receive ACK 0
+Duplicate ACK count: 653
+Received data packet 890695 892062
+Sending ACK packet 892062
+Received packet
+Receive ACK 0
+Duplicate ACK count: 654
+Received data packet 892062 893429
+Sending ACK packet 893429
+Received packet
+Receive ACK 0
+Duplicate ACK count: 655
+Received data packet 893429 894796
+Sending ACK packet 894796
+Received packet
+Receive ACK 0
+Duplicate ACK count: 656
+Received data packet 894796 896163
+Sending ACK packet 896163
+Received packet
+Receive ACK 0
+Duplicate ACK count: 657
+Received data packet 896163 897530
+Sending ACK packet 897530
+Received packet
+Receive ACK 0
+Duplicate ACK count: 658
+Received data packet 897530 898897
+Sending ACK packet 898897
+Received packet
+Receive ACK 0
+Duplicate ACK count: 659
+Received data packet 898897 900264
+Sending ACK packet 900264
+Received packet
+Receive ACK 0
+Duplicate ACK count: 660
+Received data packet 900264 901631
+Sending ACK packet 901631
+Received packet
+Receive ACK 0
+Duplicate ACK count: 661
+Received data packet 901631 902998
+Sending ACK packet 902998
+Received packet
+Receive ACK 0
+Duplicate ACK count: 662
+Received data packet 902998 904365
+Sending ACK packet 904365
+Received packet
+Receive ACK 0
+Duplicate ACK count: 663
+Received data packet 904365 905732
+Sending ACK packet 905732
+Received packet
+Receive ACK 0
+Duplicate ACK count: 664
+Received data packet 905732 907099
+Sending ACK packet 907099
+Received packet
+Receive ACK 0
+Duplicate ACK count: 665
+Received data packet 907099 908466
+Sending ACK packet 908466
+Received packet
+Receive ACK 0
+Duplicate ACK count: 666
+Received data packet 908466 909833
+Sending ACK packet 909833
+Received packet
+Receive ACK 0
+Duplicate ACK count: 667
+Received data packet 909833 911200
+Sending ACK packet 911200
+Received packet
+Receive ACK 0
+Duplicate ACK count: 668
+Received data packet 911200 912567
+Sending ACK packet 912567
+Received packet
+Receive ACK 0
+Duplicate ACK count: 669
+Received data packet 912567 913934
+Sending ACK packet 913934
+Received packet
+Receive ACK 0
+Duplicate ACK count: 670
+Received data packet 913934 915301
+Sending ACK packet 915301
+Received packet
+Receive ACK 0
+Duplicate ACK count: 671
+Received data packet 915301 916668
+Sending ACK packet 916668
+Received packet
+Receive ACK 0
+Duplicate ACK count: 672
+Received data packet 916668 918035
+Sending ACK packet 918035
+Received packet
+Receive ACK 0
+Duplicate ACK count: 673
+Received data packet 918035 919402
+Sending ACK packet 919402
+Received packet
+Receive ACK 0
+Duplicate ACK count: 674
+Received data packet 919402 920769
+Sending ACK packet 920769
+Received packet
+Receive ACK 0
+Duplicate ACK count: 675
+Received data packet 920769 922136
+Sending ACK packet 922136
+Received packet
+Receive ACK 0
+Duplicate ACK count: 676
+Received data packet 922136 923503
+Sending ACK packet 923503
+Received packet
+Receive ACK 0
+Duplicate ACK count: 677
+Received data packet 923503 924870
+Sending ACK packet 924870
+Received packet
+Receive ACK 0
+Duplicate ACK count: 678
+Received data packet 924870 926237
+Sending ACK packet 926237
+Received packet
+Receive ACK 0
+Duplicate ACK count: 679
+Received data packet 926237 927604
+Sending ACK packet 927604
+Received packet
+Receive ACK 0
+Duplicate ACK count: 680
+Received data packet 927604 928971
+Sending ACK packet 928971
+Received packet
+Receive ACK 0
+Duplicate ACK count: 681
+Received data packet 928971 930338
+Sending ACK packet 930338
+Received packet
+Receive ACK 0
+Duplicate ACK count: 682
+Received data packet 930338 931705
+Sending ACK packet 931705
+Received packet
+Receive ACK 0
+Duplicate ACK count: 683
+Received data packet 931705 933072
+Sending ACK packet 933072
+Received packet
+Receive ACK 0
+Duplicate ACK count: 684
+Received data packet 933072 934439
+Sending ACK packet 934439
+Received packet
+Receive ACK 0
+Duplicate ACK count: 685
+Received data packet 934439 935806
+Sending ACK packet 935806
+Received packet
+Receive ACK 0
+Duplicate ACK count: 686
+Received data packet 935806 937173
+Sending ACK packet 937173
+Received packet
+Receive ACK 0
+Duplicate ACK count: 687
+Received data packet 937173 938540
+Sending ACK packet 938540
+Received packet
+Receive ACK 0
+Duplicate ACK count: 688
+Received data packet 938540 939907
+Sending ACK packet 939907
+Received packet
+Receive ACK 0
+Duplicate ACK count: 689
+Received data packet 939907 941274
+Sending ACK packet 941274
+Received packet
+Receive ACK 0
+Duplicate ACK count: 690
+Received data packet 941274 942641
+Sending ACK packet 942641
+Received packet
+Receive ACK 0
+Duplicate ACK count: 691
+Received data packet 942641 944008
+Sending ACK packet 944008
+Received packet
+Receive ACK 0
+Duplicate ACK count: 692
+Received data packet 944008 945375
+Sending ACK packet 945375
+Received packet
+Receive ACK 0
+Duplicate ACK count: 693
+Received data packet 945375 946742
+Sending ACK packet 946742
+Received packet
+Receive ACK 0
+Duplicate ACK count: 694
+Received data packet 946742 948109
+Sending ACK packet 948109
+Received packet
+Receive ACK 0
+Duplicate ACK count: 695
+Received data packet 948109 949476
+Sending ACK packet 949476
+Received packet
+Receive ACK 0
+Duplicate ACK count: 696
+Received data packet 949476 950843
+Sending ACK packet 950843
+Received packet
+Receive ACK 0
+Duplicate ACK count: 697
+Received data packet 950843 952210
+Sending ACK packet 952210
+Received packet
+Receive ACK 0
+Duplicate ACK count: 698
+Received data packet 952210 953577
+Sending ACK packet 953577
+Received packet
+Receive ACK 0
+Duplicate ACK count: 699
+Received data packet 953577 954944
+Sending ACK packet 954944
+Received packet
+Receive ACK 0
+Duplicate ACK count: 700
+Received data packet 954944 956311
+Sending ACK packet 956311
+Received packet
+Receive ACK 0
+Duplicate ACK count: 701
+Received data packet 956311 957678
+Sending ACK packet 957678
+Received packet
+Receive ACK 0
+Duplicate ACK count: 702
+Received data packet 957678 959045
+Sending ACK packet 959045
+Received packet
+Receive ACK 0
+Duplicate ACK count: 703
+Received data packet 959045 960412
+Sending ACK packet 960412
+Received packet
+Receive ACK 0
+Duplicate ACK count: 704
+Received data packet 960412 961779
+Sending ACK packet 961779
+Received packet
+Receive ACK 0
+Duplicate ACK count: 705
+Received data packet 961779 963146
+Sending ACK packet 963146
+Received packet
+Receive ACK 0
+Duplicate ACK count: 706
+Received data packet 963146 964513
+Sending ACK packet 964513
+Received packet
+Receive ACK 0
+Duplicate ACK count: 707
+Received data packet 964513 965880
+Sending ACK packet 965880
+Received packet
+Receive ACK 0
+Duplicate ACK count: 708
+Received data packet 965880 967247
+Sending ACK packet 967247
+Received packet
+Receive ACK 0
+Duplicate ACK count: 709
+Received data packet 967247 968614
+Sending ACK packet 968614
+Received packet
+Receive ACK 0
+Duplicate ACK count: 710
+Received data packet 968614 969981
+Sending ACK packet 969981
+Received packet
+Receive ACK 0
+Duplicate ACK count: 711
+Received data packet 969981 971348
+Sending ACK packet 971348
+Received packet
+Receive ACK 0
+Duplicate ACK count: 712
+Received data packet 971348 972715
+Sending ACK packet 972715
+Received packet
+Receive ACK 0
+Duplicate ACK count: 713
+Received data packet 972715 974082
+Sending ACK packet 974082
+Received packet
+Receive ACK 0
+Duplicate ACK count: 714
+Received data packet 974082 975449
+Sending ACK packet 975449
+Received packet
+Receive ACK 0
+Duplicate ACK count: 715
+Received data packet 975449 976816
+Sending ACK packet 976816
+Received packet
+Receive ACK 0
+Duplicate ACK count: 716
+Received data packet 976816 978183
+Sending ACK packet 978183
+Received packet
+Receive ACK 0
+Duplicate ACK count: 717
+Received data packet 978183 979550
+Sending ACK packet 979550
+Received packet
+Receive ACK 0
+Duplicate ACK count: 718
+Received data packet 979550 980917
+Sending ACK packet 980917
+Received packet
+Receive ACK 0
+Duplicate ACK count: 719
+Received data packet 980917 982284
+Sending ACK packet 982284
+Received packet
+Receive ACK 0
+Duplicate ACK count: 720
+Received data packet 982284 983651
+Sending ACK packet 983651
+Received packet
+Receive ACK 0
+Duplicate ACK count: 721
+Received data packet 983651 985018
+Sending ACK packet 985018
+Received packet
+Receive ACK 0
+Duplicate ACK count: 722
+Received data packet 985018 986385
+Sending ACK packet 986385
+Received packet
+Receive ACK 0
+Duplicate ACK count: 723
+Received data packet 986385 987752
+Sending ACK packet 987752
+Received packet
+Receive ACK 0
+Duplicate ACK count: 724
+Received data packet 987752 989119
+Sending ACK packet 989119
+Received packet
+Receive ACK 0
+Duplicate ACK count: 725
+Received data packet 989119 990486
+Sending ACK packet 990486
+Received packet
+Receive ACK 0
+Duplicate ACK count: 726
+Received data packet 990486 991853
+Sending ACK packet 991853
+Received packet
+Receive ACK 0
+Duplicate ACK count: 727
+Received data packet 991853 993220
+Sending ACK packet 993220
+Received packet
+Receive ACK 0
+Duplicate ACK count: 728
+Received data packet 993220 994587
+Sending ACK packet 994587
+Received packet
+Receive ACK 0
+Duplicate ACK count: 729
+Received data packet 994587 995954
+Sending ACK packet 995954
+Received packet
+Receive ACK 0
+Duplicate ACK count: 730
+Received data packet 995954 997321
+Sending ACK packet 997321
+Received packet
+Receive ACK 0
+Duplicate ACK count: 731
+Received data packet 997321 998688
+Sending ACK packet 998688
+Received packet
+Receive ACK 0
+Duplicate ACK count: 732
+Received data packet 998688 1000055
+Sending ACK packet 1000055
+Received packet
+Receive ACK 0
+Duplicate ACK count: 733
+Received data packet 1000055 1001422
+Sending ACK packet 1001422
+Received packet
+Receive ACK 0
+Duplicate ACK count: 734
+Received data packet 1001422 1002789
+Sending ACK packet 1002789
+Received packet
+Receive ACK 0
+Duplicate ACK count: 735
+Received data packet 1002789 1004156
+Sending ACK packet 1004156
+Received packet
+Receive ACK 0
+Duplicate ACK count: 736
+Received data packet 1004156 1005523
+Sending ACK packet 1005523
+Received packet
+Receive ACK 0
+Duplicate ACK count: 737
+Received data packet 1005523 1006890
+Sending ACK packet 1006890
+Received packet
+Receive ACK 0
+Duplicate ACK count: 738
+Received data packet 1006890 1008257
+Sending ACK packet 1008257
+Received packet
+Receive ACK 0
+Duplicate ACK count: 739
+Received data packet 1008257 1009624
+Sending ACK packet 1009624
+Received packet
+Receive ACK 0
+Duplicate ACK count: 740
+Received data packet 1009624 1010991
+Sending ACK packet 1010991
+Received packet
+Receive ACK 0
+Duplicate ACK count: 741
+Received data packet 1010991 1012358
+Sending ACK packet 1012358
+Received packet
+Receive ACK 0
+Duplicate ACK count: 742
+Received data packet 1012358 1013725
+Sending ACK packet 1013725
+Received packet
+Receive ACK 0
+Duplicate ACK count: 743
+Received data packet 1013725 1015092
+Sending ACK packet 1015092
+Received packet
+Receive ACK 0
+Duplicate ACK count: 744
+Received data packet 1015092 1016459
+Sending ACK packet 1016459
+R

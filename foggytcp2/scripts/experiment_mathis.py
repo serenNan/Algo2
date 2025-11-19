@@ -15,12 +15,20 @@ import re
 from pathlib import Path
 
 # ============ 配置参数 ============
+# Mathis 假设验证实验 - 使用系统 TCP (标准 TCP Reno)
+# 使用网络命名空间 + Python计时方案
 LOSS_RATES = [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.02, 0.05]  # 丢包率列表
-TRIALS_PER_LOSS = 10  # 每个丢包率重复次数
+TRIALS_PER_LOSS = 10  # 每个丢包率重复次数 (项目要求)
 BANDWIDTH = "10Mbps"  # 带宽
 DELAY = "20ms"  # 单向延迟 (RTT = 40ms)
-INTERFACE = "eth0"  # 网络接口,根据实际情况修改 (可能是 enp0s3, wlan0 等)
-TIMEOUT_SECONDS = 300  # 单次传输超时时间(秒) - 增加到5分钟应对慢速传输
+TIMEOUT_SECONDS = 120  # 单次传输超时时间(秒)
+
+# 网络命名空间配置
+NS_SERVER = "ns_server"
+NS_CLIENT = "ns_client"
+INTERFACE = "veth_client"  # 客户端命名空间中的虚拟网卡
+SERVER_IP = "10.0.1.1"  # 服务器在命名空间中的IP
+CLIENT_IP = "10.0.1.2"  # 客户端在命名空间中的IP
 
 # 文件路径配置
 SCRIPT_DIR = Path(__file__).parent
@@ -30,7 +38,6 @@ TEST_FILE = PROJECT_ROOT / "testdata" / "test_1mb.bin"  # 使用1MB文件,传输
 RESULTS_DIR = PROJECT_ROOT / "results"
 OUTPUT_CSV = RESULTS_DIR / "mathis_data.csv"
 
-SERVER_IP = "127.0.0.1"
 SERVER_PORT = 15441
 SERVER_BIN = FOGGY_DIR / "server"
 CLIENT_BIN = FOGGY_DIR / "client"
@@ -41,7 +48,8 @@ def cleanup_network():
     """清理网络限制配置"""
     print(f"\n[清理] 删除网络接口 {INTERFACE} 上的所有限制...")
     try:
-        subprocess.run(["sudo", "tcdel", INTERFACE, "--all"],
+        subprocess.run(["sudo", "ip", "netns", "exec", NS_CLIENT,
+                       "tcdel", INTERFACE, "--all"],
                       check=False, capture_output=True)
         print("[清理] 网络限制已清除")
     except Exception as e:
@@ -51,13 +59,15 @@ def cleanup_network():
 def set_network_config(loss_rate):
     """设置网络参数"""
     # 先清理之前的配置
-    subprocess.run(["sudo", "tcdel", INTERFACE, "--all"],
+    subprocess.run(["sudo", "ip", "netns", "exec", NS_CLIENT,
+                   "tcdel", INTERFACE, "--all"],
                    check=False, capture_output=True)
 
     # 设置新配置
     loss_percent = loss_rate * 100  # 转换为百分比
     cmd = [
-        "sudo", "tcset", INTERFACE,
+        "sudo", "ip", "netns", "exec", NS_CLIENT,
+        "tcset", INTERFACE,
         "--rate", BANDWIDTH,
         "--delay", DELAY,
         "--loss", f"{loss_percent}%"
@@ -71,7 +81,7 @@ def set_network_config(loss_rate):
         return False
 
     # 验证配置
-    verify_cmd = ["sudo", "tcshow", INTERFACE]
+    verify_cmd = ["sudo", "ip", "netns", "exec", NS_CLIENT, "tcshow", INTERFACE]
     result = subprocess.run(verify_cmd, capture_output=True, text=True)
     print(f"[验证] 当前网络配置:\n{result.stdout}")
 
@@ -80,59 +90,75 @@ def set_network_config(loss_rate):
 
 def start_server(output_file):
     """启动服务器进程"""
-    cmd = [str(SERVER_BIN), SERVER_IP, str(SERVER_PORT), str(output_file)]
-    print(f"[服务器] 启动: {' '.join(cmd)}")
+    # 在 server 命名空间中运行
+    cmd = [
+        "sudo", "ip", "netns", "exec", NS_SERVER,
+        str(SERVER_BIN.absolute()), SERVER_IP, str(SERVER_PORT), str(Path(output_file).absolute())
+    ]
+    print(f"[服务器] 启动 (命名空间: {NS_SERVER})")
+    print(f"[调试] 命令: {' '.join(cmd)}")
 
     proc = subprocess.Popen(
         cmd,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        text=True
+        stdout=subprocess.DEVNULL,  # 不捕获输出
+        stderr=subprocess.DEVNULL,  # 不捕获输出
+        cwd=str(FOGGY_DIR.absolute())
     )
 
-    time.sleep(0.5)  # 给服务器一点时间启动
+    time.sleep(1)  # 给服务器启动时间
+
+    # 检查进程是否立即失败
+    if proc.poll() is not None:
+        print(f"[错误] 服务器启动失败! 返回码: {proc.returncode}")
+        return None
+
     return proc
 
 
 def run_client_and_get_duration(server_proc):
-    """运行客户端并获取传输时长"""
-    cmd = [str(CLIENT_BIN), SERVER_IP, str(SERVER_PORT), str(TEST_FILE)]
-    print(f"[客户端] 启动: {' '.join(cmd)}")
+    """运行客户端并获取传输时长 (使用Python计时)"""
+    # 在 client 命名空间中运行
+    cmd = [
+        "sudo", "ip", "netns", "exec", NS_CLIENT,
+        str(CLIENT_BIN.absolute()), SERVER_IP, str(SERVER_PORT), str(TEST_FILE.absolute())
+    ]
+    print(f"[客户端] 启动 (命名空间: {NS_CLIENT})")
+    print(f"[调试] 命令: {' '.join(cmd)}")
 
     try:
-        # 运行客户端
+        # Python 计时开始
+        start_time = time.time()
+
+        # 运行客户端 (不捕获输出)
         client_result = subprocess.run(
             cmd,
             timeout=TIMEOUT_SECONDS,
-            capture_output=True,
-            text=True
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
         )
 
+        # Python 计时结束
+        end_time = time.time()
+        duration_ms = int((end_time - start_time) * 1000)
+
         if client_result.returncode != 0:
-            print(f"[错误] 客户端退出异常: {client_result.stderr}")
+            print(f"[错误] 客户端退出异常,返回码: {client_result.returncode}")
             return None
 
         print(f"[客户端] 完成")
+        print(f"[结果] 传输时长: {duration_ms} ms (Python计时)")
 
-        # 等待服务器输出
+        # 等待服务器处理完成
         time.sleep(0.5)
 
-        # 读取服务器输出
-        server_proc.send_signal(signal.SIGTERM)
-        stdout, stderr = server_proc.communicate(timeout=5)
+        # 终止服务器进程
+        server_proc.terminate()
+        try:
+            server_proc.wait(timeout=3)
+        except subprocess.TimeoutExpired:
+            server_proc.kill()
 
-        # 解析传输时间: "Complete transmission in XXX ms"
-        pattern = r"Complete transmission in (\d+) ms"
-        match = re.search(pattern, stdout)
-
-        if match:
-            duration_ms = int(match.group(1))
-            print(f"[结果] 传输时长: {duration_ms} ms")
-            return duration_ms
-        else:
-            print(f"[错误] 无法从服务器输出中解析时间")
-            print(f"服务器输出: {stdout}")
-            return None
+        return duration_ms
 
     except subprocess.TimeoutExpired:
         print(f"[错误] 传输超时 (>{TIMEOUT_SECONDS}秒)")
@@ -187,22 +213,37 @@ def check_prerequisites():
     """检查前置条件"""
     print("\n[检查] 验证前置条件...")
 
+    # 检查网络命名空间是否存在
+    result = subprocess.run(["ip", "netns", "list"], capture_output=True, text=True)
+    if NS_SERVER not in result.stdout or NS_CLIENT not in result.stdout:
+        print(f"[错误] 网络命名空间未创建")
+        print(f"请先运行: sudo {SCRIPT_DIR}/setup_netns.sh")
+        return False
+    else:
+        print(f"[检查] 网络命名空间已就绪: {NS_SERVER}, {NS_CLIENT}")
+
     # 检查可执行文件
     if not SERVER_BIN.exists():
         print(f"[错误] 服务器程序不存在: {SERVER_BIN}")
+        print(f"请运行: cd {FOGGY_DIR} && make system")
         return False
 
     if not CLIENT_BIN.exists():
         print(f"[错误] 客户端程序不存在: {CLIENT_BIN}")
+        print(f"请运行: cd {FOGGY_DIR} && make system")
         return False
+
+    print(f"[检查] 可执行文件已就绪 (系统 TCP)")
 
     # 检查测试文件
     if not TEST_FILE.exists():
         print(f"[错误] 测试文件不存在: {TEST_FILE}")
-        print(f"请运行: dd if=/dev/urandom of={TEST_FILE} bs=1M count=5")
+        print(f"请运行: dd if=/dev/urandom of={TEST_FILE} bs=1M count=1")
         return False
 
-    # 检查结果目录 - 不使用 sudo 创建,避免权限问题
+    print(f"[检查] 测试文件已就绪: {TEST_FILE.stat().st_size / 1e6:.2f} MB")
+
+    # 检查结果目录
     if not RESULTS_DIR.exists():
         try:
             RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -230,13 +271,14 @@ def check_prerequisites():
         print("请运行: pip install tcconfig")
         return False
 
+    print("[检查] tcconfig 已安装")
+
     # 检查 sudo 权限
     result = subprocess.run(["sudo", "-n", "true"], capture_output=True)
     if result.returncode != 0:
-        print("[警告] 需要 sudo 权限执行 tcconfig 命令")
-        print("建议配置免密 sudo 或运行时输入密码")
+        print("[警告] 需要 sudo 权限,运行时需要输入密码")
 
-    print("[检查] 所有前置条件满足")
+    print("[检查] ✓ 所有前置条件满足")
     return True
 
 
@@ -259,8 +301,7 @@ def main():
     print(f"[配置] 每个丢包率重复: {TRIALS_PER_LOSS} 次")
     print(f"[配置] 总实验次数: {len(LOSS_RATES) * TRIALS_PER_LOSS} 次")
     print(f"[配置] 结果保存到: {OUTPUT_CSV}")
-
-    input("\n按 Enter 键开始实验...")
+    print("\n开始实验...")
 
     # 记录统计
     total_experiments = len(LOSS_RATES) * TRIALS_PER_LOSS
@@ -270,7 +311,12 @@ def main():
     try:
         for loss_rate in LOSS_RATES:
             print("\n" + "=" * 60)
-            print(f"丢包率: {loss_rate * 100}% (1/√p = {1/loss_rate**0.5:.2f})")
+            # 处理丢包率为 0 的情况
+            if loss_rate > 0:
+                sqrt_p_inv = 1 / (loss_rate ** 0.5)
+                print(f"丢包率: {loss_rate * 100}% (1/√p = {sqrt_p_inv:.2f})")
+            else:
+                print(f"丢包率: {loss_rate * 100}% (无丢包)")
             print("=" * 60)
 
             # 设置网络参数
@@ -301,7 +347,8 @@ def main():
                 if duration_ms is not None:
                     # 计算吞吐量
                     throughput = calculate_throughput(duration_ms, file_size)
-                    one_over_sqrt_p = 1 / (loss_rate ** 0.5)
+                    # 处理丢包率为 0 的情况
+                    one_over_sqrt_p = 1 / (loss_rate ** 0.5) if loss_rate > 0 else float('inf')
 
                     # 保存数据
                     data_row = [

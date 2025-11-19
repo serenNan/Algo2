@@ -59,10 +59,10 @@ def calculate_statistics(df):
         '1_over_sqrt_p': 'first'
     })
 
-    # 重命名列
-    grouped.columns = ['平均吞吐量', '标准差', '最小值', '最大值', '样本数', '1/sqrt(p)']
+    # Rename columns
+    grouped.columns = ['Mean Throughput', 'Std Dev', 'Min', 'Max', 'Count', '1/sqrt(p)']
 
-    print("\n按丢包率统计:")
+    print("\nStatistics by Loss Rate:")
     print(grouped.to_string())
 
     return grouped
@@ -139,21 +139,21 @@ def correlation_analysis(df):
     print(f"\n皮尔逊相关系数 r: {pearson_r:.6f}")
     print(f"P 值: {pearson_p:.2e}")
 
-    # 判断相关性强度
+    # Determine correlation strength
     if abs(pearson_r) > 0.9:
-        strength = "强相关"
+        strength = "Strong Correlation"
     elif abs(pearson_r) > 0.7:
-        strength = "中等相关"
+        strength = "Moderate Correlation"
     else:
-        strength = "弱相关"
+        strength = "Weak Correlation"
 
-    print(f"相关性强度: {strength}")
+    print(f"Correlation Strength: {strength}")
 
-    # 显著性检验
+    # Significance test
     if pearson_p < 0.05:
-        print(f"显著性: 显著 (p < 0.05)")
+        print(f"Significance: Significant (p < 0.05)")
     else:
-        print(f"显著性: 不显著 (p >= 0.05)")
+        print(f"Significance: Not Significant (p >= 0.05)")
 
     return {
         'pearson_r': pearson_r,
@@ -172,31 +172,31 @@ def create_plot(df, grouped, regression_results, correlation_results):
 
     fig, ax = plt.subplots(figsize=(12, 8))
 
-    # 1. 散点图 - 所有数据点
+    # 1. Scatter plot - all data points
     ax.scatter(df['1_over_sqrt_p'], df['throughput_mbps'],
                alpha=0.3, s=50, c='steelblue',
-               label='实验数据点', edgecolors='navy', linewidth=0.5)
+               label='Experimental Data', edgecolors='navy', linewidth=0.5)
 
-    # 2. 平均值折线图
-    ax.plot(grouped['1/sqrt(p)'], grouped['平均吞吐量'],
+    # 2. Line plot - mean values
+    ax.plot(grouped['1/sqrt(p)'], grouped['Mean Throughput'],
             'o-', linewidth=2.5, markersize=10, color='darkorange',
-            label='平均吞吐量', markeredgecolor='darkred', markeredgewidth=1.5)
+            label='Mean Throughput', markeredgecolor='darkred', markeredgewidth=1.5)
 
-    # 添加误差棒
-    ax.errorbar(grouped['1/sqrt(p)'], grouped['平均吞吐量'],
-                yerr=grouped['标准差'], fmt='none', ecolor='coral',
+    # Error bars
+    ax.errorbar(grouped['1/sqrt(p)'], grouped['Mean Throughput'],
+                yerr=grouped['Std Dev'], fmt='none', ecolor='coral',
                 elinewidth=2, capsize=5, alpha=0.6)
 
-    # 3. 回归线
+    # 3. Regression line
     x_line = np.linspace(df['1_over_sqrt_p'].min(), df['1_over_sqrt_p'].max(), 100)
     y_line = regression_results['slope'] * x_line + regression_results['intercept']
     ax.plot(x_line, y_line, 'r--', linewidth=3,
-            label=f"回归线: y = {regression_results['slope']:.4f}x + {regression_results['intercept']:.4f}")
+            label=f"Regression: y = {regression_results['slope']:.4f}x + {regression_results['intercept']:.4f}")
 
-    # 标签和标题
-    ax.set_xlabel('1/√p', fontsize=16, fontweight='bold')
-    ax.set_ylabel('吞吐量 (Mbps)', fontsize=16, fontweight='bold')
-    ax.set_title('Dr. Matt Mathis 假设验证\nTCP Reno 吞吐量 vs 1/√p',
+    # Labels and title
+    ax.set_xlabel('1/sqrt(p)', fontsize=16, fontweight='bold')
+    ax.set_ylabel('Throughput (Mbps)', fontsize=16, fontweight='bold')
+    ax.set_title('Dr. Matt Mathis Hypothesis Verification\nTCP Reno Throughput vs 1/sqrt(p)',
                  fontsize=18, fontweight='bold', pad=20)
 
     # 图例
@@ -205,15 +205,15 @@ def create_plot(df, grouped, regression_results, correlation_results):
     # 网格
     ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.8)
 
-    # 添加统计信息文本框
+    # Add statistics text box
     textstr = '\n'.join([
-        f"常数 C = {regression_results['C']:.4f}",
-        f"R² = {regression_results['r_squared']:.4f}",
+        f"Constant C = {regression_results['C']:.4f}",
+        f"R-squared = {regression_results['r_squared']:.4f}",
         f"Pearson r = {correlation_results['pearson_r']:.4f}",
         f"",
         f"MSS = {MSS} bytes",
         f"RTT = {RTT*1000:.0f} ms",
-        f"样本数 = {len(df)}"
+        f"Sample Size = {len(df)}"
     ])
 
     props = dict(boxstyle='round', facecolor='wheat', alpha=0.8, edgecolor='black', linewidth=2)
@@ -242,74 +242,74 @@ def generate_summary(df, grouped, regression_results, correlation_results):
 
     with open(OUTPUT_SUMMARY, 'w', encoding='utf-8') as f:
         f.write("=" * 60 + "\n")
-        f.write("Dr. Matt Mathis 假设验证 - 实验结果摘要\n")
+        f.write("Dr. Matt Mathis Hypothesis Verification - Summary Report\n")
         f.write("=" * 60 + "\n\n")
 
-        # 实验配置
-        f.write("实验配置\n")
+        # Experiment Configuration
+        f.write("Experiment Configuration\n")
         f.write("-" * 60 + "\n")
         f.write(f"MSS: {MSS} bytes\n")
         f.write(f"RTT: {RTT*1000:.0f} ms\n")
-        f.write(f"总样本数: {len(df)}\n")
-        f.write(f"丢包率种类: {df['loss_rate'].nunique()}\n")
-        f.write(f"每个丢包率重复次数: {df.groupby('loss_rate').size().mode()[0]}\n\n")
+        f.write(f"Total Samples: {len(df)}\n")
+        f.write(f"Loss Rate Variants: {df['loss_rate'].nunique()}\n")
+        f.write(f"Trials per Loss Rate: {df.groupby('loss_rate').size().mode()[0]}\n\n")
 
-        # 统计数据
-        f.write("统计数据\n")
+        # Statistics
+        f.write("Statistical Summary\n")
         f.write("-" * 60 + "\n")
         f.write(grouped.to_string())
         f.write("\n\n")
 
-        # 线性回归结果
-        f.write("线性回归结果\n")
+        # Linear Regression Results
+        f.write("Linear Regression Results\n")
         f.write("-" * 60 + "\n")
-        f.write(f"回归方程: throughput = {regression_results['slope']:.6f} × (1/√p) + {regression_results['intercept']:.6f}\n")
-        f.write(f"斜率: {regression_results['slope']:.6f}\n")
-        f.write(f"截距: {regression_results['intercept']:.6f}\n")
-        f.write(f"R² (决定系数): {regression_results['r_squared']:.6f}\n")
-        f.write(f"P 值: {regression_results['p_value']:.2e}\n")
-        f.write(f"标准误差: {regression_results['std_err']:.6f}\n")
-        f.write(f"\n常数 C: {regression_results['C']:.6f}\n\n")
+        f.write(f"Regression Equation: throughput = {regression_results['slope']:.6f} × (1/sqrt(p)) + {regression_results['intercept']:.6f}\n")
+        f.write(f"Slope: {regression_results['slope']:.6f}\n")
+        f.write(f"Intercept: {regression_results['intercept']:.6f}\n")
+        f.write(f"R-squared: {regression_results['r_squared']:.6f}\n")
+        f.write(f"P-value: {regression_results['p_value']:.2e}\n")
+        f.write(f"Standard Error: {regression_results['std_err']:.6f}\n")
+        f.write(f"\nConstant C: {regression_results['C']:.6f}\n\n")
 
-        # 相关性分析
-        f.write("皮尔逊相关系数分析\n")
+        # Correlation Analysis
+        f.write("Pearson Correlation Analysis\n")
         f.write("-" * 60 + "\n")
-        f.write(f"皮尔逊相关系数 r: {correlation_results['pearson_r']:.6f}\n")
-        f.write(f"P 值: {correlation_results['pearson_p']:.2e}\n")
-        f.write(f"相关性强度: {correlation_results['strength']}\n")
-        f.write(f"显著性: {'显著' if correlation_results['pearson_p'] < 0.05 else '不显著'}\n\n")
+        f.write(f"Pearson Correlation Coefficient r: {correlation_results['pearson_r']:.6f}\n")
+        f.write(f"P-value: {correlation_results['pearson_p']:.2e}\n")
+        f.write(f"Correlation Strength: {correlation_results['strength']}\n")
+        f.write(f"Significance: {'Significant' if correlation_results['pearson_p'] < 0.05 else 'Not Significant'}\n\n")
 
-        # 结论
-        f.write("结论\n")
+        # Conclusion
+        f.write("Conclusion\n")
         f.write("-" * 60 + "\n")
 
-        # 判断假设支持度
+        # Determine hypothesis support
         if regression_results['r_squared'] > 0.8 and abs(correlation_results['pearson_r']) > 0.9:
-            support = "强烈支持"
+            support = "Strongly Supports"
         elif regression_results['r_squared'] > 0.6 and abs(correlation_results['pearson_r']) > 0.7:
-            support = "部分支持"
+            support = "Partially Supports"
         else:
-            support = "不支持"
+            support = "Does Not Support"
 
-        f.write(f"假设支持度: {support} Dr. Mathis 假设\n\n")
+        f.write(f"Hypothesis Support: {support} Dr. Mathis Hypothesis\n\n")
 
-        f.write("理由:\n")
-        f.write(f"1. R² = {regression_results['r_squared']:.4f}, ")
+        f.write("Reasoning:\n")
+        f.write(f"1. R-squared = {regression_results['r_squared']:.4f}, ")
         if regression_results['r_squared'] > 0.8:
-            f.write("表明线性拟合良好\n")
+            f.write("indicates good linear fit\n")
         elif regression_results['r_squared'] > 0.6:
-            f.write("表明线性拟合一般\n")
+            f.write("indicates moderate linear fit\n")
         else:
-            f.write("表明线性拟合较差\n")
+            f.write("indicates poor linear fit\n")
 
-        f.write(f"2. 皮尔逊相关系数 r = {correlation_results['pearson_r']:.4f}, ")
-        f.write(f"表明 {correlation_results['strength']}\n")
+        f.write(f"2. Pearson correlation coefficient r = {correlation_results['pearson_r']:.4f}, ")
+        f.write(f"indicates {correlation_results['strength']}\n")
 
-        f.write(f"3. 常数 C = {regression_results['C']:.4f}, ")
+        f.write(f"3. Constant C = {regression_results['C']:.4f}, ")
         if 0.5 <= regression_results['C'] <= 2.0:
-            f.write("符合理论预期范围 (0.5-2.0)\n")
+            f.write("within theoretical expected range (0.5-2.0)\n")
         else:
-            f.write("不在理论预期范围 (0.5-2.0)\n")
+            f.write("outside theoretical expected range (0.5-2.0)\n")
 
     print(f"\n[保存] 摘要报告已保存到: {OUTPUT_SUMMARY}")
 

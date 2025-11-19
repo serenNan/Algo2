@@ -1,0 +1,3074 @@
+Sending packet 0 1367
+Received packet
+Receive ACK 1367
+Slow Start, CWND: 2734
+Sending packet 1367 2734
+Sending packet 2734 4101
+Received packet
+Receive ACK 2734
+Slow Start, CWND: 4101
+Sending packet 4101 5468
+Sending packet 5468 6835
+Received packet
+Receive ACK 4101
+Slow Start, CWND: 5468
+Sending packet 6835 8202
+Sending packet 8202 9569
+Received packet
+Receive ACK 5468
+Slow Start, CWND: 6835
+Sending packet 9569 10936
+Sending packet 10936 12303
+Received packet
+Receive ACK 6835
+Slow Start, CWND: 8202
+Sending packet 12303 13670
+Sending packet 13670 15037
+Received packet
+Receive ACK 8202
+Slow Start, CWND: 9569
+Sending packet 15037 16404
+Sending packet 16404 17771
+Received packet
+Receive ACK 9569
+Slow Start, CWND: 10936
+Sending packet 17771 19138
+Sending packet 19138 20505
+Received packet
+Receive ACK 10936
+Slow Start, CWND: 12303
+Sending packet 20505 21872
+Sending packet 21872 23239
+Received packet
+Receive ACK 12303
+Slow Start, CWND: 13670
+Sending packet 23239 24606
+Sending packet 24606 25973
+Received packet
+Receive ACK 13670
+Slow Start, CWND: 15037
+Sending packet 25973 27340
+Sending packet 27340 28707
+Received packet
+Receive ACK 15037
+Slow Start, CWND: 16404
+Sending packet 28707 30074
+Sending packet 30074 31441
+Received packet
+Receive ACK 16404
+Slow Start, CWND: 17771
+Sending packet 31441 32808
+Sending packet 32808 34175
+Received packet
+Receive ACK 17771
+Slow Start, CWND: 19138
+Sending packet 34175 35542
+Sending packet 35542 36909
+Received packet
+Receive ACK 19138
+Slow Start, CWND: 20505
+Sending packet 36909 38276
+Sending packet 38276 39643
+Received packet
+Receive ACK 20505
+Slow Start, CWND: 21872
+Sending packet 39643 41010
+Sending packet 41010 42377
+Received packet
+Receive ACK 21872
+Slow Start, CWND: 23239
+Sending packet 42377 43744
+Sending packet 43744 45111
+Received packet
+Receive ACK 23239
+Slow Start, CWND: 24606
+Sending packet 45111 46478
+Sending packet 46478 47845
+Received packet
+Receive ACK 24606
+Slow Start, CWND: 25973
+Received packet
+Receive ACK 25973
+Slow Start, CWND: 27340
+Sending packet 47845 49212
+Sending packet 49212 50579
+Sending packet 50579 51946
+Sending packet 51946 53313
+Received packet
+Receive ACK 27340
+Slow Start, CWND: 28707
+Sending packet 53313 54680
+Sending packet 54680 56047
+Received packet
+Receive ACK 28707
+Slow Start, CWND: 30074
+Sending packet 56047 57414
+Sending packet 57414 58781
+Received packet
+Receive ACK 30074
+Slow Start, CWND: 31441
+Sending packet 58781 60148
+Sending packet 60148 61515
+Received packet
+Receive ACK 31441
+Slow Start, CWND: 32808
+Sending packet 61515 62882
+Sending packet 62882 64249
+Received packet
+Receive ACK 32808
+Slow Start, CWND: 34175
+Sending packet 64249 65616
+Sending packet 65616 66983
+Received packet
+Receive ACK 34175
+Slow Start, CWND: 35542
+Sending packet 66983 68350
+Sending packet 68350 69717
+Received packet
+Receive ACK 35542
+Slow Start, CWND: 36909
+Sending packet 69717 71084
+Sending packet 71084 72451
+Received packet
+Receive ACK 36909
+Slow Start, CWND: 38276
+Sending packet 72451 73818
+Sending packet 73818 75185
+Received packet
+Receive ACK 38276
+Slow Start, CWND: 39643
+Sending packet 75185 76552
+Sending packet 76552 77919
+Received packet
+Receive ACK 39643
+Slow Start, CWND: 41010
+Sending packet 77919 79286
+Sending packet 79286 80653
+Received packet
+Receive ACK 41010
+Slow Start, CWND: 42377
+Sending packet 80653 82020
+Sending packet 82020 83387
+Received packet
+Receive ACK 42377
+Slow Start, CWND: 43744
+Sending packet 83387 84754
+Sending packet 84754 86121
+Received packet
+Receive ACK 43744
+Slow Start, CWND: 45111
+Sending packet 86121 87488
+Sending packet 87488 88855
+Received packet
+Receive ACK 45111
+Slow Start, CWND: 46478
+Sending packet 88855 90222
+Sending packet 90222 91589
+Received packet
+Receive ACK 46478
+Slow Start, CWND: 47845
+Sending packet 91589 92956
+Sending packet 92956 94323
+Received packet
+Receive ACK 47845
+Slow Start, CWND: 49212
+Sending packet 94323 95690
+Sending packet 95690 97057
+Received packet
+Receive ACK 49212
+Slow Start, CWND: 50579
+Sending packet 97057 98424
+Sending packet 98424 99791
+Received packet
+Receive ACK 50579
+Slow Start, CWND: 51946
+Sending packet 99791 101158
+Sending packet 101158 102525
+Received packet
+Receive ACK 51946
+Slow Start, CWND: 53313
+Sending packet 102525 103892
+Sending packet 103892 105259
+Received packet
+Receive ACK 53313
+Slow Start, CWND: 54680
+Sending packet 105259 106626
+Sending packet 106626 107993
+Received packet
+Receive ACK 54680
+Slow Start, CWND: 56047
+Sending packet 107993 109360
+Sending packet 109360 110727
+Received packet
+Receive ACK 56047
+Slow Start, CWND: 57414
+Sending packet 110727 112094
+Sending packet 112094 113461
+Received packet
+Receive ACK 57414
+Slow Start, CWND: 58781
+Sending packet 113461 114828
+Sending packet 114828 116195
+Received packet
+Receive ACK 58781
+Slow Start, CWND: 60148
+Sending packet 116195 117562
+Sending packet 117562 118929
+Received packet
+Receive ACK 60148
+Slow Start, CWND: 61515
+Sending packet 118929 120296
+Sending packet 120296 121663
+Received packet
+Receive ACK 61515
+Slow Start, CWND: 62882
+Sending packet 121663 123030
+Sending packet 123030 124397
+Received packet
+Receive ACK 62882
+Slow Start, CWND: 64249
+Sending packet 124397 125764
+Received packet
+Receive ACK 64249
+Slow Start, CWND: 65616
+Sending packet 125764 127131
+Received packet
+Receive ACK 65616
+Slow Start, CWND: 66983
+Sending packet 127131 128498
+Received packet
+Receive ACK 66983
+Slow Start, CWND: 68350
+Sending packet 128498 129865
+Received packet
+Receive ACK 68350
+Slow Start, CWND: 69717
+Sending packet 129865 131232
+Received packet
+Receive ACK 69717
+Slow Start, CWND: 71084
+Sending packet 131232 132599
+Received packet
+Receive ACK 71084
+Slow Start, CWND: 72451
+Sending packet 132599 133966
+Received packet
+Receive ACK 72451
+Slow Start, CWND: 73818
+Sending packet 133966 135333
+Received packet
+Receive ACK 73818
+Slow Start, CWND: 75185
+Sending packet 135333 136700
+Received packet
+Receive ACK 75185
+Slow Start, CWND: 76552
+Sending packet 136700 138067
+Received packet
+Receive ACK 76552
+Slow Start, CWND: 77919
+Sending packet 138067 139434
+Received packet
+Receive ACK 77919
+Slow Start, CWND: 79286
+Sending packet 139434 140801
+Received packet
+Receive ACK 79286
+Slow Start, CWND: 80653
+Sending packet 140801 142168
+Received packet
+Receive ACK 80653
+Slow Start, CWND: 82020
+Sending packet 142168 143535
+Received packet
+Receive ACK 82020
+Slow Start, CWND: 83387
+Sending packet 143535 144902
+Received packet
+Receive ACK 83387
+Slow Start, CWND: 84754
+Sending packet 144902 146269
+Received packet
+Receive ACK 84754
+Slow Start, CWND: 86121
+Sending packet 146269 147636
+Received packet
+Receive ACK 86121
+Slow Start, CWND: 87488
+Entering Congestion Avoidance
+Sending packet 147636 149003
+Received packet
+Receive ACK 87488
+Congestion Avoidance, CWND: 87509
+Sending packet 149003 150370
+Received packet
+Receive ACK 88855
+Congestion Avoidance, CWND: 87530
+Sending packet 150370 151737
+Received packet
+Receive ACK 90222
+Congestion Avoidance, CWND: 87551
+Sending packet 151737 153104
+Received packet
+Receive ACK 91589
+Congestion Avoidance, CWND: 87572
+Sending packet 153104 154471
+Received packet
+Receive ACK 92956
+Congestion Avoidance, CWND: 87593
+Sending packet 154471 155838
+Received packet
+Receive ACK 94323
+Congestion Avoidance, CWND: 87614
+Sending packet 155838 157205
+Received packet
+Receive ACK 95690
+Congestion Avoidance, CWND: 87635
+Sending packet 157205 158572
+Received packet
+Receive ACK 97057
+Congestion Avoidance, CWND: 87656
+Sending packet 158572 159939
+Received packet
+Receive ACK 98424
+Congestion Avoidance, CWND: 87677
+Sending packet 159939 161306
+Received packet
+Receive ACK 99791
+Congestion Avoidance, CWND: 87698
+Sending packet 161306 162673
+Received packet
+Receive ACK 101158
+Congestion Avoidance, CWND: 87719
+Sending packet 162673 164040
+Received packet
+Receive ACK 102525
+Congestion Avoidance, CWND: 87740
+Sending packet 164040 165407
+Received packet
+Receive ACK 103892
+Congestion Avoidance, CWND: 87761
+Sending packet 165407 166774
+Received packet
+Receive ACK 105259
+Congestion Avoidance, CWND: 87782
+Sending packet 166774 168141
+Received packet
+Receive ACK 106626
+Congestion Avoidance, CWND: 87803
+Sending packet 168141 169508
+Received packet
+Receive ACK 107993
+Congestion Avoidance, CWND: 87824
+Sending packet 169508 170875
+Received packet
+Receive ACK 109360
+Congestion Avoidance, CWND: 87845
+Sending packet 170875 172242
+Received packet
+Receive ACK 110727
+Congestion Avoidance, CWND: 87866
+Sending packet 172242 173609
+Received packet
+Receive ACK 112094
+Congestion Avoidance, CWND: 87887
+Sending packet 173609 174976
+Received packet
+Receive ACK 113461
+Congestion Avoidance, CWND: 87908
+Sending packet 174976 176343
+Received packet
+Receive ACK 114828
+Congestion Avoidance, CWND: 87929
+Sending packet 176343 177710
+Received packet
+Receive ACK 116195
+Congestion Avoidance, CWND: 87950
+Sending packet 177710 179077
+Received packet
+Receive ACK 117562
+Congestion Avoidance, CWND: 87971
+Sending packet 179077 180444
+Received packet
+Receive ACK 118929
+Congestion Avoidance, CWND: 87992
+Sending packet 180444 181811
+Received packet
+Receive ACK 120296
+Congestion Avoidance, CWND: 88013
+Sending packet 181811 183178
+Received packet
+Receive ACK 121663
+Congestion Avoidance, CWND: 88034
+Sending packet 183178 184545
+Received packet
+Receive ACK 123030
+Congestion Avoidance, CWND: 88055
+Sending packet 184545 185912
+Received packet
+Receive ACK 124397
+Congestion Avoidance, CWND: 88076
+Sending packet 185912 187279
+Received packet
+Receive ACK 125764
+Congestion Avoidance, CWND: 88097
+Sending packet 187279 188646
+Received packet
+Receive ACK 127131
+Congestion Avoidance, CWND: 88118
+Sending packet 188646 190013
+Received packet
+Receive ACK 128498
+Congestion Avoidance, CWND: 88139
+Sending packet 190013 191380
+Received packet
+Receive ACK 129865
+Congestion Avoidance, CWND: 88160
+Sending packet 191380 192747
+Received packet
+Receive ACK 131232
+Congestion Avoidance, CWND: 88181
+Sending packet 192747 194114
+Received packet
+Receive ACK 132599
+Congestion Avoidance, CWND: 88202
+Received packet
+Receive ACK 133966
+Congestion Avoidance, CWND: 88223
+Sending packet 194114 195481
+Sending packet 195481 196848
+Received packet
+Receive ACK 135333
+Congestion Avoidance, CWND: 88244
+Sending packet 196848 198215
+Received packet
+Receive ACK 136700
+Congestion Avoidance, CWND: 88265
+Sending packet 198215 199582
+Received packet
+Receive ACK 138067
+Congestion Avoidance, CWND: 88286
+Sending packet 199582 200949
+Received packet
+Receive ACK 139434
+Congestion Avoidance, CWND: 88307
+Sending packet 200949 202316
+Received packet
+Receive ACK 140801
+Congestion Avoidance, CWND: 88328
+Sending packet 202316 203683
+Received packet
+Receive ACK 142168
+Congestion Avoidance, CWND: 88349
+Sending packet 203683 205050
+Received packet
+Receive ACK 143535
+Congestion Avoidance, CWND: 88370
+Sending packet 205050 206417
+Received packet
+Receive ACK 144902
+Congestion Avoidance, CWND: 88391
+Sending packet 206417 207784
+Received packet
+Receive ACK 146269
+Congestion Avoidance, CWND: 88412
+Sending packet 207784 209151
+Received packet
+Receive ACK 147636
+Congestion Avoidance, CWND: 88433
+Sending packet 209151 210518
+Received packet
+Receive ACK 149003
+Congestion Avoidance, CWND: 88454
+Sending packet 210518 211885
+Received packet
+Receive ACK 150370
+Congestion Avoidance, CWND: 88475
+Sending packet 211885 213252
+Received packet
+Receive ACK 151737
+Congestion Avoidance, CWND: 88496
+Sending packet 213252 214619
+Received packet
+Receive ACK 153104
+Congestion Avoidance, CWND: 88517
+Sending packet 214619 215986
+Received packet
+Receive ACK 154471
+Congestion Avoidance, CWND: 88538
+Sending packet 215986 217353
+Received packet
+Receive ACK 155838
+Congestion Avoidance, CWND: 88559
+Sending packet 217353 218720
+Received packet
+Receive ACK 157205
+Congestion Avoidance, CWND: 88580
+Sending packet 218720 220087
+Received packet
+Receive ACK 158572
+Congestion Avoidance, CWND: 88601
+Sending packet 220087 221454
+Received packet
+Receive ACK 159939
+Congestion Avoidance, CWND: 88622
+Sending packet 221454 222821
+Received packet
+Receive ACK 161306
+Congestion Avoidance, CWND: 88643
+Sending packet 222821 224188
+Received packet
+Receive ACK 162673
+Congestion Avoidance, CWND: 88664
+Sending packet 224188 225555
+Received packet
+Receive ACK 164040
+Congestion Avoidance, CWND: 88685
+Sending packet 225555 226922
+Received packet
+Receive ACK 165407
+Congestion Avoidance, CWND: 88706
+Sending packet 226922 228289
+Received packet
+Receive ACK 166774
+Congestion Avoidance, CWND: 88727
+Sending packet 228289 229656
+Received packet
+Receive ACK 168141
+Congestion Avoidance, CWND: 88748
+Sending packet 229656 231023
+Received packet
+Receive ACK 169508
+Congestion Avoidance, CWND: 88769
+Sending packet 231023 232390
+Received packet
+Receive ACK 170875
+Congestion Avoidance, CWND: 88790
+Sending packet 232390 233757
+Received packet
+Receive ACK 172242
+Congestion Avoidance, CWND: 88811
+Sending packet 233757 235124
+Received packet
+Receive ACK 173609
+Congestion Avoidance, CWND: 88832
+Sending packet 235124 236491
+Received packet
+Receive ACK 174976
+Congestion Avoidance, CWND: 88853
+Sending packet 236491 237858
+Received packet
+Receive ACK 176343
+Congestion Avoidance, CWND: 88874
+Sending packet 237858 239225
+Received packet
+Receive ACK 177710
+Congestion Avoidance, CWND: 88895
+Sending packet 239225 240592
+Received packet
+Receive ACK 179077
+Congestion Avoidance, CWND: 88916
+Sending packet 240592 241959
+Received packet
+Receive ACK 180444
+Congestion Avoidance, CWND: 88937
+Sending packet 241959 243326
+Received packet
+Receive ACK 181811
+Congestion Avoidance, CWND: 88958
+Sending packet 243326 244693
+Received packet
+Receive ACK 183178
+Congestion Avoidance, CWND: 88979
+Sending packet 244693 246060
+Received packet
+Receive ACK 184545
+Congestion Avoidance, CWND: 89000
+Sending packet 246060 247427
+Received packet
+Receive ACK 185912
+Congestion Avoidance, CWND: 89020
+Sending packet 247427 248794
+Received packet
+Receive ACK 187279
+Congestion Avoidance, CWND: 89040
+Sending packet 248794 250161
+Received packet
+Receive ACK 188646
+Congestion Avoidance, CWND: 89060
+Sending packet 250161 251528
+Received packet
+Receive ACK 190013
+Congestion Avoidance, CWND: 89080
+Sending packet 251528 252895
+Received packet
+Receive ACK 191380
+Congestion Avoidance, CWND: 89100
+Sending packet 252895 254262
+Received packet
+Receive ACK 192747
+Congestion Avoidance, CWND: 89120
+Sending packet 254262 255629
+Received packet
+Receive ACK 194114
+Congestion Avoidance, CWND: 89140
+Sending packet 255629 256996
+Received packet
+Receive ACK 195481
+Congestion Avoidance, CWND: 89160
+Sending packet 256996 258363
+Received packet
+Receive ACK 196848
+Congestion Avoidance, CWND: 89180
+Sending packet 258363 259730
+Received packet
+Receive ACK 198215
+Congestion Avoidance, CWND: 89200
+Sending packet 259730 261097
+Received packet
+Receive ACK 199582
+Congestion Avoidance, CWND: 89220
+Sending packet 261097 262464
+Received packet
+Receive ACK 200949
+Congestion Avoidance, CWND: 89240
+Sending packet 262464 263831
+Received packet
+Receive ACK 202316
+Congestion Avoidance, CWND: 89260
+Sending packet 263831 265198
+Received packet
+Receive ACK 203683
+Congestion Avoidance, CWND: 89280
+Sending packet 265198 266565
+Received packet
+Receive ACK 205050
+Congestion Avoidance, CWND: 89300
+Sending packet 266565 267932
+Received packet
+Receive ACK 206417
+Congestion Avoidance, CWND: 89320
+Sending packet 267932 269299
+Received packet
+Receive ACK 207784
+Congestion Avoidance, CWND: 89340
+Sending packet 269299 270666
+Received packet
+Receive ACK 209151
+Congestion Avoidance, CWND: 89360
+Sending packet 270666 272033
+Received packet
+Receive ACK 210518
+Congestion Avoidance, CWND: 89380
+Sending packet 272033 273400
+Received packet
+Receive ACK 211885
+Congestion Avoidance, CWND: 89400
+Sending packet 273400 274767
+Received packet
+Receive ACK 213252
+Congestion Avoidance, CWND: 89420
+Sending packet 274767 276134
+Received packet
+Receive ACK 214619
+Congestion Avoidance, CWND: 89440
+Sending packet 276134 277501
+Received packet
+Receive ACK 215986
+Congestion Avoidance, CWND: 89460
+Sending packet 277501 278868
+Received packet
+Receive ACK 217353
+Congestion Avoidance, CWND: 89480
+Sending packet 278868 280235
+Received packet
+Receive ACK 218720
+Congestion Avoidance, CWND: 89500
+Sending packet 280235 281602
+Received packet
+Receive ACK 220087
+Congestion Avoidance, CWND: 89520
+Sending packet 281602 282969
+Received packet
+Receive ACK 221454
+Congestion Avoidance, CWND: 89540
+Sending packet 282969 284336
+Received packet
+Receive ACK 222821
+Congestion Avoidance, CWND: 89560
+Sending packet 284336 285703
+Received packet
+Receive ACK 224188
+Congestion Avoidance, CWND: 89580
+Sending packet 285703 287070
+Received packet
+Receive ACK 225555
+Congestion Avoidance, CWND: 89600
+Sending packet 287070 288437
+Received packet
+Receive ACK 226922
+Congestion Avoidance, CWND: 89620
+Sending packet 288437 289804
+Received packet
+Receive ACK 228289
+Congestion Avoidance, CWND: 89640
+Sending packet 289804 291171
+Received packet
+Receive ACK 229656
+Congestion Avoidance, CWND: 89660
+Sending packet 291171 292538
+Received packet
+Receive ACK 231023
+Congestion Avoidance, CWND: 89680
+Sending packet 292538 293905
+Received packet
+Receive ACK 232390
+Congestion Avoidance, CWND: 89700
+Sending packet 293905 295272
+Received packet
+Receive ACK 233757
+Congestion Avoidance, CWND: 89720
+Sending packet 295272 296639
+Received packet
+Receive ACK 235124
+Congestion Avoidance, CWND: 89740
+Sending packet 296639 298006
+Received packet
+Receive ACK 236491
+Congestion Avoidance, CWND: 89760
+Sending packet 298006 299373
+Received packet
+Receive ACK 237858
+Congestion Avoidance, CWND: 89780
+Sending packet 299373 300740
+Received packet
+Receive ACK 239225
+Congestion Avoidance, CWND: 89800
+Sending packet 300740 302107
+Received packet
+Receive ACK 240592
+Congestion Avoidance, CWND: 89820
+Sending packet 302107 303474
+Received packet
+Receive ACK 241959
+Congestion Avoidance, CWND: 89840
+Sending packet 303474 304841
+Received packet
+Receive ACK 243326
+Congestion Avoidance, CWND: 89860
+Sending packet 304841 306208
+Received packet
+Receive ACK 244693
+Congestion Avoidance, CWND: 89880
+Sending packet 306208 307575
+Received packet
+Receive ACK 246060
+Congestion Avoidance, CWND: 89900
+Sending packet 307575 308942
+Received packet
+Receive ACK 247427
+Congestion Avoidance, CWND: 89920
+Sending packet 308942 310309
+Received packet
+Receive ACK 248794
+Congestion Avoidance, CWND: 89940
+Sending packet 310309 311676
+Received packet
+Receive ACK 250161
+Congestion Avoidance, CWND: 89960
+Sending packet 311676 313043
+Received packet
+Receive ACK 251528
+Congestion Avoidance, CWND: 89980
+Sending packet 313043 314410
+Received packet
+Receive ACK 252895
+Congestion Avoidance, CWND: 90000
+Sending packet 314410 315777
+Received packet
+Receive ACK 254262
+Congestion Avoidance, CWND: 90020
+Sending packet 315777 317144
+Received packet
+Receive ACK 255629
+Congestion Avoidance, CWND: 90040
+Sending packet 317144 318511
+Received packet
+Receive ACK 256996
+Congestion Avoidance, CWND: 90060
+Sending packet 318511 319878
+Received packet
+Receive ACK 258363
+Congestion Avoidance, CWND: 90080
+Sending packet 319878 321245
+Received packet
+Receive ACK 259730
+Congestion Avoidance, CWND: 90100
+Sending packet 321245 322612
+Received packet
+Receive ACK 261097
+Congestion Avoidance, CWND: 90120
+Sending packet 322612 323979
+Received packet
+Receive ACK 262464
+Congestion Avoidance, CWND: 90140
+Sending packet 323979 325346
+Received packet
+Receive ACK 263831
+Congestion Avoidance, CWND: 90160
+Sending packet 325346 326713
+Received packet
+Receive ACK 265198
+Congestion Avoidance, CWND: 90180
+Sending packet 326713 328080
+Received packet
+Receive ACK 266565
+Congestion Avoidance, CWND: 90200
+Sending packet 328080 329447
+Received packet
+Receive ACK 267932
+Congestion Avoidance, CWND: 90220
+Sending packet 329447 330814
+Received packet
+Receive ACK 269299
+Congestion Avoidance, CWND: 90240
+Sending packet 330814 332181
+Received packet
+Receive ACK 270666
+Congestion Avoidance, CWND: 90260
+Sending packet 332181 333548
+Received packet
+Receive ACK 272033
+Congestion Avoidance, CWND: 90280
+Sending packet 333548 334915
+Received packet
+Receive ACK 273400
+Congestion Avoidance, CWND: 90300
+Sending packet 334915 336282
+Received packet
+Receive ACK 274767
+Congestion Avoidance, CWND: 90320
+Sending packet 336282 337649
+Received packet
+Receive ACK 276134
+Congestion Avoidance, CWND: 90340
+Sending packet 337649 339016
+Received packet
+Receive ACK 277501
+Congestion Avoidance, CWND: 90360
+Sending packet 339016 340383
+Received packet
+Receive ACK 278868
+Congestion Avoidance, CWND: 90380
+Sending packet 340383 341750
+Received packet
+Receive ACK 280235
+Congestion Avoidance, CWND: 90400
+Sending packet 341750 343117
+Received packet
+Receive ACK 281602
+Congestion Avoidance, CWND: 90420
+Sending packet 343117 344484
+Received packet
+Receive ACK 282969
+Congestion Avoidance, CWND: 90440
+Sending packet 344484 345851
+Received packet
+Receive ACK 284336
+Congestion Avoidance, CWND: 90460
+Received packet
+Receive ACK 285703
+Congestion Avoidance, CWND: 90480
+Sending packet 345851 347218
+Sending packet 347218 348585
+Received packet
+Receive ACK 287070
+Congestion Avoidance, CWND: 90500
+Sending packet 348585 349952
+Received packet
+Receive ACK 288437
+Congestion Avoidance, CWND: 90520
+Sending packet 349952 351319
+Received packet
+Receive ACK 289804
+Congestion Avoidance, CWND: 90540
+Sending packet 351319 352686
+Received packet
+Receive ACK 291171
+Congestion Avoidance, CWND: 90560
+Sending packet 352686 354053
+Received packet
+Receive ACK 292538
+Congestion Avoidance, CWND: 90580
+Sending packet 354053 355420
+Received packet
+Receive ACK 293905
+Congestion Avoidance, CWND: 90600
+Sending packet 355420 356787
+Received packet
+Receive ACK 295272
+Congestion Avoidance, CWND: 90620
+Sending packet 356787 358154
+Received packet
+Receive ACK 296639
+Congestion Avoidance, CWND: 90640
+Sending packet 358154 359521
+Received packet
+Receive ACK 298006
+Congestion Avoidance, CWND: 90660
+Sending packet 359521 360888
+Received packet
+Receive ACK 299373
+Congestion Avoidance, CWND: 90680
+Sending packet 360888 362255
+Received packet
+Receive ACK 300740
+Congestion Avoidance, CWND: 90700
+Sending packet 362255 363622
+Received packet
+Receive ACK 302107
+Congestion Avoidance, CWND: 90720
+Sending packet 363622 364989
+Received packet
+Receive ACK 303474
+Congestion Avoidance, CWND: 90740
+Sending packet 364989 366356
+Received packet
+Receive ACK 304841
+Congestion Avoidance, CWND: 90760
+Sending packet 366356 367723
+Received packet
+Receive ACK 306208
+Congestion Avoidance, CWND: 90780
+Sending packet 367723 369090
+Received packet
+Receive ACK 307575
+Congestion Avoidance, CWND: 90800
+Sending packet 369090 370457
+Received packet
+Receive ACK 308942
+Congestion Avoidance, CWND: 90820
+Sending packet 370457 371824
+Received packet
+Receive ACK 310309
+Congestion Avoidance, CWND: 90840
+Sending packet 371824 373191
+Received packet
+Receive ACK 311676
+Congestion Avoidance, CWND: 90860
+Sending packet 373191 374558
+Received packet
+Receive ACK 313043
+Congestion Avoidance, CWND: 90880
+Sending packet 374558 375925
+Received packet
+Receive ACK 314410
+Congestion Avoidance, CWND: 90900
+Sending packet 375925 377292
+Received packet
+Receive ACK 315777
+Congestion Avoidance, CWND: 90920
+Sending packet 377292 378659
+Received packet
+Receive ACK 317144
+Congestion Avoidance, CWND: 90940
+Sending packet 378659 380026
+Received packet
+Receive ACK 318511
+Congestion Avoidance, CWND: 90960
+Sending packet 380026 381393
+Received packet
+Receive ACK 319878
+Congestion Avoidance, CWND: 90980
+Sending packet 381393 382760
+Received packet
+Receive ACK 321245
+Congestion Avoidance, CWND: 91000
+Sending packet 382760 384127
+Received packet
+Receive ACK 322612
+Congestion Avoidance, CWND: 91020
+Sending packet 384127 385494
+Received packet
+Receive ACK 323979
+Congestion Avoidance, CWND: 91040
+Sending packet 385494 386861
+Received packet
+Receive ACK 325346
+Congestion Avoidance, CWND: 91060
+Sending packet 386861 388228
+Received packet
+Receive ACK 326713
+Congestion Avoidance, CWND: 91080
+Sending packet 388228 389595
+Received packet
+Receive ACK 328080
+Congestion Avoidance, CWND: 91100
+Sending packet 389595 390962
+Received packet
+Receive ACK 329447
+Congestion Avoidance, CWND: 91120
+Sending packet 390962 392329
+Received packet
+Receive ACK 330814
+Congestion Avoidance, CWND: 91140
+Sending packet 392329 393696
+Received packet
+Receive ACK 332181
+Congestion Avoidance, CWND: 91160
+Sending packet 393696 395063
+Received packet
+Receive ACK 333548
+Congestion Avoidance, CWND: 91180
+Sending packet 395063 396430
+Received packet
+Receive ACK 334915
+Congestion Avoidance, CWND: 91200
+Sending packet 396430 397797
+Received packet
+Receive ACK 336282
+Congestion Avoidance, CWND: 91220
+Sending packet 397797 399164
+Received packet
+Receive ACK 337649
+Congestion Avoidance, CWND: 91240
+Sending packet 399164 400531
+Received packet
+Receive ACK 339016
+Congestion Avoidance, CWND: 91260
+Sending packet 400531 401898
+Received packet
+Receive ACK 340383
+Congestion Avoidance, CWND: 91280
+Sending packet 401898 403265
+Received packet
+Receive ACK 341750
+Congestion Avoidance, CWND: 91300
+Sending packet 403265 404632
+Received packet
+Receive ACK 343117
+Congestion Avoidance, CWND: 91320
+Sending packet 404632 405999
+Received packet
+Receive ACK 344484
+Congestion Avoidance, CWND: 91340
+Sending packet 405999 407366
+Received packet
+Receive ACK 345851
+Congestion Avoidance, CWND: 91360
+Sending packet 407366 408733
+Received packet
+Receive ACK 347218
+Congestion Avoidance, CWND: 91380
+Sending packet 408733 410100
+Received packet
+Receive ACK 348585
+Congestion Avoidance, CWND: 91400
+Sending packet 410100 411467
+Received packet
+Receive ACK 349952
+Congestion Avoidance, CWND: 91420
+Sending packet 411467 412834
+Received packet
+Receive ACK 351319
+Congestion Avoidance, CWND: 91440
+Sending packet 412834 414201
+Received packet
+Receive ACK 352686
+Congestion Avoidance, CWND: 91460
+Sending packet 414201 415568
+Received packet
+Receive ACK 354053
+Congestion Avoidance, CWND: 91480
+Sending packet 415568 416935
+Received packet
+Receive ACK 355420
+Congestion Avoidance, CWND: 91500
+Sending packet 416935 418302
+Received packet
+Receive ACK 356787
+Congestion Avoidance, CWND: 91520
+Sending packet 418302 419669
+Received packet
+Receive ACK 358154
+Congestion Avoidance, CWND: 91540
+Sending packet 419669 421036
+Received packet
+Receive ACK 359521
+Congestion Avoidance, CWND: 91560
+Sending packet 421036 422403
+Received packet
+Receive ACK 360888
+Congestion Avoidance, CWND: 91580
+Sending packet 422403 423770
+Received packet
+Receive ACK 362255
+Congestion Avoidance, CWND: 91600
+Sending packet 423770 425137
+Received packet
+Receive ACK 363622
+Congestion Avoidance, CWND: 91620
+Sending packet 425137 426504
+Received packet
+Receive ACK 364989
+Congestion Avoidance, CWND: 91640
+Sending packet 426504 427871
+Received packet
+Receive ACK 366356
+Congestion Avoidance, CWND: 91660
+Sending packet 427871 429238
+Received packet
+Receive ACK 367723
+Congestion Avoidance, CWND: 91680
+Sending packet 429238 430605
+Received packet
+Receive ACK 369090
+Congestion Avoidance, CWND: 91700
+Sending packet 430605 431972
+Received packet
+Receive ACK 370457
+Congestion Avoidance, CWND: 91720
+Sending packet 431972 433339
+Received packet
+Receive ACK 371824
+Congestion Avoidance, CWND: 91740
+Sending packet 433339 434706
+Received packet
+Receive ACK 373191
+Congestion Avoidance, CWND: 91760
+Sending packet 434706 436073
+Received packet
+Receive ACK 374558
+Congestion Avoidance, CWND: 91780
+Sending packet 436073 437440
+Received packet
+Receive ACK 375925
+Congestion Avoidance, CWND: 91800
+Sending packet 437440 438807
+Received packet
+Receive ACK 377292
+Congestion Avoidance, CWND: 91820
+Sending packet 438807 440174
+Received packet
+Receive ACK 378659
+Congestion Avoidance, CWND: 91840
+Sending packet 440174 441541
+Received packet
+Receive ACK 380026
+Congestion Avoidance, CWND: 91860
+Sending packet 441541 442908
+Received packet
+Receive ACK 381393
+Congestion Avoidance, CWND: 91880
+Sending packet 442908 444275
+Received packet
+Receive ACK 382760
+Congestion Avoidance, CWND: 91900
+Sending packet 444275 445642
+Received packet
+Receive ACK 384127
+Congestion Avoidance, CWND: 91920
+Sending packet 445642 447009
+Received packet
+Receive ACK 385494
+Congestion Avoidance, CWND: 91940
+Sending packet 447009 448376
+Received packet
+Receive ACK 386861
+Congestion Avoidance, CWND: 91960
+Sending packet 448376 449743
+Received packet
+Receive ACK 388228
+Congestion Avoidance, CWND: 91980
+Sending packet 449743 451110
+Received packet
+Receive ACK 389595
+Congestion Avoidance, CWND: 92000
+Sending packet 451110 452477
+Received packet
+Receive ACK 390962
+Congestion Avoidance, CWND: 92020
+Sending packet 452477 453844
+Received packet
+Receive ACK 392329
+Congestion Avoidance, CWND: 92040
+Sending packet 453844 455211
+Received packet
+Receive ACK 393696
+Congestion Avoidance, CWND: 92060
+Sending packet 455211 456578
+Received packet
+Receive ACK 395063
+Congestion Avoidance, CWND: 92080
+Sending packet 456578 457945
+Received packet
+Receive ACK 396430
+Congestion Avoidance, CWND: 92100
+Sending packet 457945 459312
+Received packet
+Receive ACK 397797
+Congestion Avoidance, CWND: 92120
+Sending packet 459312 460679
+Received packet
+Receive ACK 399164
+Congestion Avoidance, CWND: 92140
+Sending packet 460679 462046
+Received packet
+Receive ACK 400531
+Congestion Avoidance, CWND: 92160
+Sending packet 462046 463413
+Received packet
+Receive ACK 401898
+Congestion Avoidance, CWND: 92180
+Sending packet 463413 464780
+Received packet
+Receive ACK 403265
+Congestion Avoidance, CWND: 92200
+Sending packet 464780 466147
+Received packet
+Receive ACK 404632
+Congestion Avoidance, CWND: 92220
+Sending packet 466147 467514
+Received packet
+Receive ACK 405999
+Congestion Avoidance, CWND: 92240
+Sending packet 467514 468881
+Received packet
+Receive ACK 407366
+Congestion Avoidance, CWND: 92260
+Sending packet 468881 470248
+Received packet
+Receive ACK 408733
+Congestion Avoidance, CWND: 92280
+Sending packet 470248 471615
+Received packet
+Receive ACK 410100
+Congestion Avoidance, CWND: 92300
+Sending packet 471615 472982
+Received packet
+Receive ACK 411467
+Congestion Avoidance, CWND: 92320
+Sending packet 472982 474349
+Received packet
+Receive ACK 412834
+Congestion Avoidance, CWND: 92340
+Sending packet 474349 475716
+Received packet
+Receive ACK 414201
+Congestion Avoidance, CWND: 92360
+Sending packet 475716 477083
+Received packet
+Receive ACK 415568
+Congestion Avoidance, CWND: 92380
+Sending packet 477083 478450
+Received packet
+Receive ACK 416935
+Congestion Avoidance, CWND: 92400
+Sending packet 478450 479817
+Received packet
+Receive ACK 418302
+Congestion Avoidance, CWND: 92420
+Sending packet 479817 481184
+Received packet
+Receive ACK 419669
+Congestion Avoidance, CWND: 92440
+Sending packet 481184 482551
+Received packet
+Receive ACK 421036
+Congestion Avoidance, CWND: 92460
+Sending packet 482551 483918
+Received packet
+Receive ACK 422403
+Congestion Avoidance, CWND: 92480
+Sending packet 483918 485285
+Received packet
+Receive ACK 423770
+Congestion Avoidance, CWND: 92500
+Sending packet 485285 486652
+Received packet
+Receive ACK 425137
+Congestion Avoidance, CWND: 92520
+Sending packet 486652 488019
+Received packet
+Receive ACK 426504
+Congestion Avoidance, CWND: 92540
+Sending packet 488019 489386
+Received packet
+Receive ACK 427871
+Congestion Avoidance, CWND: 92560
+Sending packet 489386 490753
+Received packet
+Receive ACK 429238
+Congestion Avoidance, CWND: 92580
+Sending packet 490753 492120
+Received packet
+Receive ACK 430605
+Congestion Avoidance, CWND: 92600
+Sending packet 492120 493487
+Received packet
+Receive ACK 431972
+Congestion Avoidance, CWND: 92620
+Sending packet 493487 494854
+Sending packet 494854 495632
+Received packet
+Receive ACK 433339
+Congestion Avoidance, CWND: 92640
+Sending packet 495632 496999
+Received packet
+Receive ACK 434706
+Congestion Avoidance, CWND: 92660
+Sending packet 496999 498366
+Received packet
+Receive ACK 436073
+Congestion Avoidance, CWND: 92680
+Sending packet 498366 499733
+Received packet
+Receive ACK 437440
+Congestion Avoidance, CWND: 92700
+Sending packet 499733 501100
+Received packet
+Receive ACK 438807
+Congestion Avoidance, CWND: 92720
+Sending packet 501100 502467
+Received packet
+Receive ACK 440174
+Congestion Avoidance, CWND: 92740
+Sending packet 502467 503834
+Received packet
+Receive ACK 441541
+Congestion Avoidance, CWND: 92760
+Sending packet 503834 505201
+Received packet
+Receive ACK 442908
+Congestion Avoidance, CWND: 92780
+Sending packet 505201 506568
+Received packet
+Receive ACK 444275
+Congestion Avoidance, CWND: 92800
+Sending packet 506568 507935
+Received packet
+Receive ACK 445642
+Congestion Avoidance, CWND: 92820
+Sending packet 507935 509302
+Received packet
+Receive ACK 447009
+Congestion Avoidance, CWND: 92840
+Sending packet 509302 510669
+Received packet
+Receive ACK 448376
+Congestion Avoidance, CWND: 92860
+Sending packet 510669 512036
+Received packet
+Receive ACK 449743
+Congestion Avoidance, CWND: 92880
+Sending packet 512036 513403
+Received packet
+Receive ACK 451110
+Congestion Avoidance, CWND: 92900
+Sending packet 513403 514770
+Received packet
+Receive ACK 452477
+Congestion Avoidance, CWND: 92920
+Sending packet 514770 516137
+Received packet
+Receive ACK 453844
+Congestion Avoidance, CWND: 92940
+Sending packet 516137 517504
+Received packet
+Receive ACK 455211
+Congestion Avoidance, CWND: 92960
+Sending packet 517504 518871
+Received packet
+Receive ACK 456578
+Congestion Avoidance, CWND: 92980
+Sending packet 518871 520238
+Received packet
+Receive ACK 457945
+Congestion Avoidance, CWND: 93000
+Sending packet 520238 521605
+Received packet
+Receive ACK 459312
+Congestion Avoidance, CWND: 93020
+Sending packet 521605 522972
+Received packet
+Receive ACK 460679
+Congestion Avoidance, CWND: 93040
+Sending packet 522972 524339
+Received packet
+Receive ACK 462046
+Congestion Avoidance, CWND: 93060
+Sending packet 524339 525706
+Received packet
+Receive ACK 463413
+Congestion Avoidance, CWND: 93080
+Sending packet 525706 527073
+Received packet
+Receive ACK 464780
+Congestion Avoidance, CWND: 93100
+Sending packet 527073 528440
+Received packet
+Receive ACK 466147
+Congestion Avoidance, CWND: 93120
+Sending packet 528440 529807
+Received packet
+Receive ACK 467514
+Congestion Avoidance, CWND: 93140
+Sending packet 529807 531174
+Received packet
+Receive ACK 468881
+Congestion Avoidance, CWND: 93160
+Sending packet 531174 532541
+Received packet
+Receive ACK 470248
+Congestion Avoidance, CWND: 93180
+Sending packet 532541 533908
+Received packet
+Receive ACK 471615
+Congestion Avoidance, CWND: 93200
+Sending packet 533908 535275
+Received packet
+Receive ACK 472982
+Congestion Avoidance, CWND: 93220
+Sending packet 535275 536642
+Received packet
+Receive ACK 474349
+Congestion Avoidance, CWND: 93240
+Sending packet 536642 538009
+Received packet
+Receive ACK 475716
+Congestion Avoidance, CWND: 93260
+Sending packet 538009 539376
+Received packet
+Receive ACK 477083
+Congestion Avoidance, CWND: 93280
+Sending packet 539376 540743
+Received packet
+Receive ACK 478450
+Congestion Avoidance, CWND: 93300
+Sending packet 540743 542110
+Received packet
+Receive ACK 479817
+Congestion Avoidance, CWND: 93320
+Sending packet 542110 543477
+Received packet
+Receive ACK 481184
+Congestion Avoidance, CWND: 93340
+Sending packet 543477 544844
+Received packet
+Receive ACK 482551
+Congestion Avoidance, CWND: 93360
+Sending packet 544844 546211
+Received packet
+Receive ACK 483918
+Congestion Avoidance, CWND: 93380
+Sending packet 546211 547578
+Received packet
+Receive ACK 485285
+Congestion Avoidance, CWND: 93400
+Sending packet 547578 548945
+Received packet
+Receive ACK 486652
+Congestion Avoidance, CWND: 93420
+Sending packet 548945 550312
+Received packet
+Receive ACK 488019
+Congestion Avoidance, CWND: 93440
+Sending packet 550312 551679
+Received packet
+Receive ACK 489386
+Congestion Avoidance, CWND: 93459
+Sending packet 551679 553046
+Received packet
+Receive ACK 490753
+Congestion Avoidance, CWND: 93478
+Sending packet 553046 554413
+Received packet
+Receive ACK 492120
+Congestion Avoidance, CWND: 93497
+Sending packet 554413 555780
+Received packet
+Receive ACK 493487
+Congestion Avoidance, CWND: 93516
+Sending packet 555780 557147
+Received packet
+Receive ACK 494854
+Congestion Avoidance, CWND: 93535
+Sending packet 557147 558514
+Received packet
+Receive ACK 495632
+Congestion Avoidance, CWND: 93554
+Sending packet 558514 559881
+Received packet
+Receive ACK 496999
+Congestion Avoidance, CWND: 93573
+Received packet
+Receive ACK 498366
+Congestion Avoidance, CWND: 93592
+Sending packet 559881 561248
+Received packet
+Receive ACK 499733
+Congestion Avoidance, CWND: 93611
+Sending packet 561248 562615
+Received packet
+Receive ACK 501100
+Congestion Avoidance, CWND: 93630
+Sending packet 562615 563982
+Received packet
+Receive ACK 502467
+Congestion Avoidance, CWND: 93649
+Sending packet 563982 565349
+Received packet
+Receive ACK 503834
+Congestion Avoidance, CWND: 93668
+Sending packet 565349 566716
+Received packet
+Receive ACK 505201
+Congestion Avoidance, CWND: 93687
+Sending packet 566716 568083
+Received packet
+Receive ACK 506568
+Congestion Avoidance, CWND: 93706
+Sending packet 568083 569450
+Received packet
+Receive ACK 507935
+Congestion Avoidance, CWND: 93725
+Sending packet 569450 570817
+Received packet
+Receive ACK 509302
+Congestion Avoidance, CWND: 93744
+Sending packet 570817 572184
+Received packet
+Receive ACK 510669
+Congestion Avoidance, CWND: 93763
+Received packet
+Receive ACK 512036
+Congestion Avoidance, CWND: 93782
+Sending packet 572184 573551
+Sending packet 573551 574918
+Received packet
+Receive ACK 513403
+Congestion Avoidance, CWND: 93801
+Sending packet 574918 576285
+Received packet
+Receive ACK 514770
+Congestion Avoidance, CWND: 93820
+Sending packet 576285 577652
+Received packet
+Receive ACK 516137
+Congestion Avoidance, CWND: 93839
+Sending packet 577652 579019
+Received packet
+Receive ACK 517504
+Congestion Avoidance, CWND: 93858
+Sending packet 579019 580386
+Received packet
+Receive ACK 518871
+Congestion Avoidance, CWND: 93877
+Sending packet 580386 581753
+Received packet
+Receive ACK 520238
+Congestion Avoidance, CWND: 93896
+Sending packet 581753 583120
+Received packet
+Receive ACK 521605
+Congestion Avoidance, CWND: 93915
+Sending packet 583120 584487
+Received packet
+Receive ACK 522972
+Congestion Avoidance, CWND: 93934
+Sending packet 584487 585854
+Received packet
+Receive ACK 524339
+Congestion Avoidance, CWND: 93953
+Sending packet 585854 587221
+Received packet
+Receive ACK 525706
+Congestion Avoidance, CWND: 93972
+Sending packet 587221 588588
+Received packet
+Receive ACK 527073
+Congestion Avoidance, CWND: 93991
+Sending packet 588588 589955
+Received packet
+Receive ACK 528440
+Congestion Avoidance, CWND: 94010
+Sending packet 589955 591322
+Received packet
+Receive ACK 529807
+Congestion Avoidance, CWND: 94029
+Sending packet 591322 592689
+Received packet
+Receive ACK 531174
+Congestion Avoidance, CWND: 94048
+Sending packet 592689 594056
+Received packet
+Receive ACK 532541
+Congestion Avoidance, CWND: 94067
+Sending packet 594056 595423
+Received packet
+Receive ACK 533908
+Congestion Avoidance, CWND: 94086
+Sending packet 595423 596790
+Received packet
+Receive ACK 535275
+Congestion Avoidance, CWND: 94105
+Sending packet 596790 598157
+Received packet
+Receive ACK 536642
+Congestion Avoidance, CWND: 94124
+Sending packet 598157 599524
+Received packet
+Receive ACK 538009
+Congestion Avoidance, CWND: 94143
+Sending packet 599524 600891
+Received packet
+Receive ACK 539376
+Congestion Avoidance, CWND: 94162
+Sending packet 600891 602258
+Received packet
+Receive ACK 540743
+Congestion Avoidance, CWND: 94181
+Sending packet 602258 603625
+Received packet
+Receive ACK 542110
+Congestion Avoidance, CWND: 94200
+Sending packet 603625 604992
+Received packet
+Receive ACK 543477
+Congestion Avoidance, CWND: 94219
+Sending packet 604992 606359
+Received packet
+Receive ACK 544844
+Congestion Avoidance, CWND: 94238
+Sending packet 606359 607726
+Received packet
+Receive ACK 546211
+Congestion Avoidance, CWND: 94257
+Sending packet 607726 609093
+Received packet
+Receive ACK 547578
+Congestion Avoidance, CWND: 94276
+Sending packet 609093 610460
+Received packet
+Receive ACK 548945
+Congestion Avoidance, CWND: 94295
+Sending packet 610460 611827
+Received packet
+Receive ACK 550312
+Congestion Avoidance, CWND: 94314
+Sending packet 611827 613194
+Received packet
+Receive ACK 551679
+Congestion Avoidance, CWND: 94333
+Sending packet 613194 614561
+Received packet
+Receive ACK 553046
+Congestion Avoidance, CWND: 94352
+Sending packet 614561 615928
+Received packet
+Receive ACK 554413
+Congestion Avoidance, CWND: 94371
+Sending packet 615928 617295
+Received packet
+Receive ACK 555780
+Congestion Avoidance, CWND: 94390
+Sending packet 617295 618662
+Received packet
+Receive ACK 557147
+Congestion Avoidance, CWND: 94409
+Sending packet 618662 620029
+Received packet
+Receive ACK 558514
+Congestion Avoidance, CWND: 94428
+Sending packet 620029 621396
+Received packet
+Receive ACK 559881
+Congestion Avoidance, CWND: 94447
+Sending packet 621396 622763
+Received packet
+Receive ACK 561248
+Congestion Avoidance, CWND: 94466
+Sending packet 622763 624130
+Received packet
+Receive ACK 562615
+Congestion Avoidance, CWND: 94485
+Sending packet 624130 625497
+Received packet
+Receive ACK 563982
+Congestion Avoidance, CWND: 94504
+Sending packet 625497 626864
+Received packet
+Receive ACK 565349
+Congestion Avoidance, CWND: 94523
+Sending packet 626864 628231
+Received packet
+Receive ACK 566716
+Congestion Avoidance, CWND: 94542
+Sending packet 628231 629598
+Received packet
+Receive ACK 568083
+Congestion Avoidance, CWND: 94561
+Sending packet 629598 630965
+Received packet
+Receive ACK 569450
+Congestion Avoidance, CWND: 94580
+Sending packet 630965 632332
+Received packet
+Receive ACK 570817
+Congestion Avoidance, CWND: 94599
+Sending packet 632332 633699
+Received packet
+Receive ACK 572184
+Congestion Avoidance, CWND: 94618
+Sending packet 633699 635066
+Received packet
+Receive ACK 573551
+Congestion Avoidance, CWND: 94637
+Sending packet 635066 636433
+Received packet
+Receive ACK 574918
+Congestion Avoidance, CWND: 94656
+Sending packet 636433 637800
+Received packet
+Receive ACK 576285
+Congestion Avoidance, CWND: 94675
+Sending packet 637800 639167
+Received packet
+Receive ACK 577652
+Congestion Avoidance, CWND: 94694
+Sending packet 639167 640534
+Received packet
+Receive ACK 579019
+Congestion Avoidance, CWND: 94713
+Sending packet 640534 641901
+Received packet
+Receive ACK 580386
+Congestion Avoidance, CWND: 94732
+Sending packet 641901 643268
+Received packet
+Receive ACK 581753
+Congestion Avoidance, CWND: 94751
+Sending packet 643268 644635
+Received packet
+Receive ACK 583120
+Congestion Avoidance, CWND: 94770
+Sending packet 644635 646002
+Received packet
+Receive ACK 584487
+Congestion Avoidance, CWND: 94789
+Sending packet 646002 647369
+Received packet
+Receive ACK 585854
+Congestion Avoidance, CWND: 94808
+Sending packet 647369 648736
+Received packet
+Receive ACK 587221
+Congestion Avoidance, CWND: 94827
+Sending packet 648736 650103
+Received packet
+Receive ACK 588588
+Congestion Avoidance, CWND: 94846
+Sending packet 650103 651470
+Received packet
+Receive ACK 589955
+Congestion Avoidance, CWND: 94865
+Sending packet 651470 652837
+Received packet
+Receive ACK 591322
+Congestion Avoidance, CWND: 94884
+Sending packet 652837 654204
+Received packet
+Receive ACK 592689
+Congestion Avoidance, CWND: 94903
+Sending packet 654204 655571
+Received packet
+Receive ACK 594056
+Congestion Avoidance, CWND: 94922
+Sending packet 655571 656938
+Received packet
+Receive ACK 595423
+Congestion Avoidance, CWND: 94941
+Sending packet 656938 658305
+Received packet
+Receive ACK 596790
+Congestion Avoidance, CWND: 94960
+Sending packet 658305 659672
+Received packet
+Receive ACK 598157
+Congestion Avoidance, CWND: 94979
+Sending packet 659672 661039
+Received packet
+Receive ACK 599524
+Congestion Avoidance, CWND: 94998
+Sending packet 661039 662406
+Received packet
+Receive ACK 600891
+Congestion Avoidance, CWND: 95017
+Sending packet 662406 663773
+Received packet
+Receive ACK 602258
+Congestion Avoidance, CWND: 95036
+Sending packet 663773 665140
+Received packet
+Receive ACK 603625
+Congestion Avoidance, CWND: 95055
+Sending packet 665140 666507
+Received packet
+Receive ACK 604992
+Congestion Avoidance, CWND: 95074
+Sending packet 666507 667874
+Received packet
+Receive ACK 606359
+Congestion Avoidance, CWND: 95093
+Sending packet 667874 669241
+Received packet
+Receive ACK 607726
+Congestion Avoidance, CWND: 95112
+Sending packet 669241 670608
+Received packet
+Receive ACK 609093
+Congestion Avoidance, CWND: 95131
+Sending packet 670608 671975
+Received packet
+Receive ACK 610460
+Congestion Avoidance, CWND: 95150
+Sending packet 671975 673342
+Received packet
+Receive ACK 611827
+Congestion Avoidance, CWND: 95169
+Sending packet 673342 674709
+Received packet
+Receive ACK 613194
+Congestion Avoidance, CWND: 95188
+Sending packet 674709 676076
+Received packet
+Receive ACK 614561
+Congestion Avoidance, CWND: 95207
+Sending packet 676076 677443
+Received packet
+Receive ACK 615928
+Congestion Avoidance, CWND: 95226
+Sending packet 677443 678810
+Received packet
+Receive ACK 617295
+Congestion Avoidance, CWND: 95245
+Sending packet 678810 680177
+Received packet
+Receive ACK 618662
+Congestion Avoidance, CWND: 95264
+Sending packet 680177 681544
+Received packet
+Receive ACK 620029
+Congestion Avoidance, CWND: 95283
+Sending packet 681544 682911
+Received packet
+Receive ACK 621396
+Congestion Avoidance, CWND: 95302
+Sending packet 682911 684278
+Received packet
+Receive ACK 622763
+Congestion Avoidance, CWND: 95321
+Sending packet 684278 685645
+Received packet
+Receive ACK 624130
+Congestion Avoidance, CWND: 95340
+Sending packet 685645 687012
+Received packet
+Receive ACK 625497
+Congestion Avoidance, CWND: 95359
+Sending packet 687012 688379
+Received packet
+Receive ACK 626864
+Congestion Avoidance, CWND: 95378
+Sending packet 688379 689746
+Received packet
+Receive ACK 628231
+Congestion Avoidance, CWND: 95397
+Sending packet 689746 691113
+Received packet
+Receive ACK 629598
+Congestion Avoidance, CWND: 95416
+Sending packet 691113 692480
+Received packet
+Receive ACK 630965
+Congestion Avoidance, CWND: 95435
+Sending packet 692480 693847
+Received packet
+Receive ACK 632332
+Congestion Avoidance, CWND: 95454
+Sending packet 693847 695214
+Received packet
+Receive ACK 633699
+Congestion Avoidance, CWND: 95473
+Sending packet 695214 696581
+Received packet
+Receive ACK 635066
+Congestion Avoidance, CWND: 95492
+Sending packet 696581 697948
+Received packet
+Receive ACK 636433
+Congestion Avoidance, CWND: 95511
+Sending packet 697948 699315
+Received packet
+Receive ACK 637800
+Congestion Avoidance, CWND: 95530
+Sending packet 699315 700682
+Received packet
+Receive ACK 639167
+Congestion Avoidance, CWND: 95549
+Sending packet 700682 702049
+Received packet
+Receive ACK 640534
+Congestion Avoidance, CWND: 95568
+Sending packet 702049 703416
+Received packet
+Receive ACK 641901
+Congestion Avoidance, CWND: 95587
+Sending packet 703416 704783
+Received packet
+Receive ACK 643268
+Congestion Avoidance, CWND: 95606
+Sending packet 704783 706150
+Received packet
+Receive ACK 644635
+Congestion Avoidance, CWND: 95625
+Sending packet 706150 707517
+Received packet
+Receive ACK 646002
+Congestion Avoidance, CWND: 95644
+Sending packet 707517 708884
+Received packet
+Receive ACK 647369
+Congestion Avoidance, CWND: 95663
+Sending packet 708884 710251
+Received packet
+Receive ACK 648736
+Congestion Avoidance, CWND: 95682
+Sending packet 710251 711618
+Received packet
+Receive ACK 650103
+Congestion Avoidance, CWND: 95701
+Sending packet 711618 712985
+Received packet
+Receive ACK 651470
+Congestion Avoidance, CWND: 95720
+Sending packet 712985 714352
+Received packet
+Receive ACK 652837
+Congestion Avoidance, CWND: 95739
+Sending packet 714352 715719
+Received packet
+Receive ACK 654204
+Congestion Avoidance, CWND: 95758
+Sending packet 715719 717086
+Received packet
+Receive ACK 655571
+Congestion Avoidance, CWND: 95777
+Sending packet 717086 718453
+Received packet
+Receive ACK 656938
+Congestion Avoidance, CWND: 95796
+Sending packet 718453 719820
+Received packet
+Receive ACK 658305
+Congestion Avoidance, CWND: 95815
+Sending packet 719820 721187
+Received packet
+Receive ACK 659672
+Congestion Avoidance, CWND: 95834
+Sending packet 721187 722554
+Received packet
+Receive ACK 661039
+Congestion Avoidance, CWND: 95853
+Sending packet 722554 723921
+Received packet
+Receive ACK 662406
+Congestion Avoidance, CWND: 95872
+Sending packet 723921 725288
+Received packet
+Receive ACK 663773
+Congestion Avoidance, CWND: 95891
+Sending packet 725288 726655
+Received packet
+Receive ACK 665140
+Congestion Avoidance, CWND: 95910
+Sending packet 726655 728022
+Received packet
+Receive ACK 666507
+Congestion Avoidance, CWND: 95929
+Sending packet 728022 729389
+Received packet
+Receive ACK 667874
+Congestion Avoidance, CWND: 95948
+Sending packet 729389 730756
+Received packet
+Receive ACK 669241
+Congestion Avoidance, CWND: 95967
+Sending packet 730756 732123
+Received packet
+Receive ACK 670608
+Congestion Avoidance, CWND: 95986
+Sending packet 732123 733490
+Received packet
+Receive ACK 671975
+Congestion Avoidance, CWND: 96005
+Sending packet 733490 734857
+Received packet
+Receive ACK 673342
+Congestion Avoidance, CWND: 96024
+Sending packet 734857 736224
+Received packet
+Receive ACK 674709
+Congestion Avoidance, CWND: 96043
+Sending packet 736224 737591
+Received packet
+Receive ACK 676076
+Congestion Avoidance, CWND: 96062
+Sending packet 737591 738958
+Received packet
+Receive ACK 677443
+Congestion Avoidance, CWND: 96081
+Sending packet 738958 740325
+Received packet
+Receive ACK 678810
+Congestion Avoidance, CWND: 96100
+Sending packet 740325 741692
+Received packet
+Receive ACK 680177
+Congestion Avoidance, CWND: 96119
+Sending packet 741692 743059
+Received packet
+Receive ACK 681544
+Congestion Avoidance, CWND: 96138
+Sending packet 743059 744426
+Received packet
+Receive ACK 682911
+Congestion Avoidance, CWND: 96157
+Sending packet 744426 745793
+Received packet
+Receive ACK 684278
+Congestion Avoidance, CWND: 96176
+Sending packet 745793 747160
+Received packet
+Receive ACK 685645
+Congestion Avoidance, CWND: 96195
+Sending packet 747160 748527
+Received packet
+Receive ACK 687012
+Congestion Avoidance, CWND: 96214
+Sending packet 748527 749894
+Received packet
+Receive ACK 688379
+Congestion Avoidance, CWND: 96233
+Sending packet 749894 751261
+Received packet
+Receive ACK 689746
+Congestion Avoidance, CWND: 96252
+Sending packet 751261 752628
+Received packet
+Receive ACK 691113
+Congestion Avoidance, CWND: 96271
+Sending packet 752628 753995
+Received packet
+Receive ACK 692480
+Congestion Avoidance, CWND: 96290
+Sending packet 753995 755362
+Received packet
+Receive ACK 693847
+Congestion Avoidance, CWND: 96309
+Sending packet 755362 756729
+Received packet
+Receive ACK 695214
+Congestion Avoidance, CWND: 96328
+Sending packet 756729 758096
+Received packet
+Receive ACK 696581
+Congestion Avoidance, CWND: 96347
+Sending packet 758096 759463
+Received packet
+Receive ACK 697948
+Congestion Avoidance, CWND: 96366
+Sending packet 759463 760830
+Received packet
+Receive ACK 699315
+Congestion Avoidance, CWND: 96385
+Sending packet 760830 762197
+Received packet
+Receive ACK 700682
+Congestion Avoidance, CWND: 96404
+Sending packet 762197 763564
+Received packet
+Receive ACK 702049
+Congestion Avoidance, CWND: 96423
+Sending packet 763564 764931
+Received packet
+Receive ACK 703416
+Congestion Avoidance, CWND: 96442
+Sending packet 764931 766298
+Received packet
+Receive ACK 704783
+Congestion Avoidance, CWND: 96461
+Sending packet 766298 767665
+Received packet
+Receive ACK 706150
+Congestion Avoidance, CWND: 96480
+Sending packet 767665 769032
+Received packet
+Receive ACK 707517
+Congestion Avoidance, CWND: 96499
+Sending packet 769032 770399
+Received packet
+Receive ACK 708884
+Congestion Avoidance, CWND: 96518
+Sending packet 770399 771766
+Received packet
+Receive ACK 710251
+Congestion Avoidance, CWND: 96537
+Sending packet 771766 773133
+Received packet
+Receive ACK 711618
+Congestion Avoidance, CWND: 96556
+Sending packet 773133 774500
+Received packet
+Receive ACK 712985
+Congestion Avoidance, CWND: 96575
+Sending packet 774500 775867
+Received packet
+Receive ACK 714352
+Congestion Avoidance, CWND: 96594
+Sending packet 775867 777234
+Received packet
+Receive ACK 715719
+Congestion Avoidance, CWND: 96613
+Sending packet 777234 778601
+Received packet
+Receive ACK 717086
+Congestion Avoidance, CWND: 96632
+Sending packet 778601 779968
+Received packet
+Receive ACK 718453
+Congestion Avoidance, CWND: 96651
+Sending packet 779968 781335
+Received packet
+Receive ACK 719820
+Congestion Avoidance, CWND: 96670
+Sending packet 781335 782702
+Received packet
+Receive ACK 721187
+Congestion Avoidance, CWND: 96689
+Sending packet 782702 784069
+Received packet
+Receive ACK 722554
+Congestion Avoidance, CWND: 96708
+Sending packet 784069 785436
+Received packet
+Receive ACK 723921
+Congestion Avoidance, CWND: 96727
+Sending packet 785436 786803
+Received packet
+Receive ACK 725288
+Congestion Avoidance, CWND: 96746
+Sending packet 786803 788170
+Received packet
+Receive ACK 726655
+Congestion Avoidance, CWND: 96765
+Sending packet 788170 789537
+Received packet
+Receive ACK 728022
+Congestion Avoidance, CWND: 96784
+Sending packet 789537 790904
+Received packet
+Receive ACK 729389
+Congestion Avoidance, CWND: 96803
+Sending packet 790904 792271
+Received packet
+Receive ACK 730756
+Congestion Avoidance, CWND: 96822
+Sending packet 792271 793638
+Received packet
+Receive ACK 732123
+Congestion Avoidance, CWND: 96841
+Sending packet 793638 795005
+Received packet
+Receive ACK 733490
+Congestion Avoidance, CWND: 96860
+Sending packet 795005 796372
+Received packet
+Receive ACK 734857
+Congestion Avoidance, CWND: 96879
+Sending packet 796372 797739
+Received packet
+Receive ACK 736224
+Congestion Avoidance, CWND: 96898
+Sending packet 797739 799106
+Received packet
+Receive ACK 737591
+Congestion Avoidance, CWND: 96917
+Sending packet 799106 800473
+Received packet
+Receive ACK 738958
+Congestion Avoidance, CWND: 96936
+Sending packet 800473 801840
+Received packet
+Receive ACK 740325
+Congestion Avoidance, CWND: 96955
+Sending packet 801840 803207
+Received packet
+Receive ACK 741692
+Congestion Avoidance, CWND: 96974
+Sending packet 803207 804574
+Received packet
+Receive ACK 743059
+Congestion Avoidance, CWND: 96993
+Sending packet 804574 805941
+Received packet
+Receive ACK 744426
+Congestion Avoidance, CWND: 97012
+Sending packet 805941 807308
+Received packet
+Receive ACK 745793
+Congestion Avoidance, CWND: 97031
+Sending packet 807308 808675
+Received packet
+Receive ACK 747160
+Congestion Avoidance, CWND: 97050
+Received packet
+Receive ACK 748527
+Congestion Avoidance, CWND: 97069
+Sending packet 808675 810042
+Sending packet 810042 811409
+Received packet
+Receive ACK 749894
+Congestion Avoidance, CWND: 97088
+Sending packet 811409 812776
+Received packet
+Receive ACK 751261
+Congestion Avoidance, CWND: 97107
+Sending packet 812776 814143
+Received packet
+Receive ACK 752628
+Congestion Avoidance, CWND: 97126
+Sending packet 814143 815510
+Received packet
+Receive ACK 753995
+Congestion Avoidance, CWND: 97145
+Sending packet 815510 816877
+Received packet
+Receive ACK 755362
+Congestion Avoidance, CWND: 97164
+Sending packet 816877 818244
+Received packet
+Receive ACK 756729
+Congestion Avoidance, CWND: 97183
+Sending packet 818244 819611
+Received packet
+Receive ACK 758096
+Congestion Avoidance, CWND: 97202
+Sending packet 819611 820978
+Received packet
+Receive ACK 759463
+Congestion Avoidance, CWND: 97221
+Sending packet 820978 822345
+Received packet
+Receive ACK 760830
+Congestion Avoidance, CWND: 97240
+Sending packet 822345 823712
+Received packet
+Receive ACK 762197
+Congestion Avoidance, CWND: 97259
+Sending packet 823712 825079
+Received packet
+Receive ACK 763564
+Congestion Avoidance, CWND: 97278
+Sending packet 825079 826446
+Received packet
+Receive ACK 764931
+Congestion Avoidance, CWND: 97297
+Sending packet 826446 827813
+Received packet
+Receive ACK 766298
+Congestion Avoidance, CWND: 97316
+Sending packet 827813 829180
+Received packet
+Receive ACK 767665
+Congestion Avoidance, CWND: 97335
+Sending packet 829180 830547
+Received packet
+Receive ACK 769032
+Congestion Avoidance, CWND: 97354
+Sending packet 830547 831914
+Received packet
+Receive ACK 770399
+Congestion Avoidance, CWND: 97373
+Sending packet 831914 833281
+Received packet
+Receive ACK 771766
+Congestion Avoidance, CWND: 97392
+Sending packet 833281 834648
+Received packet
+Receive ACK 773133
+Congestion Avoidance, CWND: 97411
+Sending packet 834648 836015
+Received packet
+Receive ACK 774500
+Congestion Avoidance, CWND: 97430
+Sending packet 836015 837382
+Received packet
+Receive ACK 775867
+Congestion Avoidance, CWND: 97449
+Sending packet 837382 838749
+Received packet
+Receive ACK 777234
+Congestion Avoidance, CWND: 97468
+Sending packet 838749 840116
+Received packet
+Receive ACK 778601
+Congestion Avoidance, CWND: 97487
+Sending packet 840116 841483
+Received packet
+Receive ACK 779968
+Congestion Avoidance, CWND: 97506
+Sending packet 841483 842850
+Received packet
+Receive ACK 781335
+Congestion Avoidance, CWND: 97525
+Sending packet 842850 844217
+Received packet
+Receive ACK 782702
+Congestion Avoidance, CWND: 97544
+Sending packet 844217 845584
+Received packet
+Receive ACK 784069
+Congestion Avoidance, CWND: 97563
+Sending packet 845584 846951
+Received packet
+Receive ACK 785436
+Congestion Avoidance, CWND: 97582
+Sending packet 846951 848318
+Received packet
+Receive ACK 786803
+Congestion Avoidance, CWND: 97601
+Sending packet 848318 849685
+Received packet
+Receive ACK 788170
+Congestion Avoidance, CWND: 97620
+Sending packet 849685 851052
+Received packet
+Receive ACK 789537
+Congestion Avoidance, CWND: 97639
+Sending packet 851052 852419
+Received packet
+Receive ACK 790904
+Congestion Avoidance, CWND: 97658
+Sending packet 852419 853786
+Received packet
+Receive ACK 792271
+Congestion Avoidance, CWND: 97677
+Sending packet 853786 855153
+Received packet
+Receive ACK 793638
+Congestion Avoidance, CWND: 97696
+Sending packet 855153 856520
+Received packet
+Receive ACK 795005
+Congestion Avoidance, CWND: 97715
+Sending packet 856520 857887
+Received packet
+Receive ACK 796372
+Congestion Avoidance, CWND: 97734
+Sending packet 857887 859254
+Received packet
+Receive ACK 797739
+Congestion Avoidance, CWND: 97753
+Sending packet 859254 860621
+Received packet
+Receive ACK 799106
+Congestion Avoidance, CWND: 97772
+Sending packet 860621 861988
+Received packet
+Receive ACK 800473
+Congestion Avoidance, CWND: 97791
+Sending packet 861988 863355
+Received packet
+Receive ACK 801840
+Congestion Avoidance, CWND: 97810
+Sending packet 863355 864722
+Received packet
+Receive ACK 803207
+Congestion Avoidance, CWND: 97829
+Sending packet 864722 866089
+Received packet
+Receive ACK 804574
+Congestion Avoidance, CWND: 97848
+Sending packet 866089 867456
+Received packet
+Receive ACK 805941
+Congestion Avoidance, CWND: 97867
+Sending packet 867456 868823
+Received packet
+Receive ACK 807308
+Congestion Avoidance, CWND: 97886
+Sending packet 868823 870190
+Received packet
+Receive ACK 808675
+Congestion Avoidance, CWND: 97905
+Sending packet 870190 871557
+Received packet
+Receive ACK 810042
+Congestion Avoidance, CWND: 97924
+Sending packet 871557 872924
+Received packet
+Receive ACK 811409
+Congestion Avoidance, CWND: 97943
+Sending packet 872924 874291
+Received packet
+Receive ACK 812776
+Congestion Avoidance, CWND: 97962
+Sending packet 874291 875658
+Received packet
+Receive ACK 814143
+Congestion Avoidance, CWND: 97981
+Sending packet 875658 877025
+Received packet
+Receive ACK 815510
+Congestion Avoidance, CWND: 98000
+Sending packet 877025 878392
+Received packet
+Receive ACK 816877
+Congestion Avoidance, CWND: 98019
+Sending packet 878392 879759
+Received packet
+Receive ACK 818244
+Congestion Avoidance, CWND: 98038
+Sending packet 879759 881126
+Received packet
+Receive ACK 819611
+Congestion Avoidance, CWND: 98057
+Sending packet 881126 882493
+Received packet
+Receive ACK 820978
+Congestion Avoidance, CWND: 98076
+Sending packet 882493 883860
+Received packet
+Receive ACK 822345
+Congestion Avoidance, CWND: 98095
+Sending packet 883860 885227
+Received packet
+Receive ACK 823712
+Congestion Avoidance, CWND: 98114
+Sending packet 885227 886594
+Received packet
+Receive ACK 825079
+Congestion Avoidance, CWND: 98133
+Sending packet 886594 887961
+Received packet
+Receive ACK 826446
+Congestion Avoidance, CWND: 98152
+Sending packet 887961 889328
+Received packet
+Receive ACK 827813
+Congestion Avoidance, CWND: 98171
+Sending packet 889328 890695
+Received packet
+Receive ACK 829180
+Congestion Avoidance, CWND: 98190
+Sending packet 890695 892062
+Received packet
+Receive ACK 830547
+Congestion Avoidance, CWND: 98209
+Sending packet 892062 893429
+Received packet
+Receive ACK 831914
+Congestion Avoidance, CWND: 98228
+Sending packet 893429 894796
+Received packet
+Receive ACK 833281
+Congestion Avoidance, CWND: 98247
+Sending packet 894796 896163
+Received packet
+Receive ACK 834648
+Congestion Avoidance, CWND: 98266
+Sending packet 896163 897530
+Received packet
+Receive ACK 836015
+Congestion Avoidance, CWND: 98285
+Sending packet 897530 898897
+Received packet
+Receive ACK 837382
+Congestion Avoidance, CWND: 98304
+Sending packet 898897 900264
+Received packet
+Receive ACK 838749
+Congestion Avoidance, CWND: 98323
+Sending packet 900264 901631
+Received packet
+Receive ACK 840116
+Congestion Avoidance, CWND: 98342
+Sending packet 901631 902998
+Received packet
+Receive ACK 841483
+Congestion Avoidance, CWND: 98361
+Sending packet 902998 904365
+Received packet
+Receive ACK 842850
+Congestion Avoidance, CWND: 98379
+Sending packet 904365 905732
+Received packet
+Receive ACK 844217
+Congestion Avoidance, CWND: 98397
+Sending packet 905732 907099
+Received packet
+Receive ACK 845584
+Congestion Avoidance, CWND: 98415
+Sending packet 907099 908466
+Received packet
+Receive ACK 846951
+Congestion Avoidance, CWND: 98433
+Sending packet 908466 909833
+Received packet
+Receive ACK 848318
+Congestion Avoidance, CWND: 98451
+Sending packet 909833 911200
+Received packet
+Receive ACK 849685
+Congestion Avoidance, CWND: 98469
+Sending packet 911200 912567
+Received packet
+Receive ACK 851052
+Congestion Avoidance, CWND: 98487
+Sending packet 912567 913934
+Received packet
+Receive ACK 852419
+Congestion Avoidance, CWND: 98505
+Sending packet 913934 915301
+Received packet
+Receive ACK 853786
+Congestion Avoidance, CWND: 98523
+Sending packet 915301 916668
+Received packet
+Receive ACK 855153
+Congestion Avoidance, CWND: 98541
+Sending packet 916668 918035
+Received packet
+Receive ACK 856520
+Congestion Avoidance, CWND: 98559
+Sending packet 918035 919402
+Received packet
+Receive ACK 857887
+Congestion Avoidance, CWND: 98577
+Sending packet 919402 920769
+Received packet
+Receive ACK 859254
+Congestion Avoidance, CWND: 98595
+Sending packet 920769 922136
+Received packet
+Receive ACK 860621
+Congestion Avoidance, CWND: 98613
+Sending packet 922136 923503
+Received packet
+Receive ACK 861988
+Congestion Avoidance, CWND: 98631
+Sending packet 923503 924870
+Received packet
+Receive ACK 863355
+Congestion Avoidance, CWND: 98649
+Sending packet 924870 926237
+Received packet
+Receive ACK 864722
+Congestion Avoidance, CWND: 98667
+Sending packet 926237 927604
+Received packet
+Receive ACK 866089
+Congestion Avoidance, CWND: 98685
+Sending packet 927604 928971
+Received packet
+Receive ACK 867456
+Congestion Avoidance, CWND: 98703
+Sending packet 928971 930338
+Received packet
+Receive ACK 868823
+Congestion Avoidance, CWND: 98721
+Sending packet 930338 931705
+Received packet
+Receive ACK 870190
+Congestion Avoidance, CWND: 98739
+Sending packet 931705 933072
+Received packet
+Receive ACK 871557
+Congestion Avoidance, CWND: 98757
+Sending packet 933072 934439
+Received packet
+Receive ACK 872924
+Congestion Avoidance, CWND: 98775
+Sending packet 934439 935806
+Received packet
+Receive ACK 874291
+Congestion Avoidance, CWND: 98793
+Sending packet 935806 937173
+Received packet
+Receive ACK 875658
+Congestion Avoidance, CWND: 98811
+Sending packet 937173 938540
+Received packet
+Receive ACK 877025
+Congestion Avoidance, CWND: 98829
+Sending packet 938540 939907
+Received packet
+Receive ACK 878392
+Congestion Avoidance, CWND: 98847
+Sending packet 939907 941274
+Received packet
+Receive ACK 879759
+Congestion Avoidance, CWND: 98865
+Sending packet 941274 942641
+Received packet
+Receive ACK 881126
+Congestion Avoidance, CWND: 98883
+Sending packet 942641 944008
+Received packet
+Receive ACK 882493
+Congestion Avoidance, CWND: 98901
+Sending packet 944008 945375
+Received packet
+Receive ACK 883860
+Congestion Avoidance, CWND: 98919
+Sending packet 945375 946742
+Received packet
+Receive ACK 885227
+Congestion Avoidance, CWND: 98937
+Sending packet 946742 948109
+Received packet
+Receive ACK 886594
+Congestion Avoidance, CWND: 98955
+Sending packet 948109 949476
+Received packet
+Receive ACK 887961
+Congestion Avoidance, CWND: 98973
+Sending packet 949476 950843
+Received packet
+Receive ACK 889328
+Congestion Avoidance, CWND: 98991
+Sending packet 950843 952210
+Received packet
+Receive ACK 890695
+Congestion Avoidance, CWND: 99009
+Sending packet 952210 953577
+Received packet
+Receive ACK 892062
+Congestion Avoidance, CWND: 99027
+Sending packet 953577 954944
+Received packet
+Receive ACK 893429
+Congestion Avoidance, CWND: 99045
+Sending packet 954944 956311
+Received packet
+Receive ACK 894796
+Congestion Avoidance, CWND: 99063
+Sending packet 956311 957678
+Received packet
+Receive ACK 896163
+Congestion Avoidance, CWND: 99081
+Sending packet 957678 959045
+Received packet
+Receive ACK 897530
+Congestion Avoidance, CWND: 99099
+Sending packet 959045 960412
+Received packet
+Receive ACK 898897
+Congestion Avoidance, CWND: 99117
+Sending packet 960412 961779
+Received packet
+Receive ACK 900264
+Congestion Avoidance, CWND: 99135
+Sending packet 961779 963146
+Received packet
+Receive ACK 901631
+Congestion Avoidance, CWND: 99153
+Sending packet 963146 964513
+Received packet
+Receive ACK 902998
+Congestion Avoidance, CWND: 99171
+Sending packet 964513 965880
+Received packet
+Receive ACK 904365
+Congestion Avoidance, CWND: 99189
+Sending packet 965880 967247
+Received packet
+Receive ACK 905732
+Congestion Avoidance, CWND: 99207
+Sending packet 967247 968614
+Received packet
+Receive ACK 907099
+Congestion Avoidance, CWND: 99225
+Sending packet 968614 969981
+Received packet
+Receive ACK 908466
+Congestion Avoidance, CWND: 99243
+Sending packet 969981 971348
+Received packet
+Receive ACK 909833
+Congestion Avoidance, CWND: 99261
+Sending packet 971348 972715
+Received packet
+Receive ACK 911200
+Congestion Avoidance, CWND: 99279
+Sending packet 972715 974082
+Received packet
+Receive ACK 912567
+Congestion Avoidance, CWND: 99297
+Sending packet 974082 975449
+Received packet
+Receive ACK 913934
+Congestion Avoidance, CWND: 99315
+Sending packet 975449 976816
+Received packet
+Receive ACK 915301
+Congestion Avoidance, CWND: 99333
+Sending packet 976816 978183
+Received packet
+Receive ACK 916668
+Congestion Avoidance, CWND: 99351
+Sending packet 978183 979550
+Received packet
+Receive ACK 918035
+Congestion Avoidance, CWND: 99369
+Sending packet 979550 980917
+Received packet
+Receive ACK 919402
+Congestion Avoidance, CWND: 99387
+Sending packet 980917 982284
+Received packet
+Receive ACK 920769
+Congestion Avoidance, CWND: 99405
+Sending packet 982284 983651
+Received packet
+Receive ACK 922136
+Congestion Avoidance, CWND: 99423
+Sending packet 983651 985018
+Received packet
+Receive ACK 923503
+Congestion Avoidance, CWND: 99441
+Sending packet 985018 986385
+Received packet
+Receive ACK 924870
+Congestion Avoidance, CWND: 99459
+Sending packet 986385 987752
+Received packet
+Receive ACK 926237
+Congestion Avoidance, CWND: 99477
+Sending packet 987752 989119
+Received packet
+Receive ACK 927604
+Congestion Avoidance, CWND: 99495
+Sending packet 989119 990486
+Received packet
+Receive ACK 928971
+Congestion Avoidance, CWND: 99513
+Sending packet 990486 991853
+Received packet
+Receive ACK 930338
+Congestion Avoidance, CWND: 99531
+Sending packet 991853 993220
+Received packet
+Receive ACK 931705
+Congestion Avoidance, CWND: 99549
+Sending packet 993220 994587
+Received packet
+Receive ACK 933072
+Congestion Avoidance, CWND: 99567
+Sending packet 994587 995954
+Received packet
+Receive ACK 934439
+Congestion Avoidance, CWND: 99585
+Sending packet 995954 997321
+Received packet
+Receive ACK 935806
+Congestion Avoidance, CWND: 99603
+Sending packet 997321 998688
+Received packet
+Receive ACK 937173
+Congestion Avoidance, CWND: 99621
+Sending packet 998688 1000055
+Received packet
+Receive ACK 938540
+Congestion Avoidance, CWND: 99639
+Sending packet 1000055 1001422
+Received packet
+Receive ACK 939907
+Congestion Avoidance, CWND: 99657
+Sending packet 1001422 1002789
+Received packet
+Receive ACK 941274
+Congestion Avoidance, CWND: 99675
+Sending packet 1002789 1004156
+Received packet
+Receive ACK 942641
+Congestion Avoidance, CWND: 99693
+Sending packet 1004156 1005523
+Received packet
+Receive ACK 944008
+Congestion Avoidance, CWND: 99711
+Sending packet 1005523 1006890
+Received packet
+Receive ACK 945375
+Congestion Avoidance, CWND: 99729
+Sending packet 1006890 1008257
+Received packet
+Receive ACK 946742
+Congestion Avoidance, CWND: 99747
+Sending packet 1008257 1009624
+Received packet
+Receive ACK 948109
+Congestion Avoidance, CWND: 99765
+Sending packet 1009624 1010991
+Received packet
+Receive ACK 949476
+Congestion Avoidance, CWND: 99783
+Sending packet 1010991 1012358
+Received packet
+Receive ACK 950843
+Congestion Avoidance, CWND: 99801
+Sending packet 1012358 1013725
+Received packet
+Receive ACK 952210
+Congestion Avoidance, CWND: 99819
+Sending packet 1013725 1015092
+Received packet
+Receive ACK 953577
+Congestion Avoidance, CWND: 99837
+Sending packet 1015092 1016459
+Received packet
+Receive ACK 954944
+Congestion Avoidance, CWND: 99855
+Sending packet 1016459 1017826
+Received packet
+Receive ACK 956311
+Congestion Avoidance, CWND: 99873
+Sending packet 1017826 1019193
+Received packet
+Receive ACK 957678
+Congestion Avoidance, CWND: 99891
+Sending packet 1019193 1020560
+Received packet
+Receive ACK 959045
+Congestion Avoidance, CWND: 99909
+Sending packet 1020560 1021927
+Received packet
+Receive ACK 960412
+Congestion Avoidance, CWND: 99927
+Sending packet 1021927 1023294
+Received packet
+Receive ACK 961779
+Congestion Avoidance, CWND: 99945
+Sending packet 1023294 1024661
+Received packet
+Receive ACK 963146
+Congestion Avoidance, CWND: 99963
+Sending packet 1024661 1026028
+Received packet
+Receive ACK 964513
+Congestion Avoidance, CWND: 99981
+Sending packet 1026028 1027395
+Received packet
+Receive ACK 965880
+Congestion Avoidance, CWND: 99999
+Sending packet 1027395 1028762
+Received packet
+Receive ACK 967247
+Congestion Avoidance, CWND: 100017
+Sending packet 1028762 1030129
+Received packet
+Receive ACK 968614
+Congestion Avoidance, CWND: 100035
+Sending packet 1030129 1031496
+Received packet
+Receive ACK 969981
+Congestion Avoidance, CWND: 100053
+Sending packet 1031496 1032863
+Received packet
+Receive ACK 971348
+Congestion Avoidance, CWND: 100071
+Sending packet 1032863 1034230
+Received packet
+Receive ACK 972715
+Congestion Avoidance, CWND: 100089
+Sending packet 1034230 1035597
+Received packet
+Receive ACK 974082
+Congestion Avoidance, CWND: 100107
+Sending packet 1035597 1036964
+Received packet
+Receive ACK 975449
+Congestion Avoidance, CWND: 100125
+Sending packet 1036964 1038331
+Received packet
+Receive ACK 976816
+Congestion Avoidance, CWND: 100143
+Sending packet 1038331 1039698
+Received packet
+Receive ACK 978183
+Congestion Avoidance, CWND: 100161
+Sending packet 1039698 1041065
+Received packet
+Receive ACK 979550
+Congestion Avoidance, CWND: 100179
+Sending packet 1041065 1042432
+Received packet
+Receive ACK 980917
+Congestion Avoidance, CWND: 100197
+Sending packet 1042432 1043799
+Received packet
+Receive ACK 982284
+Congestion Avoidance, CWND: 100215
+Sending packet 1043799 1045166
+Received packet
+Receive ACK 983651
+Congestion Avoidance, CWND: 100233
+Sending packet 1045166 1046533
+Received packet
+Receive ACK 985018
+Congestion Avoidance, CWND: 100251
+Sending packet 1046533 1047900
+Sending packet 1047900 1048592
+Received packet
+Receive ACK 986385
+Congestion Avoidance, CWND: 100269
+Received packet
+Receive ACK 987752
+Congestion Avoidance, CWND: 100287
+Received packet
+Receive ACK 989119
+Congestion Avoidance, CWND: 100305
+Received packet
+Receive ACK 990486
+Congestion Avoidance, CWND: 100323
+Received packet
+Receive ACK 991853
+Congestion Avoidance, CWND: 100341
+Received packet
+Receive ACK 993220
+Congestion Avoidance, CWND: 100359
+Received packet
+Receive ACK 994587
+Congestion Avoidance, CWND: 100377
+Received packet
+Receive ACK 995954
+Congestion Avoidance, CWND: 100395
+Received packet
+Receive ACK 997321
+Congestion Avoidance, CWND: 100413
+Received packet
+Receive ACK 998688
+Congestion Avoidance, CWND: 100431
+Received packet
+Receive ACK 1000055
+Congestion Avoidance, CWND: 100449
+Received packet
+Receive ACK 1001422
+Congestion Avoidance, CWND: 100467
+Received packet
+Receive ACK 1002789
+Congestion Avoidance, CWND: 100485
+Received packet
+Receive ACK 1004156
+Congestion Avoidance, CWND: 100503
+Received packet
+Receive ACK 1005523
+Congestion Avoidance, CWND: 100521
+Received packet
+Receive ACK 1006890
+Congestion Avoidance, CWND: 100539
+Received packet
+Receive ACK 1008257
+Congestion Avoidance, CWND: 100557
+Received packet
+Receive ACK 1009624
+Congestion Avoidance, CWND: 100575
+Received packet
+Receive ACK 1010991
+Congestion Avoidance, CWND: 100593
+Received packet
+Receive ACK 1012358
+Congestion Avoidance, CWND: 100611
+Received packet
+Receive ACK 1013725
+Congestion Avoidance, CWND: 100629
+Received packet
+Receive ACK 1015092
+Congestion Avoidance, CWND: 100647
+Received packet
+Receive ACK 1016459
+Congestion Avoidance, CWND: 100665
+Received packet
+Receive ACK 1017826
+Congestion Avoidance, CWND: 100683
+Received packet
+Receive ACK 1019193
+Congestion Avoidance, CWND: 100701
+Received packet
+Receive ACK 1020560
+Congestion Avoidance, CWND: 100719
+Received packet
+Receive ACK 1021927
+Congestion Avoidance, CWND: 100737
+Received packet
+Receive ACK 1023294
+Congestion Avoidance, CWND: 100755
+Received packet
+Receive ACK 1024661
+Congestion Avoidance, CWND: 100773
+Received packet
+Receive ACK 1026028
+Congestion Avoidance, CWND: 100791
+Received packet
+Receive ACK 1027395
+Congestion Avoidance, CWND: 100809
+Received packet
+Receive ACK 1028762
+Congestion Avoidance, CWND: 100827
+Received packet
+Receive ACK 1030129
+Congestion Avoidance, CWND: 100845
+Received packet
+Receive ACK 1031496
+Congestion Avoidance, CWND: 100863
+Received packet
+Receive ACK 1032863
+Congestion Avoidance, CWND: 100881
+Received packet
+Receive ACK 1034230
+Congestion Avoidance, CWND: 100899
+Received packet
+Receive ACK 1035597
+Congestion Avoidance, CWND: 100917
+Received packet
+Receive ACK 1036964
+Congestion Avoidance, CWND: 100935
+Received packet
+Receive ACK 1038331
+Congestion Avoidance, CWND: 100953
+Received packet
+Receive ACK 1039698
+Congestion Avoidance, CWND: 100971
+Received packet
+Receive ACK 1041065
+Congestion Avoidance, CWND: 100989
+Received packet
+Receive ACK 1042432
+Congestion Avoidance, CWND: 101007
+Received packet
+Receive ACK 1043799
+Congestion Avoidance, CWND: 101025
+Received packet
+Receive ACK 1045166
+Congestion Avoidance, CWND: 101043
+Received packet
+Receive ACK 1046533
+Congestion Avoidance, CWND: 101061
+Received packet
+Receive ACK 1047900
+Congestion Avoidance, CWND: 101079
+Received packet
+Receive ACK 1048592
+Congestion Avoidance, CWND: 101097
+Client: File transmission completed
