@@ -17,11 +17,11 @@ from pathlib import Path
 # ============ 配置参数 ============
 # Mathis 假设验证实验 - 使用系统 TCP (标准 TCP Reno)
 # 使用网络命名空间 + Python计时方案
-LOSS_RATES = [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.02, 0.05]  # 丢包率列表
-TRIALS_PER_LOSS = 10  # 每个丢包率重复次数 (项目要求)
+LOSS_RATES = [0.0001, 0.0002, 0.0005, 0.001, 0.002, 0.005, 0.01, 0.02, 0.05, 0.1]
+TRIALS_PER_LOSS = 15  # 每个丢包率重复次数 (项目要求)
 BANDWIDTH = "10Mbps"  # 带宽
-DELAY = "20ms"  # 单向延迟 (RTT = 40ms)
-TIMEOUT_SECONDS = 120  # 单次传输超时时间(秒)
+DELAY = "50ms"  # 单向延迟 (RTT = 100ms)
+TIMEOUT_SECONDS = 600  # 单次传输超时时间(秒)
 
 # 网络命名空间配置
 NS_SERVER = "ns_server"
@@ -34,7 +34,7 @@ CLIENT_IP = "10.0.1.2"  # 客户端在命名空间中的IP
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 FOGGY_DIR = PROJECT_ROOT / "foggytcp"
-TEST_FILE = PROJECT_ROOT / "testdata" / "test_1mb.bin"  # 使用1MB文件,传输更快
+TEST_FILE = PROJECT_ROOT / "testdata" / "test_10mb.bin"  # 使用1MB文件,传输更快
 RESULTS_DIR = PROJECT_ROOT / "results"
 OUTPUT_CSV = RESULTS_DIR / "mathis_data.csv"
 
