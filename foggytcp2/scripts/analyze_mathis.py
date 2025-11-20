@@ -25,7 +25,7 @@ OUTPUT_PLOT = RESULTS_DIR / "mathis_plot.png"
 OUTPUT_SUMMARY = RESULTS_DIR / "mathis_summary.txt"
 
 # TCP 参数
-MSS = 1360  # bytes (实际值可能略有不同,根据头部大小)
+MSS = 1400  # bytes (PDF理论值，用于公式计算)
 RTT = 0.04  # 40ms = 0.04s
 
 # ============ 数据加载 ============

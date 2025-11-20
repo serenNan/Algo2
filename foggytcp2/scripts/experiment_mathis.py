@@ -18,9 +18,9 @@ from pathlib import Path
 # Mathis 假设验证实验 - 使用系统 TCP (标准 TCP Reno)
 # 使用网络命名空间 + Python计时方案
 LOSS_RATES = [0.0001, 0.0002, 0.0005, 0.001, 0.002, 0.005, 0.01, 0.02, 0.05, 0.1]
-TRIALS_PER_LOSS = 15  # 每个丢包率重复次数 (项目要求)
+TRIALS_PER_LOSS = 10  # 每个丢包率重复次数 (PDF要求)
 BANDWIDTH = "10Mbps"  # 带宽
-DELAY = "50ms"  # 单向延迟 (RTT = 100ms)
+DELAY = "20ms"  # 单向延迟 (RTT = 40ms, PDF要求)
 TIMEOUT_SECONDS = 600  # 单次传输超时时间(秒)
 
 # 网络命名空间配置

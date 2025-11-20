@@ -4,7 +4,7 @@ Dr. Matt Mathis Hypothesis Verification - Summary Report
 
 Experiment Configuration
 ------------------------------------------------------------
-MSS: 1360 bytes
+MSS: 1400 bytes
 RTT: 40 ms
 Total Samples: 150
 Loss Rate Variants: 10
@@ -34,7 +34,7 @@ R-squared: 0.601173
 P-value: 2.41e-31
 Standard Error: 0.006601
 
-Constant C: 2.899685
+Constant C: 2.816837
 
 Pearson Correlation Analysis
 ------------------------------------------------------------
@@ -50,4 +50,4 @@ Hypothesis Support: Partially Supports Dr. Mathis Hypothesis
 Reasoning:
 1. R-squared = 0.6012, indicates moderate linear fit
 2. Pearson correlation coefficient r = 0.7754, indicates Moderate Correlation
-3. Constant C = 2.8997, outside theoretical expected range (0.5-2.0)
+3. Constant C = 2.8168, outside theoretical expected range (0.5-2.0)
