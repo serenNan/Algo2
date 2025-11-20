@@ -6,45 +6,48 @@ Experiment Configuration
 ------------------------------------------------------------
 MSS: 1360 bytes
 RTT: 40 ms
-Total Samples: 70
-Loss Rate Variants: 7
-Trials per Loss Rate: 10
+Total Samples: 150
+Loss Rate Variants: 10
+Trials per Loss Rate: 15
 
 Statistical Summary
 ------------------------------------------------------------
-           Mean Throughput   Std Dev       Min       Max  Count   1/sqrt(p)
-loss_rate                                                                  
-0.0001            6.373354  0.002041  6.369482  6.374322     10  100.000000
-0.0005            6.361381  0.027849  6.297754  6.374322     10   44.721360
-0.0010            6.370939  0.006045  6.355006  6.374322     10   31.622777
-0.0050            6.276481  0.125553  6.109693  6.374322     10   14.142136
-0.0100            5.704387  0.964239  3.782060  6.374322     10   10.000000
-0.0200            5.353023  0.906779  3.327492  6.374322     10    7.071068
-0.0500            3.972876  1.657587  2.111936  6.369482     10    4.472136
+           Mean Throughput   Std Dev        Min        Max  Count   1/sqrt(p)
+loss_rate                                                                    
+0.0001           10.629347  0.347697   9.940287  11.511744     15  100.000000
+0.0002           10.710164  0.383668  10.057077  11.567303     15   70.710678
+0.0005            9.984330  0.491707   9.419052  10.709317     15   44.721360
+0.0010            9.952289  0.492980   8.835694  10.631949     15   31.622777
+0.0020            9.089121  0.777721   7.053993  10.128723     15   22.360680
+0.0050            6.429406  1.288659   4.400697   8.709103     15   14.142136
+0.0100            4.307790  0.911951   2.841477   6.432488     15   10.000000
+0.0200            2.488968  0.256711   1.997906   2.972786     15    7.071068
+0.0500            1.259837  0.111362   1.069607   1.529289     15    4.472136
+0.1000            0.662630  0.045807   0.601032   0.738609     15    3.162278
 
 Linear Regression Results
 ------------------------------------------------------------
-Regression Equation: throughput = 0.014484 × (1/sqrt(p)) + 5.334496
-Slope: 0.014484
-Intercept: 5.334496
-R-squared: 0.165550
-P-value: 4.73e-04
-Standard Error: 0.003943
+Regression Equation: throughput = 0.098589 × (1/sqrt(p)) + 3.512244
+Slope: 0.098589
+Intercept: 3.512244
+R-squared: 0.601173
+P-value: 2.41e-31
+Standard Error: 0.006601
 
-Constant C: 0.425991
+Constant C: 2.899685
 
 Pearson Correlation Analysis
 ------------------------------------------------------------
-Pearson Correlation Coefficient r: 0.406878
-P-value: 4.73e-04
-Correlation Strength: Weak Correlation
+Pearson Correlation Coefficient r: 0.775354
+P-value: 2.41e-31
+Correlation Strength: Moderate Correlation
 Significance: Significant
 
 Conclusion
 ------------------------------------------------------------
-Hypothesis Support: Does Not Support Dr. Mathis Hypothesis
+Hypothesis Support: Partially Supports Dr. Mathis Hypothesis
 
 Reasoning:
-1. R-squared = 0.1655, indicates poor linear fit
-2. Pearson correlation coefficient r = 0.4069, indicates Weak Correlation
-3. Constant C = 0.4260, outside theoretical expected range (0.5-2.0)
+1. R-squared = 0.6012, indicates moderate linear fit
+2. Pearson correlation coefficient r = 0.7754, indicates Moderate Correlation
+3. Constant C = 2.8997, outside theoretical expected range (0.5-2.0)
